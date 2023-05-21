@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "e92eaaf496314865",
+    "type": "split",
+    "children": [
+      {
+        "id": "dac8e404aa83f6c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9952e9e8c7e190d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/macOS-configurations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7902852d041560c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OCR pdf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0c88115772aa688c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd227e27f17928ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f07dbe5d6d3d4afe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a19166344f0cd6c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "卡",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dc9b7a54574cc777",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3f43639f92569f0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3884bf807f716ad7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd51d7a520beb5b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OCR pdf.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "a3f90424c35a090d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OCR pdf.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c37d4a0d841a743f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cfb6697ec409a6fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OCR pdf.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false,
+      "workspaces:管理工作区布局": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "7902852d041560c0",
+  "lastOpenFiles": [
+    "Tools/macOS-configurations.md",
+    "OCR pdf.md",
+    "未命名",
+    "math-expansions.md",
+    "Tools/vscode-configurations.md",
+    "Tools/vmess.md",
+    "Tools/vims.md",
+    "Tools/vim-in-idea.md",
+    "Tools/vim-commands.md",
+    "Tools/spacevim.md",
+    "CS-learning/css.md",
+    "CS-learning/AppleSwift.md",
+    "CS-learning/AppleScript.md",
+    "Data-structures/Tree.md",
+    "Data-structures/String.md",
+    "Excellent-Blogger.md",
+    "index.md",
+    "markdown-test.md",
+    "markdown书写.md",
+    "process.md",
+    "9.jpg",
+    "数据结构/Tree.md",
+    "数据结构/数据结构真题.md",
+    "数据结构/assets/image_1HsxeaV.png",
+    "数据结构/assets",
+    "数据结构/数据结构真题~.md",
+    "数据结构/408真题",
+    "数据结构/String.md",
+    "数据结构/Stack.md",
+    "数据结构/List.md",
+    "数据结构/index.md",
+    "数据结构",
+    "Untitled.canvas",
+    "Data-structures/Untitled.canvas",
+    "Untitled",
+    "Tools/assets/p519375.png",
+    "Tools/assets/p519373.png",
+    "Tools/assets/image-20230427132831850.png",
+    "Tools/assets/1.png",
+    "Tools/assets/1.jpeg",
+    "Tools/assets",
+    "Tools/Latex/images/latex_note_six_2.png",
+    "Tools/Latex/images/latex_note_six_1.png",
+    "Tools/Latex/images/latex_note_one_2.png",
+    "Tools/Latex/images",
+    "Tools/Latex",
+    "MIT-courses/assets",
+    "Tools"
+  ]
+}
