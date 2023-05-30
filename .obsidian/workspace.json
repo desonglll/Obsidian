@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/yarn.md",
+                "file": "Tools/live-server.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/yarn.md",
+                "file": "Tools/live-server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/yarn.md",
+                "file": "Tools/live-server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/yarn.md"
+                "file": "Tools/live-server.md"
               }
             }
           }
@@ -151,10 +151,11 @@
   },
   "active": "385bf796bb9d1816",
   "lastOpenFiles": [
+    "Tools/macOS-commands~.md",
+    "Tools/yarn.md",
     "Data-structures/assets/image-20230530191841151.png",
     "Data-structures/index~.md",
     "Data-structures/index.md",
-    "Tools/yarn.md",
     "Tools/OCR pdf.md",
     "Tools/some-scripts.md",
     "Tools/markdown-syntax.md",
@@ -184,7 +185,6 @@
     "Data-structures/assets/optimize_images.py",
     "Data-structures/assets/image-20230529202255601.png",
     "Data-structures/assets/image-20230529202238403.png",
-    "Data-structures/assets/image-20230529202228710.png",
     "Data-structures/assets/webp-20230529202119232",
     "Data-structures/assets/webp-20230529202119228",
     "Data-structures/assets/webp-20230529202119218",

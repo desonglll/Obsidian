@@ -18,9 +18,69 @@ sticky:
 cover:
 ---
 
+## 开发
 
+### macOS终端查看某一端口占用程序并杀死该程序
 
-## 显示磁盘状态
+要在 macOS 终端中查看某一端口的占用程序并杀死该程序，可以使用以下命令：
+
+1. 首先，通过 `lsof` 命令查找占用指定端口的程序。运行以下命令，将 `<port_number>` 替换为你要查找的端口号：
+
+```shell
+lsof -i :<port_number>
+```
+
+例如，要查找占用端口号 8080 的程序，可以运行以下命令：
+
+```shell
+lsof -i :8080
+```
+
+2. 终端将显示占用该端口的程序的信息，包括 PID（进程标识符）和程序名称。记录下 PID。
+
+3. 使用 `kill` 命令杀死指定 PID 的程序。运行以下命令，将 `<pid>` 替换为上一步中记录的 PID：
+
+```shell
+kill <pid>
+```
+
+例如，如果上一步中获取的 PID 为 12345，可以运行以下命令杀死该进程：
+
+```shell
+kill 12345
+```
+
+请确保谨慎使用 `kill` 命令，并确保你要终止的进程是正确的，以避免意外关闭其他重要进程。
+
+### macOS终端查看本机本地ip地址
+
+在 macOS 终端中，你可以使用 `ifconfig` 命令来查看本机的本地 IP 地址。以下是具体步骤：
+
+1. 打开终端应用程序。
+2. 运行以下命令：
+
+```shell
+ifconfig
+```
+
+3. 终端将显示网络接口的详细信息。查找你当前使用的网络接口，可能是类似于 `en0`、`en1` 或 `wlan0` 的标识符。
+4. 在相应的网络接口部分，查找名为 `inet` 的行。该行将显示你的本地 IP 地址。
+
+示例输出：
+```
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+    ...
+    inet 192.168.1.123 netmask 0xffffff00 broadcast 192.168.1.255
+    ...
+```
+
+在上述示例中，本地 IP 地址为 `192.168.1.123`。
+
+请注意，`ifconfig` 命令还提供其他有关网络接口的信息，如 MAC 地址、子网掩码等。
+
+## 日常
+
+### 显示磁盘状态
 
 ```shell
 diskutil apfs list
@@ -133,7 +193,7 @@ APFS Containers (4 found)
         Encryption Progress:       10.0% (Unlocked)
 ```
 
-## Unlock or decrypt your FileVault-encrypted boot drive from the command line on macOS Mojave
+### Unlock or decrypt your FileVault-encrypted boot drive from the command line on macOS Mojave
 
 January 15, 2019[rtrouton](https://derflounder.wordpress.com/author/rtrouton/)[Leave a comment](https://derflounder.wordpress.com/2019/01/15/unlock-or-decrypt-your-filevault-encrypted-boot-drive-from-the-command-line-on-macos-mojave/#respond)[Go to comments](https://derflounder.wordpress.com/2019/01/15/unlock-or-decrypt-your-filevault-encrypted-boot-drive-from-the-command-line-on-macos-mojave/#comments)
 
