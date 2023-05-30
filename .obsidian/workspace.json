@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dac8e404aa83f6c6",
+        "id": "0e63a304ec45c75f",
         "type": "tabs",
         "children": [
           {
-            "id": "9952e9e8c7e190d0",
+            "id": "385bf796bb9d1816",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/macOS-configurations.md",
+                "file": "Tools/yarn.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "7902852d041560c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data-structures/Search.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51705b3f7daf20d0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.4"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 264.5026054382324
   },
   "right": {
     "id": "3f43639f92569f0c",
@@ -108,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data-structures/Search.md",
+                "file": "Tools/yarn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data-structures/Search.md",
+                "file": "Tools/yarn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data-structures/Search.md"
+                "file": "Tools/yarn.md"
               }
             }
           }
@@ -172,12 +149,32 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "51705b3f7daf20d0",
+  "active": "385bf796bb9d1816",
   "lastOpenFiles": [
+    "Data-structures/assets/image-20230530191841151.png",
+    "Data-structures/index~.md",
+    "Data-structures/index.md",
+    "Tools/yarn.md",
+    "Tools/OCR pdf.md",
+    "Tools/some-scripts.md",
+    "Tools/markdown-syntax.md",
+    "Tools/macOS-configurations.md",
+    "Tools/macOS-commands.md",
+    "Tools/linux-commands.md",
+    "Tools/docker-commands.md",
+    "Programming-language/cmake.md",
+    "Programming-language/rust.md",
+    "Programming-language/c.md",
+    "Programming-language/clangd.md",
+    "clangd.md",
+    "Untitled.md",
+    "Programming-language/rust~.md",
+    "index~.md",
+    "Data-structures/Search.md",
+    "index.md",
     "Data-structures/assets/image-20230529203341504.png",
     "Pasted image 20230529203325.png",
     "Data-structures/Sort.md",
-    "Data-structures/Search.md",
     "Data-structures/assets/image-20230529202150180.png",
     "Data-structures/assets/image-20230529202219314.png",
     "Data-structures/assets/image-20230529202210066.png",
@@ -188,7 +185,6 @@
     "Data-structures/assets/image-20230529202255601.png",
     "Data-structures/assets/image-20230529202238403.png",
     "Data-structures/assets/image-20230529202228710.png",
-    "Data-structures/assets/image-20230529202159983.png",
     "Data-structures/assets/webp-20230529202119232",
     "Data-structures/assets/webp-20230529202119228",
     "Data-structures/assets/webp-20230529202119218",
@@ -198,28 +194,9 @@
     "Data-structures/assets/webp-20230529202119124",
     "Data-structures/Search~.md",
     "Data-structures/assets/webp-20230529201408876",
-    "Tools/macOS-configurations.md",
     "OCR pdf.md",
     "math-expansions.md",
     "Tools/vscode-configurations.md",
-    "Tools/vmess.md",
-    "Tools/vims.md",
-    "Tools/vim-in-idea.md",
-    "Tools/vim-commands.md",
-    "Tools/spacevim.md",
-    "CS-learning/css.md",
-    "CS-learning/AppleSwift.md",
-    "CS-learning/AppleScript.md",
-    "Data-structures/Tree.md",
-    "Data-structures/String.md",
-    "Excellent-Blogger.md",
-    "index.md",
-    "markdown-test.md",
-    "markdown书写.md",
-    "process.md",
-    "数据结构/Tree.md",
-    "数据结构/数据结构真题.md",
-    "数据结构/数据结构真题~.md",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
   ]

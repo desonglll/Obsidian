@@ -1,3 +1,22 @@
+---
+title: Tree
+date: 2023/05/30/ 19:19:11
+discription: 
+tags:
+updated:
+type:
+comments:
+description:
+keywords:
+top_img:
+mathjax: true
+katex:
+aside:
+aplayer:
+highlight_shrink:
+sticky:
+cover:
+---
 
 ## 二叉树的性质
 

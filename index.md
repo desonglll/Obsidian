@@ -8,6 +8,8 @@ discription:
 
 [[toc]]
 
+$\int_{birth}^{death}Study\ dt=life$
+
 ![alt](https://img.shields.io/badge/notes-mikeshinoda-brightgreen)
 
 My name is mike shinoda.
@@ -19,8 +21,6 @@ It seems successful :star:
 Here is my configuration guide for neovim based on lua.
 
 [Neovim based on lua.](/CS-learning/Neovim.md)
-
-<!-- ![Alt text](/images/Wallpapers_01.jpg) -->
 
 ### This is my 408 Clangd codes on Wangdao
 

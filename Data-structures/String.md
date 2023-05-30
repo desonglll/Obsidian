@@ -1,3 +1,23 @@
+---
+title: String
+date: 2023/05/30/ 19:19:04
+discription: 
+tags:
+updated:
+type:
+comments:
+description:
+keywords:
+top_img:
+mathjax: true
+katex:
+aside:
+aplayer:
+highlight_shrink:
+sticky:
+cover:
+---
+
 ## 串
 
 ### 串的定义

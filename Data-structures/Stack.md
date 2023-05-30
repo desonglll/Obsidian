@@ -1,3 +1,23 @@
+---
+title: Stack
+date: 2023/05/30/ 19:19:00
+discription: 
+tags:
+updated:
+type:
+comments:
+description:
+keywords:
+top_img:
+mathjax: true
+katex:
+aside:
+aplayer:
+highlight_shrink:
+sticky:
+cover:
+---
+
 ### 卡特兰数
 
 卡特兰数的应用：
