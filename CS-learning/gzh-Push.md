@@ -18,6 +18,8 @@ sticky:
 cover: 
 ---
 
+![[assets/121212.jpg]]
+
 ## 教程移步
 
 [`https://github.com/desonglll/gzh-push`](https://github.com/desonglll/gzh-push)
@@ -26,8 +28,8 @@ cover:
 
 ### AppID
 
-wx17f0066584e66a01
+`wx17f0066584e66a01`
 
 ### AppSecret
 
-92539936c5895827385cb42234b04dca
+`92539936c5895827385cb42234b04dca`

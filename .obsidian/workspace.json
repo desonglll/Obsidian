@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0e63a304ec45c75f",
+        "id": "9f625fe0ebeb1d01",
         "type": "tabs",
         "children": [
           {
-            "id": "385bf796bb9d1816",
+            "id": "3785c6ba1bf5f5f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂七杂八的工具/mac微信防撤回.md",
+                "file": "CS-learning/Data-Structures.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "96bac9c1f817ed46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading/读书-读紫色菩提-林清玄.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reading/读书-读紫色菩提-林清玄.md",
+                "file": "CS-learning/Data-Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reading/读书-读紫色菩提-林清玄.md",
+                "file": "CS-learning/Data-Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reading/读书-读紫色菩提-林清玄.md"
+                "file": "CS-learning/Data-Structures.md"
               }
             }
           }
@@ -162,14 +149,27 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "96bac9c1f817ed46",
+  "active": "f07dbe5d6d3d4afe",
   "lastOpenFiles": [
+    "Diary/2023-06-02.md",
+    "markdown-test.md",
+    "math-expansions.md",
+    "2023-06-02.md",
+    "Diary",
+    "CS-learning/gzh-Push.md",
+    "CS-learning/Java-Study-Qianfeng.md",
+    "CS-learning/assets/121212.jpg",
+    "CS-learning/assets",
+    "CS-learning/121212.jpg",
+    "Commands/docker-commands.md",
+    "Commands/crontab-commands.md",
+    "杂七杂八的工具/mac微信防撤回.md",
+    "Reading/a.canvas",
+    "Reading/读书-读紫色菩提-林清玄.md",
     "Reading/Steve-Paul-Jobs-Stanford.md",
     "Reading/刘勖雯书单.md",
-    "Reading/读书-读紫色菩提-林清玄.md",
     "Stable-diffusion/stable-diffusions.md",
     "问题一.md",
-    "杂七杂八的工具/mac微信防撤回.md",
     "问题一.pdf",
     "杂七杂八的工具/assets/640-20230531145444423.png",
     "杂七杂八的工具/assets/640-20230531145437416.png",
@@ -185,22 +185,12 @@
     "Programming-language/cmake.md",
     "MIT-courses/dynamic-programming.md",
     "markdown书写.md",
-    "math-expansions.md",
     "Tools/live-server.md",
     "Pasted image 20230529203325.png",
     "Tools/macOS-commands~.md",
     "Tools/yarn.md",
     "Data-structures/assets/image-20230530191841151.png",
     "Data-structures/index~.md",
-    "Data-structures/index.md",
-    "Tools/OCR pdf.md",
-    "Tools/some-scripts.md",
-    "Tools/markdown-syntax.md",
-    "Tools/macOS-configurations.md",
-    "Tools/macOS-commands.md",
-    "Tools/linux-commands.md",
-    "Data-structures/assets/image-20230529203341504.png",
-    "Data-structures/assets/image-20230529202150180.png",
     "Data-structures/optimize_images.py",
     "Data-structures/assets/optimize_images.py",
     "Data-structures/assets/webp-20230529202119232",
@@ -208,8 +198,6 @@
     "Data-structures/assets/webp-20230529202119218",
     "Data-structures/assets/webp-20230529202119143",
     "Data-structures/assets/webp-20230529202119140",
-    "Data-structures/assets/webp-20230529202119129",
-    "Data-structures/assets/webp-20230529202119124",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
   ]
