@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commands/git-commands.md",
+                "file": "问题一.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commands/git-commands.md",
+                "file": "问题一.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commands/git-commands.md",
+                "file": "问题一.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Commands/git-commands.md"
+                "file": "问题一.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "active": "3785c6ba1bf5f5f0",
   "lastOpenFiles": [
+    "Commands/git-commands.md",
     "CS-learning/Data-Structures.md",
     "Diary/2023-06-02.md",
     "markdown-test.md",
@@ -189,7 +190,6 @@
     "Tools/live-server.md",
     "Pasted image 20230529203325.png",
     "Tools/macOS-commands~.md",
-    "Tools/yarn.md",
     "Data-structures/assets/image-20230530191841151.png",
     "Data-structures/optimize_images.py",
     "Data-structures/assets/optimize_images.py",
