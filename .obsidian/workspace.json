@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "问题一.md",
-                "mode": "source",
+                "file": "Reading/读书-读紫色菩提-林清玄.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "问题一.md",
+                "file": "Reading/读书-读紫色菩提-林清玄.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "问题一.md",
+                "file": "Reading/读书-读紫色菩提-林清玄.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "问题一.md"
+                "file": "Reading/读书-读紫色菩提-林清玄.md"
               }
             }
           }
@@ -164,11 +164,13 @@
   },
   "active": "96bac9c1f817ed46",
   "lastOpenFiles": [
+    "Reading/Steve-Paul-Jobs-Stanford.md",
+    "Reading/刘勖雯书单.md",
+    "Reading/读书-读紫色菩提-林清玄.md",
+    "Stable-diffusion/stable-diffusions.md",
+    "问题一.md",
     "杂七杂八的工具/mac微信防撤回.md",
-    "问题一.md",
     "问题一.pdf",
-    "问题一.md",
-    "问题一.md",
     "杂七杂八的工具/assets/640-20230531145444423.png",
     "杂七杂八的工具/assets/640-20230531145437416.png",
     "杂七杂八的工具/assets/640-20230531145429854.png",
@@ -197,8 +199,6 @@
     "Tools/macOS-configurations.md",
     "Tools/macOS-commands.md",
     "Tools/linux-commands.md",
-    "Tools/docker-commands.md",
-    "Programming-language/clangd.md",
     "Data-structures/assets/image-20230529203341504.png",
     "Data-structures/assets/image-20230529202150180.png",
     "Data-structures/optimize_images.py",
