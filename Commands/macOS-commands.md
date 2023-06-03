@@ -215,7 +215,7 @@ diskutil apfs list
 
 Running that command will give you a listing of all APFS containers and volumes. To help identify what you’re looking for, I’ve highlighted the identifier of the encrypted APFS volume in this example:
 
-![Screen Shot 2019 01 14 at 9 04 33 PM](./assets/Screen-Shot-2019-01-14-at-9.04.33-PM.png)
+![Screen Shot 2019 01 14 at 9 04 33 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-9.04.33-PM.png)
 
 **Unlocking the encrypted APFS volume**
 
@@ -225,7 +225,7 @@ If you have access to the password of one of the enabled accounts on the encrypt
 diskutil apfs unlockVolume /dev/apfs_volume_id_goes_here
 ```
 
-![Screen Shot 2019 01 14 at 9 11 34 PM](./assets/Screen-Shot-2019-01-14-at-9.11.34-PM.png)
+![Screen Shot 2019 01 14 at 9 11 34 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-9.11.34-PM.png)
 
 If you have access to the personal recovery key associated with the encrypted APFS volume, you can unlock using the command shown on the screen. You will need to provide the recovery key as part of the command.
 
@@ -233,14 +233,14 @@ If you have access to the personal recovery key associated with the encrypted AP
 diskutil apfs unlockVolume /dev/apfs_volume_id_goes_here -passphrase personal_recovery_key_goes_here
 ```
 
-![Screen Shot 2019 01 14 at 9 16 30 PM](./assets/Screen-Shot-2019-01-14-at-9.16.30-PM.png)
+![Screen Shot 2019 01 14 at 9 16 30 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-9.16.30-PM.png)
 
 If using an institutional recovery key, you can unlock the encryption using a FileVaultMaster keychain that contains both the public and private key of your institutional recovery key. One requirement is that you will need to be booted from a Recovery HD partition or from Internet Recovery. Here’s how to do this:
 
 1. Copy the FileVaultMaster keychain that contains both the public and private key of your institutional recovery key to a drive that you can access from Recovery HD.
 2. Boot to Recovery HD.
 
-![Screen Shot 2019 01 14 at 9 10 14 PM](./assets/Screen-Shot-2019-01-14-at-9.10.14-PM.png)
+![Screen Shot 2019 01 14 at 9 10 14 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-9.10.14-PM.png)
 
 3. Open Terminal.
 4. Get the APFS volume ID of the encrypted drive by running the following command:
@@ -249,7 +249,7 @@ If using an institutional recovery key, you can unlock the encryption using a Fi
 diskutil apfs list
 ```
 
-![Screen Shot 2019 01 14 at 11 12 50 PM](./assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png)
+![Screen Shot 2019 01 14 at 11 12 50 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png)
 
 5. With the APFS volume ID information acquired, run the following command to unlock the FileVaultMaster.keychain:
 
@@ -257,7 +257,7 @@ diskutil apfs list
 security unlock-keychain /path/to/FileVaultMaster.keychain
 ```
 
-![Screen Shot 2019 01 14 at 10 11 33 PM](./assets/Screen-Shot-2019-01-14-at-10.11.33-PM.png)
+![Screen Shot 2019 01 14 at 10 11 33 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-10.11.33-PM.png)
 
 Once this command is run, you’ll need to enter the keychain’s password when prompted. If the password is accepted, you’ll be taken to the next prompt.
 
@@ -269,7 +269,7 @@ diskutil apfs unlockVolume /dev/apfs_volume_id_goes_here -recoverykeychain /path
 
 7. You should then see output similar to the following:
 
-![Screen Shot 2019 01 14 at 10 31 26 PM](./assets/Screen-Shot-2019-01-14-at-10.31.26-PM.png)
+![Screen Shot 2019 01 14 at 10 31 26 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-10.31.26-PM.png)
 
 **Decrypting the encrypted APFS volume**
 
@@ -287,7 +287,7 @@ You can get the UUID of a user account by running the command shown below and ma
 fdesetup list
 ```
 
-![Screen Shot 2019 01 14 at 9 23 33 PM](./assets/Screen-Shot-2019-01-14-at-9.23.33-PM.png)
+![Screen Shot 2019 01 14 at 9 23 33 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-9.23.33-PM.png)
 
 If you are not booted from the encrypted drive, there is another way to get the UUID but it does not include the account name.
 
@@ -295,7 +295,7 @@ If you are not booted from the encrypted drive, there is another way to get the 
 diskutil apfs listcryptousers /dev/apfs_volume_id_goes_here
 ```
 
-![Screen Shot 2019 01 14 at 9 19 59 PM](./assets/Screen-Shot-2019-01-14-at-9.19.59-PM.png)
+![Screen Shot 2019 01 14 at 9 19 59 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-9.19.59-PM.png)
 
 In this case, use the UUID associated with the **Local Open Directory  User** entry.
 
@@ -309,7 +309,7 @@ Once you have access to the UUID and password of one of the enabled accounts on 
 diskutil apfs decryptVolume /dev/apfs_volume_id_goes_here -user uuid_goes_here
 ```
 
-![Screen Shot 2019 01 14 at 9 50 12 PM](./assets/Screen-Shot-2019-01-14-at-9.50.12-PM.png)
+![Screen Shot 2019 01 14 at 9 50 12 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-9.50.12-PM.png)
 
 **Decrypting using a personal recovery key:**
 
@@ -327,7 +327,7 @@ If you have access to the personal recovery key associated with the encrypted AP
 diskutil apfs decryptVolume /dev/apfs_volume_id_goes_here -user uuid_goes_here -passphrase personal_recovery_key_goes_here
 ```
 
-![Screen Shot 2019 01 14 at 10 01 48 PM](./assets/Screen-Shot-2019-01-14-at-10.01.48-PM.png)
+![Screen Shot 2019 01 14 at 10 01 48 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-10.01.48-PM.png)
 
 **Decrypting using an institutional recovery key:**
 
@@ -337,7 +337,7 @@ If you want to use the institutional recovery key, decryption using an IRK does 
 diskutil apfs decryptVolume /dev/apfs_volume_id_goes_here -recoverykeychain /path/to/filename_here.keychain
 ```
 
-![Screen Shot 2019 01 14 at 10 40 48 PM](./assets/Screen-Shot-2019-01-14-at-10.40.48-PM.png)
+![Screen Shot 2019 01 14 at 10 40 48 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-10.40.48-PM.png)
 
 **Monitoring decryption**
 
@@ -347,7 +347,7 @@ You can monitor decryption of the APFS volume from the command line by running t
 diskutil apfs list
 ```
 
-![Screen Shot 2019 01 14 at 10 50 13 PM](./assets/Screen-Shot-2019-01-14-at-10.50.13-PM.png)
+![Screen Shot 2019 01 14 at 10 50 13 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-10.50.13-PM.png)
 
 You can also monitor it via the following means:
 
@@ -357,4 +357,5 @@ You can also monitor it via the following means:
 4. Click the **FileVault** tab
 5. View the current decryption status
 
-![Screen Shot 2019 01 14 at 10 50 12 PM](./assets/Screen-Shot-2019-01-14-at-10.50.12-PM.png)
+![Screen Shot 2019 01 14 at 10 50 12 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-10.50.12-PM.png)
+
