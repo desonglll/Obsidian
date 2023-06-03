@@ -35,6 +35,54 @@ discription:
   - [keymaps repeat](#keymaps-repeat)
   - [Setting workplace of neovim](#setting-workplace-of-neovim)
 
+
+
+基于 Lua 的 NeoVim 配置可以提供更强大的扩展性和灵活性。以下是基于 Lua 的 NeoVim 配置步骤：
+
+1. 确保你的 NeoVim 版本支持 Lua。你可以通过运行 `nvim --version` 命令来检查。
+
+2. 打开终端并进入 NeoVim 的配置目录。通常情况下，该目录位于 `~/.config/nvim/`。
+
+3. 如果目录不存在，可以创建它：
+
+   ```
+   mkdir -p ~/.config/nvim/
+   ```
+
+4. 创建或编辑 `init.lua` 文件：
+
+   ```
+   nvim ~/.config/nvim/init.lua
+   ```
+
+5. 在 `init.lua` 文件中，你可以编写 Lua 代码来配置 NeoVim。例如，以下是一个简单的示例配置：
+
+   ```lua
+   -- 启用插件管理器（使用 Packer）
+   require('packer').startup(function()
+       -- 插件列表
+       use 'tpope/vim-sensible' -- 示例插件
+   end)
+
+   -- 设置基本选项
+   vim.cmd('syntax on')
+   vim.cmd('filetype plugin indent on')
+   vim.cmd('set number')
+
+   -- 设置键映射
+   vim.api.nvim_set_keymap('n', '<Leader>h', ':help<CR>', { noremap = true, silent = true })
+   ```
+
+   在此示例中，我们使用 Packer 插件管理器，并添加了一个示例插件 `vim-sensible`。我们还设置了一些基本选项（如语法高亮、文件类型识别和行号），以及一个键映射（`<Leader>h` 映射到帮助命令）。
+
+6. 保存并退出 `init.lua` 文件。
+
+7. 重新启动 NeoVim，它将加载你的 Lua 配置并应用更改。
+
+这只是一个简单的示例，你可以根据自己的需求进一步扩展和定制你的 NeoVim 配置。
+
+
+
 ## **Github** repository link
 
 :star:This is link: [`https://github.com/desonglll/neovim-lua`](https://github.com/desonglll/neovim-lua)
