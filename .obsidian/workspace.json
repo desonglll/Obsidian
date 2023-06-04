@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "45759ee5333a855e",
+        "id": "6f130db5e2ae3f76",
         "type": "tabs",
         "children": [
           {
-            "id": "33ac73a48c482a71",
+            "id": "f309d03b11164c64",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.50043487548828
+    "width": 215.50043487548828
   },
   "right": {
     "id": "3f43639f92569f0c",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ],
@@ -143,8 +151,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "33ac73a48c482a71",
+  "active": "f309d03b11164c64",
   "lastOpenFiles": [
+    "tools/实用网站.md",
+    "README.md",
+    "Commands/macOS-commands.md",
+    "math-expansions.md",
+    "life/diary/2023-06-04.md",
     "Obsidian/templates/timestamped-note.md",
     "Obsidian/templates/markdown.md",
     "Obsidian/templates/diary01.md",
@@ -157,9 +170,7 @@
     "Excalidraw/Drawing 2023-06-04 19.31.22.excalidraw.md",
     "Excalidraw/Drawing 2023-06-04 19.32.08.excalidraw.md",
     "Excalidraw",
-    "life/diary/2023-06-04.md",
     "programming-language/python.md",
-    "README.md",
     "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
     "timestamped-notes/202306041840.md",
     "README~.md",
@@ -178,11 +189,8 @@
     "tools/macOS-software.md",
     "tools/assets/uninstallpkg.jpeg",
     "tools/Tmux使用教程.md",
-    "tools/实用网站.md",
     "tools/加快macOS的光标移动速度.md",
-    "tools/latex.md",
     "timestamped-notes/assets",
-    "timestamped-notes/加快macOS的光标移动速度.md",
     "tools/加快macOS的光标移动速.assets",
     "tools/加快macOS的光标移动速度.assets",
     "assets",

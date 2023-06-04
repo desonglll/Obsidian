@@ -20,6 +20,15 @@ cover: https://pic.imgdb.cn/item/631e9c2d16f2c2beb1f2a323.jpg
 - [常见的泰勒公式](#常见的泰勒公式)
 - [常用的等价无穷小](#常用的等价无穷小)
 - [特殊公式](#特殊公式)
+好的，以下是常用函数的泰勒展开式表：
+
+1. 指数函数 $e^x$ 的泰勒展开式： $$e^x = \sum_{n=0}^\infty \frac{x^n}{n!}$$
+2. 正弦函数 $\sin x$ 的泰勒展开式： $$\sin x = \sum_{n=0}^\infty \frac{(-1)^n}{(2n+1)!}x^{2n+1}$$
+3. 余弦函数 $\cos x$ 的泰勒展开式： $$\cos x = \sum_{n=0}^\infty \frac{(-1)^n}{(2n)!}x^{2n}$$
+4. 自然对数函数 $\ln(1+x)$ 的泰勒展开式： $$\ln(1+x) = \sum_{n=1}^\infty \frac{(-1)^{n-1}}{n}x^n, \qquad -1<x\leq 1$$
+5. 正切函数 $\tan x$ 的泰勒展开式： $$\tan x = \sum_{n=1}^\infty \frac{(-1)^{n-1}2^{2n}(2^{2n}-1)B_{2n}}{(2n)!}x^{2n-1}, \qquad -\frac{\pi}{2}<x<\frac{\pi}{2}$$
+
+其中 $B_n$ 表示伯努利数。
 
 ## 常见的泰勒公式
 
