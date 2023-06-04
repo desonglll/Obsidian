@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-language/python.md",
+                "file": "Obsidian/templates/timestamped-note.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pip install",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-language/python.md",
+                "file": "Obsidian/templates/timestamped-note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-language/python.md",
+                "file": "Obsidian/templates/timestamped-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-language/python.md"
+                "file": "Obsidian/templates/timestamped-note.md"
               }
             }
           }
@@ -152,6 +152,11 @@
   },
   "active": "92ad1d425af8a5c4",
   "lastOpenFiles": [
+    "Obsidian/templates/diary01.md",
+    "Obsidian/templates/markdown.md",
+    "Obsidian/templates/timestamped-note.md",
+    "life/diary/2023-06-04.md",
+    "programming-language/python.md",
     "README.md",
     "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
     "timestamped-notes/202306041840.md",
@@ -191,12 +196,8 @@
     "Excellent-Blogger.md",
     "markdown书写.md",
     "markdown-test.md",
-    "Obsidian/templates/diary01.md",
     "问题一.md",
-    "Obsidian/templates/markdown.md",
     "202306041813.md",
-    "programming-language/Front/javascript.md",
-    "Data-structures/Stack.md",
     "Reading/a.canvas",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
