@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b51dec6155437ea2",
+        "id": "392411dad7c67455",
         "type": "tabs",
         "children": [
           {
-            "id": "cb4b34fa480dfd6e",
+            "id": "cdb67e5b041393e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Tools/my-neovim-based-on-lua.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9e90688d082319f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/prettier.md",
-                "mode": "source",
-                "source": false
+                "file": "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/prettier.md",
+                "file": "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/prettier.md",
+                "file": "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/prettier.md"
+                "file": "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png"
               }
             }
           }
@@ -147,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 217.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,60 +142,61 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "publish:发布更改": false,
       "workspaces:管理工作区布局": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "audio-recorder:开始/结束录音": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false
     }
   },
-  "active": "b9e90688d082319f",
+  "active": "cdb67e5b041393e6",
   "lastOpenFiles": [
-    "yarn.lock",
-    "node_modules/prettier/esm/standalone.mjs",
-    "node_modules/prettier/esm/parser-yaml.mjs",
-    "node_modules/prettier/esm/parser-typescript.mjs",
-    "node_modules/prettier/esm/parser-postcss.mjs",
-    "node_modules/prettier/esm/parser-meriyah.mjs",
-    "node_modules/prettier/esm/parser-markdown.mjs",
-    "node_modules/prettier/esm/parser-html.mjs",
-    "node_modules/prettier/esm/parser-graphql.mjs",
-    "node_modules/prettier/esm/parser-glimmer.mjs",
-    "node_modules/prettier/esm/parser-flow.mjs",
-    "node_modules/prettier/README.md",
-    "Tools/my-neovim-based-on-lua.md",
-    "Tools/prettier.md",
-    "Commands/git-commands.md",
-    "Commands/linux-commands.md",
-    "Data-structures/Sort.md",
-    "Data-structures/Sort~.md",
-    "README.md",
-    "Tools/vim-in-idea.md",
-    "Tools/markdown-syntax.md",
-    "Deep-Learning/深度学习指南.md",
-    "Programming-language/c.md",
-    "Programming-language/cmake.md",
-    "Programming-language/python.md",
-    "Programming-language/rust.md",
-    "Tools/latex.md",
-    "Tools/macOS-configurations~.md",
-    "Tools/neovim-based-on-lua~.md",
-    "深度学习指南.md",
-    "Programming-language/未命名.md",
-    "Programming-language/c~.md",
-    "Develop/python.md",
-    "Develop/yarn.md",
-    "Tools/lunarvim.md",
-    "Tools/vscode-configurations.md",
-    "Tools/assets/bg2019102007.jpg",
-    "Tools/assets/bg2019102006.png",
-    "Tools/assets/bg2019102005.png",
+    "README~.md",
+    "Users/mikeshinoda/Desktop/notes/Tools/assets/p519375.png.md",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
+    "assets/1.png.md",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-10.40.48-PM.png",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-10.11.33-PM.png",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.50.12-PM.png",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.19.59-PM.png",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.11.34-PM.png",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.10.14-PM.png",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.04.33-PM.png",
     "CS-learning/assets/121212.jpg",
-    "CS-learning/121212.jpg",
+    "CS-learning/Data-Structures.md",
+    "develop/live-server.md",
+    "tools/macOS-software.md",
+    "tools/assets/uninstallpkg.jpeg",
+    "tools/Tmux使用教程.md",
+    "tools/实用网站.md",
+    "tools/加快macOS的光标移动速度.md",
+    "tools/latex.md",
+    "timestamped-notes/assets",
+    "timestamped-notes/加快macOS的光标移动速度.md",
+    "tools/加快macOS的光标移动速度~.md",
+    "Commands/linux-commands.md",
+    "tools/加快macOS的光标移动速.assets",
+    "tools/加快macOS的光标移动速度.assets",
+    "assets",
+    "Users/mikeshinoda/Desktop/notes/Tools/assets",
+    "Users/mikeshinoda/Desktop/notes/Tools",
+    "Users/mikeshinoda/Desktop/notes",
+    "Users/mikeshinoda/Desktop",
+    "Users/mikeshinoda",
+    "Users",
+    "README.md",
+    "math-expansions.md",
+    "Excellent-Blogger.md",
+    "markdown书写.md",
+    "markdown-test.md",
+    "Obsidian/templates/diary01.md",
+    "问题一.md",
+    "Obsidian/templates/markdown.md",
+    "202306041813.md",
+    "programming-language/Front/javascript.md",
+    "Data-structures/Stack.md",
+    "Commands/macOS-commands.md",
+    "Diary/2023-06-02.md",
     "Reading/a.canvas",
-    "杂七杂八的工具/assets/640-20230531145444423.png",
-    "杂七杂八的工具/assets/640-20230531145437416.png",
-    "杂七杂八的工具/assets/640-20230531145429854.png",
-    "杂七杂八的工具/assets/640-20230531145423947.png",
-    "杂七杂八的工具/assets/640-20230531145416931.png",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
   ]

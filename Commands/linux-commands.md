@@ -18,10 +18,10 @@ sticky:
 cover:
 ---
 
-- [Linux 系统下如何保持进程在 SSH 客户端断开后仍继续运行？](#linux系统下如何保持进程在ssh客户端断开后仍继续运行)
+- [Linux 系统下如何保持进程在 SSH 客户端断开后仍继续运行？](#linux-系统下如何保持进程在-ssh-客户端断开后仍继续运行)
   - [使用场景](#使用场景)
-  - [**方法一：使用 nohup 执行命令**](#方法一使用nohup执行命令)
-  - [**方法二：使用 screen 执行命令**](#方法二使用screen执行命令)
+  - [**方法一：使用 nohup 执行命令**](#方法一使用-nohup-执行命令)
+  - [**方法二：使用 screen 执行命令**](#方法二使用-screen-执行命令)
 - [Linux crontab 命令](#linux-crontab-命令)
   - [语法](#语法)
   - [实例](#实例)
@@ -50,8 +50,6 @@ nohup 通常用于执行无干预的自动化程序或脚本，无法完成带�
    ```
 
    系统显示类似如下。
-
-   ![img](/Users/mikeshinoda/Desktop/notes/Tools/assets/p519373.png)
 
 2. 使用 nohup 执行命令。
 

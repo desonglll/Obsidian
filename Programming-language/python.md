@@ -1,3 +1,23 @@
+---
+title: python
+date: 2023/06/04/ 17:50:33
+discription: 
+tags:
+updated:
+type:
+comments:
+description:
+keywords:
+top_img:
+mathjax: true
+katex:
+aside:
+aplayer:
+highlight_shrink:
+sticky:
+cover:
+---
+
 当涉及到教学每个主题时，以下是对应的简要教学指南：
 
 1. 基础概念：

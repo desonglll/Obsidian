@@ -18,6 +18,13 @@ sticky:
 cover:
 ---
 
+- [开发](#开发)
+  - [macOS 终端查看某一端口占用程序并杀死该程序](#macos-终端查看某一端口占用程序并杀死该程序)
+  - [macOS 终端查看本机本地 ip 地址](#macos-终端查看本机本地-ip-地址)
+- [日常](#日常)
+  - [显示磁盘状态](#显示磁盘状态)
+  - [Unlock or decrypt your FileVault-encrypted boot drive from the command line on macOS Mojave](#unlock-or-decrypt-your-filevault-encrypted-boot-drive-from-the-command-line-on-macos-mojave)
+
 ## 开发
 
 ### macOS 终端查看某一端口占用程序并杀死该程序

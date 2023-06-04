@@ -20,8 +20,6 @@ cover:
 
 ## Currently, we have visualizations for the following data structures and algorithms
 
-[[toc]]
-
 ## Basics
 
 ### Stack: Array Implementation

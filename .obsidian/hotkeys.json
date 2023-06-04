@@ -163,5 +163,21 @@
       ],
       "key": "P"
     }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "/"
+    }
   ]
 }

@@ -1,12 +1,11 @@
 ---
-title: Index
-date: 2022/12/20/ 19:17:43
-discription:
+title: README
+date: 2023-06-04 18:04
+author: John Doe
+categories:
+  - Markdown
+tags:
 ---
-
-## README
-
-[[toc]]
 
 $\int_{birth}^{death}Study\ dt=life$
 
@@ -16,17 +15,11 @@ My name is mike shinoda.
 
 And this is a test for push static html files to my tencent server.
 
-It seems successful :star:
-
-Here is my configuration guide for neovim based on lua.
-
-[Neovim based on lua.](/CS-learning/Neovim.md)
+It seems successful ⭐
 
 ### This is my 408 Clangd codes on Wangdao
 
 [git@github.com:desonglll/CLionProjects.git](git@github.com:desonglll/CLionProjects.git)
-
-<!-- ![alt](https://img.shields.io/badge/notes-mikeshinoda-brightgreen) -->
 
 好的，以下是常用函数的泰勒展开式表：
 

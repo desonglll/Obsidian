@@ -1,3 +1,5 @@
 {
-  "folder": "/Diary"
+  "folder": "life/diary",
+  "template": "Obsidian/templates/diary01",
+  "autorun": true
 }

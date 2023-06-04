@@ -1,7 +1,5 @@
 # 3 simple servers to run your site locally (Mac)
 
-![img](./assets/1*BMQne_tH3Q__M_CQ997zzw.png)
-
 Running Python’s SimpleHTTPServer
 
 We all have been there. You want to build a website but you have no idea how to start or how to see your changes. I’m going to share with you my favorite ways to run sites locally. Hopefully you will get some insight out of this post and with start creating your website. Keep in mind this is directed to people building sites from scratch **without** using a Content Management System like Wordpress.
