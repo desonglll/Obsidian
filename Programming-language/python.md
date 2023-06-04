@@ -141,6 +141,45 @@ Python是由Guido van Rossum于1991年创造的一种高级编程语言。以下
    ```
    这样，您就创建了一个名为 `hello.py` 的 Python 文件，并在其中定义了一个 `say_hello()` 函数来打印 "Hello, world!"。通过运行该文件，您可以在终端或命令提示符中看到相应的输出。请确保您的系统已经正确安装并配置了 Python。
 
+### 打包
+
+生成 `requirements.txt` 文件是一种常见的做法，用于记录项目的依赖包及其版本，以便其他人可以轻松地安装相同的依赖。
+
+以下是生成 `requirements.txt` 文件的方法：
+
+1. 确保你的项目处于活动状态，并激活虚拟环境（如果有）。
+
+2. 打开终端或命令提示符，并导航到项目目录。
+
+3. 运行以下命令来生成 `requirements.txt` 文件：
+
+   - 如果你使用 `pip`：
+     ```
+     pip freeze > requirements.txt
+     ```
+
+   - 如果你使用 `conda`：
+     ```
+     conda list --export > requirements.txt
+     ```
+
+   这些命令将当前环境中安装的所有包及其版本信息写入到 `requirements.txt` 文件中。
+
+4. 完成后，你将在项目目录中看到生成的 `requirements.txt` 文件。
+
+你可以查看 `requirements.txt` 文件，它应该包含类似于以下内容的条目：
+```
+package1==1.0.0
+package2==2.1.0
+```
+
+每一行都表示一个依赖包及其版本号。其他人可以使用该文件来安装相同的依赖项，例如：
+```
+pip install -r requirements.txt
+```
+
+这样就能确保他们在相同的环境中运行你的项目。
+
 ### 变量、数据类型和运算符
 
 > 解释变量的概念、不同的数据类型（整数、浮点数、字符串等）以及Python的运算符。
