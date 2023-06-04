@@ -68,7 +68,7 @@ hello
 
 ### Extended Syntax
 
-````markdown
+```markdown
 | Element           | Markdown Syntax                       |
 | ----------------- | ------------------------------------- |
 | Table             | [Tables](#tables)                     |
@@ -78,7 +78,7 @@ hello
 | Definition List   | [Definition Lists](#definition-lists) |
 | Strikethrough     | ~~the~~                               |
 | Task List         | [Task Lists](#task-lists)             |
-````
+```
 
 ## Basic Syntax
 
@@ -428,7 +428,6 @@ To create a horizontal rule, use three or more asterisks (\*\*\*), dashes (---),
 
 ```markdown
 ---
-
 ---
 
 ---

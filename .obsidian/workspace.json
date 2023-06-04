@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commands/git-commands.md",
+                "file": "Tools/my-neovim-based-on-lua.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9e90688d082319f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/prettier.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commands/git-commands.md",
+                "file": "Tools/prettier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commands/git-commands.md",
+                "file": "Tools/prettier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Commands/git-commands.md"
+                "file": "Tools/prettier.md"
               }
             }
           }
@@ -149,16 +162,30 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "cb4b34fa480dfd6e",
+  "active": "b9e90688d082319f",
   "lastOpenFiles": [
+    "yarn.lock",
+    "node_modules/prettier/esm/standalone.mjs",
+    "node_modules/prettier/esm/parser-yaml.mjs",
+    "node_modules/prettier/esm/parser-typescript.mjs",
+    "node_modules/prettier/esm/parser-postcss.mjs",
+    "node_modules/prettier/esm/parser-meriyah.mjs",
+    "node_modules/prettier/esm/parser-markdown.mjs",
+    "node_modules/prettier/esm/parser-html.mjs",
+    "node_modules/prettier/esm/parser-graphql.mjs",
+    "node_modules/prettier/esm/parser-glimmer.mjs",
+    "node_modules/prettier/esm/parser-flow.mjs",
+    "node_modules/prettier/README.md",
+    "Tools/my-neovim-based-on-lua.md",
+    "Tools/prettier.md",
+    "Commands/git-commands.md",
+    "Commands/linux-commands.md",
     "Data-structures/Sort.md",
-    "LICENSE",
     "Data-structures/Sort~.md",
     "README.md",
     "Tools/vim-in-idea.md",
     "Tools/markdown-syntax.md",
     "Deep-Learning/深度学习指南.md",
-    "深度学习指南.pdf",
     "Programming-language/c.md",
     "Programming-language/cmake.md",
     "Programming-language/python.md",
@@ -168,35 +195,22 @@
     "Tools/neovim-based-on-lua~.md",
     "深度学习指南.md",
     "Programming-language/未命名.md",
-    "Deep-Learning",
     "Programming-language/c~.md",
     "Develop/python.md",
     "Develop/yarn.md",
     "Tools/lunarvim.md",
     "Tools/vscode-configurations.md",
-    "Operating-System/ubuntu.md",
-    "Operating-System",
-    "Untitled Folder",
-    "Develop/live-server.md",
-    "Tools/yarn.md",
-    "Develop",
-    "CS-learning/Python-Study-Qianfeng.md",
-    "CS-learning/gzh-Push.md",
     "Tools/assets/bg2019102007.jpg",
     "Tools/assets/bg2019102006.png",
     "Tools/assets/bg2019102005.png",
-    "Diary",
     "CS-learning/assets/121212.jpg",
-    "CS-learning/assets",
     "CS-learning/121212.jpg",
     "Reading/a.canvas",
-    "问题一.pdf",
     "杂七杂八的工具/assets/640-20230531145444423.png",
     "杂七杂八的工具/assets/640-20230531145437416.png",
     "杂七杂八的工具/assets/640-20230531145429854.png",
     "杂七杂八的工具/assets/640-20230531145423947.png",
     "杂七杂八的工具/assets/640-20230531145416931.png",
-    "Data-structures/optimize_images.py",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
   ]

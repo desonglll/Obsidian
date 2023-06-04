@@ -1,0 +1,11 @@
+{
+  "name": "Obsidian",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:desonglll/notes.git",
+  "author": "desonglll <lindesong666@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}

@@ -207,8 +207,10 @@ git branch -D xxx
 
 ### macOS 的.gitignore 文件
 
-```.gitignore
-# General
+在`.gitignore`文件中针对 macOS，您可以添加以下规则来忽略常见的 macOS 生成的文件和文件夹：
+
+```
+# macOS system files
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -219,14 +221,9 @@ Icon
 # Thumbnails
 ._*
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
+# Files that might appear on external disk
 .Spotlight-V100
-.TemporaryItems
 .Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -235,6 +232,111 @@ Network Trash Folder
 Temporary Items
 .apdisk
 ```
+
+这些规则会忽略 macOS 系统生成的一些文件和文件夹，如`.DS_Store`、`.AppleDouble`、`.LSOverride`等。根据您的需求，您可以根据需要进行调整或添加其他规则。
+
+请注意，`.gitignore`文件只会影响 Git 版本控制系统，不会直接影响 macOS 系统本身的行为。`.gitignore`文件应该位于项目根目录下，并在提交代码之前进行相应的配置。
+
+### Yarn 的.gitignore 文件
+
+在一个 Yarn 项目的`.gitignore`文件中，您可以添加以下内容来忽略常见的 Yarn 和 Node.js 相关文件和文件夹：
+
+```
+# Yarn
+node_modules/
+yarn-error.log
+yarn.lock
+
+# Node.js
+npm-debug.log*
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+/.pnp/
+.pnp.js
+
+# Build output
+/dist/
+/build/
+/out/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+/.sass-cache/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
+
+这些规则会忽略项目中的`node_modules`文件夹、`yarn-error.log`、`yarn.lock`文件以及其他一些临时和构建相关的文件和文件夹。根据您的项目需求，您可以根据需要进行调整或添加其他规则。
+
+请注意，`.gitignore`文件是针对 Git 版本控制系统的，它告诉 Git 忽略哪些文件和文件夹，因此它不会影响您的项目本身的行为或运行。`.gitignore`文件应该位于项目根目录下，并在提交代码之前进行相应的配置。
+
+### npm 的.gitignore
+
+在一个 npm 项目中，可以使用以下规则来配置 `.gitignore` 文件以忽略常见的 npm 和 Node.js 生成的文件和文件夹：
+
+```
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build directories
+dist/
+build/
+out/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test generated files
+coverage/
+
+# Miscellaneous
+*.tmp
+*.bak
+*.cache
+*.tgz
+*.zip
+```
+
+这些规则会忽略一些常见的 npm 和 Node.js 相关文件和文件夹，如日志文件、依赖目录（`node_modules/`、`jspm_packages/`）、构建目录（`dist/`、`build/`、`out/`）、IDE 和编辑器文件等。
+
+根据您的项目需求，您可以根据需要进行调整或添加其他规则。请确保 `.gitignore` 文件位于项目根目录下，并在提交代码之前进行相应的配置。
 
 ### Deploy.sh
 
