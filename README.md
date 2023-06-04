@@ -30,3 +30,7 @@ It seems successful ⭐
 5. 正切函数 $\tan x$ 的泰勒展开式： $$\tan x = \sum_{n=1}^\infty \frac{(-1)^{n-1}2^{2n}(2^{2n}-1)B_{2n}}{(2n)!}x^{2n-1}, \qquad -\frac{\pi}{2}<x<\frac{\pi}{2}$$
 
 其中 $B_n$ 表示伯努利数。
+
+### 流程图绘制
+
+https://excalidraw.com/
