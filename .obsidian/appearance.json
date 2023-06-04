@@ -1,5 +1,10 @@
 {
   "accentColor": "",
   "theme": "system",
-  "baseFontSize": 12
+  "baseFontSize": 13,
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "Menlo",
+  "textFontFamily": "Songti SC",
+  "translucency": false,
+  "cssTheme": "Minimal"
 }

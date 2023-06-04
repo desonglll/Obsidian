@@ -14,6 +14,7 @@
   "newLinkFormat": "relative",
   "showUnsupportedFiles": false,
   "attachmentFolderPath": "./assets",
-  "alwaysUpdateLinks": false,
-  "spellcheck": false
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "showLineNumber": true
 }

@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "392411dad7c67455",
+        "id": "af09f96dc5af68b1",
         "type": "tabs",
         "children": [
           {
-            "id": "cdb67e5b041393e6",
+            "id": "92ad1d425af8a5c4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png"
+                "file": "programming-language/python.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.50271224975586
+    "width": 209.50043487548828
   },
   "right": {
     "id": "3f43639f92569f0c",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
+                "file": "programming-language/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
+                "file": "programming-language/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png"
+                "file": "programming-language/python.md"
               }
             }
           }
@@ -139,20 +141,22 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "audio-recorder:开始/结束录音": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "random-note:开始漫游笔记": false
+      "random-note:开始漫游笔记": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "cdb67e5b041393e6",
+  "active": "92ad1d425af8a5c4",
   "lastOpenFiles": [
+    "README.md",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
+    "timestamped-notes/202306041840.md",
     "README~.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets/p519375.png.md",
-    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
     "assets/1.png.md",
     "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-10.40.48-PM.png",
     "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-10.11.33-PM.png",
@@ -183,7 +187,6 @@
     "Users/mikeshinoda/Desktop",
     "Users/mikeshinoda",
     "Users",
-    "README.md",
     "math-expansions.md",
     "Excellent-Blogger.md",
     "markdown书写.md",
@@ -194,8 +197,6 @@
     "202306041813.md",
     "programming-language/Front/javascript.md",
     "Data-structures/Stack.md",
-    "Commands/macOS-commands.md",
-    "Diary/2023-06-02.md",
     "Reading/a.canvas",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
