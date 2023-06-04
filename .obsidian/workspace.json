@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "462575da6b4e3a60",
+        "id": "b51dec6155437ea2",
         "type": "tabs",
         "children": [
           {
-            "id": "e0724d6d1751b5d9",
+            "id": "cb4b34fa480dfd6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/markdown-syntax.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae3be36c0c0b6677",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming-language/python.md",
+                "file": "Tools/vim-in-idea.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming-language/python.md",
+                "file": "Tools/vim-in-idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming-language/python.md",
+                "file": "Tools/vim-in-idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming-language/python.md"
+                "file": "Tools/vim-in-idea.md"
               }
             }
           }
@@ -162,17 +149,20 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ae3be36c0c0b6677",
+  "active": "cb4b34fa480dfd6e",
   "lastOpenFiles": [
+    "Data-structures/Sort.md",
+    "Tools/markdown-syntax.md",
+    "Deep-Learning/深度学习指南.md",
+    "深度学习指南.pdf",
+    "Programming-language/c.md",
+    "Programming-language/cmake.md",
+    "Programming-language/python.md",
     "Programming-language/rust.md",
     "Tools/latex.md",
-    "Tools/markdown-syntax.md",
     "Tools/macOS-configurations~.md",
     "Tools/neovim-based-on-lua~.md",
     "深度学习指南.md",
-    "Deep-Learning/深度学习指南.md",
-    "Programming-language/c.md",
-    "Programming-language/python.md",
     "Programming-language/未命名.md",
     "Deep-Learning",
     "Programming-language/c~.md",
@@ -195,8 +185,6 @@
     "Tools/assets/bg2019102005.png",
     "Tools/Tmux 使用教程~.md",
     "问题一.md",
-    "Commands/git-commands.md",
-    "CS-learning/Data-Structures.md",
     "Diary",
     "CS-learning/assets/121212.jpg",
     "CS-learning/assets",
@@ -210,7 +198,6 @@
     "杂七杂八的工具/assets/640-20230531145416931.png",
     "Data-structures/optimize_images.py",
     "Data-structures/assets/optimize_images.py",
-    "Data-structures/assets/webp-20230529202119232",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
   ]

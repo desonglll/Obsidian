@@ -2,7 +2,7 @@
   "promptDelete": false,
   "vimMode": false,
   "pdfExportSettings": {
-    "includeName": false,
+    "includeName": true,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
