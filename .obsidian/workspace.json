@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/vim-in-idea.md",
+                "file": "Data-structures/Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/vim-in-idea.md",
+                "file": "Data-structures/Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/vim-in-idea.md",
+                "file": "Data-structures/Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/vim-in-idea.md"
+                "file": "Data-structures/Sort.md"
               }
             }
           }
@@ -151,6 +151,9 @@
   },
   "active": "cb4b34fa480dfd6e",
   "lastOpenFiles": [
+    "Data-structures/Sort~.md",
+    "README.md",
+    "Tools/vim-in-idea.md",
     "Data-structures/Sort.md",
     "Tools/markdown-syntax.md",
     "Deep-Learning/深度学习指南.md",
@@ -179,12 +182,9 @@
     "CS-learning/Python-Study-Qianfeng.md",
     "CS-learning/gzh-Push.md",
     "Tools/Tmux使用教程.md",
-    "Tools/Tmux 使用教程.md",
     "Tools/assets/bg2019102007.jpg",
     "Tools/assets/bg2019102006.png",
     "Tools/assets/bg2019102005.png",
-    "Tools/Tmux 使用教程~.md",
-    "问题一.md",
     "Diary",
     "CS-learning/assets/121212.jpg",
     "CS-learning/assets",
