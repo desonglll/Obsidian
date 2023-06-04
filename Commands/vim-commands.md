@@ -1,7 +1,7 @@
 ---
 title: Vim命令
 date: 2022/09/26/ 15:29:36
-description: 
+description:
 ---
 
 https://blog.csdn.net/m0_47696151/article/details/117792656
@@ -14,7 +14,7 @@ https://blog.csdn.net/m0_47696151/article/details/117792656
 - [Editing and delete in line](#editing-and-delete-in-line)
 - [Movements (Macros)](#movements-macros)
 - [Copying and pasting](#copying-and-pasting)
-- [Making changes while in command mode(*Normal Mode*)](#making-changes-while-in-command-modenormal-mode)
+- [Making changes while in command mode(_Normal Mode_)](#making-changes-while-in-command-modenormal-mode)
 - [Finding](#finding)
 - [Replacing](#replacing)
 - [Screen slip](#screen-slip)
@@ -29,11 +29,11 @@ https://blog.csdn.net/m0_47696151/article/details/117792656
 
 Typing `vim hello.md` or `vi hello.md` for open an existed file.
 
-(If there is no such file, *Vim* will creates a new file.)
+(If there is no such file, _Vim_ will creates a new file.)
 
 ## Save and quit
 
-Back to *Normal Mode* and press `:`, then type these commans.
+Back to _Normal Mode_ and press `:`, then type these commans.
 
 `:w` for written, means **save**.
 
@@ -47,9 +47,9 @@ Back to *Normal Mode* and press `:`, then type these commans.
 
 ## Visual Mode
 
-`v` for enter *Visual Mode*.
+`v` for enter _Visual Mode_.
 
-`V` for enter *Visual Line Mode*.
+`V` for enter _Visual Line Mode_.
 
 ## Navigation and cursor
 
@@ -109,25 +109,25 @@ Back to *Normal Mode* and press `:`, then type these commans.
 
 ## Editing and delete in line
 
-`i` for enter *Insert Mode* to start editing. (At the front of the cursor.)
+`i` for enter _Insert Mode_ to start editing. (At the front of the cursor.)
 
-`I` for enter *Insert Mode* to start editing. (At the begin of the line.)
+`I` for enter _Insert Mode_ to start editing. (At the begin of the line.)
 
-`a` for enter *Insert Mode* to start editing. (At the back of the cursor.)
+`a` for enter _Insert Mode_ to start editing. (At the back of the cursor.)
 
-`A` for enter *Insert Mode* to start editing. (At the end of the line.)
+`A` for enter _Insert Mode_ to start editing. (At the end of the line.)
 
 `c` for change.
 
 `ct` + `a` for delete rest of the line until character "a".
 
-`C` for delete rest of the line and enter *Insert Mode*.
+`C` for delete rest of the line and enter _Insert Mode_.
 
-`cw` for change word. (Delete this word and enter *Insert Mode*.)
+`cw` for change word. (Delete this word and enter _Insert Mode_.)
 
-`o` for enter *Insert Mode* to start editing in a new line **above**.
+`o` for enter _Insert Mode_ to start editing in a new line **above**.
 
-`O` for enter *Insert Mode* to start editing in a new line **below**.
+`O` for enter _Insert Mode_ to start editing in a new line **below**.
 
 `d` for delete the selected parts.
 
@@ -167,7 +167,7 @@ wdf
 jjs
 ```
 
-So now, move cursor to character "a" in *Normal Mode*, and press `qw` to enter record.
+So now, move cursor to character "a" in _Normal Mode_, and press `qw` to enter record.
 
 I can do `i` + `"` + `Escape` + `A` + `"` + `Escape` + `j`, then press `Escape` and type `q` to quit recording.
 
@@ -183,7 +183,7 @@ Now you can press `@w` to repeat the movements that you have done.
 
 `P` for paste **above** the line from my clipboard.
 
-## Making changes while in command mode(*Normal Mode*)
+## Making changes while in command mode(_Normal Mode_)
 
 `x` for **delete** current character.
 
@@ -193,11 +193,11 @@ Now you can press `@w` to repeat the movements that you have done.
 
 `R` for eating the words there.
 
-`Ctrl^` + `v` can select a block. (*Visual Block Mode*)
+`Ctrl^` + `v` can select a block. (_Visual Block Mode_)
 
 ## Finding
 
-`/setState` typed in *Normal Mode* means find all "setState" in file.
+`/setState` typed in _Normal Mode_ means find all "setState" in file.
 
 And press `n` to the next.
 

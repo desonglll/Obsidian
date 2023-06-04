@@ -1,8 +1,8 @@
 ---
 title: stable-diffusion-webui
 date: 2023/04/06/ 11:49:35
-discription: 
- tags:
+discription:
+  tags:
 updated:
 type:
 comments:
@@ -16,7 +16,6 @@ aplayer:
 highlight_shrink:
 sticky:
 cover:
-
 ---
 
 **环境下载**:
@@ -29,9 +28,7 @@ brew install cmake protobuf rust python@3.10 git wget
 
 **步骤解析图**:
 
-https://365e590-my.sharepoint.com/:i:/g/personal/elise123_365e590_onmicrosoft_com/EY85QWjxBRZFp7jxsIgoD_cB1297WZsSyJwbNA7LnnZnAw?e=yKZKup 
-
-
+https://365e590-my.sharepoint.com/:i:/g/personal/elise123_365e590_onmicrosoft_com/EY85QWjxBRZFp7jxsIgoD_cB1297WZsSyJwbNA7LnnZnAw?e=yKZKup
 
 ![terminal 截图步骤](../../../Desktop/notes/images/terminal 截图步骤.png)
 
@@ -39,11 +36,9 @@ https://365e590-my.sharepoint.com/:i:/g/personal/elise123_365e590_onmicrosoft_co
 
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 
-**或者** https://github.com/AUTOMATIC1111/stable-diffusion-webui 
+**或者** https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
-https://365e590-my.sharepoint.com/:f:/g/personal/elise123_365e590_onmicrosoft_com/EpV-spGOeQBNgibhCiKxvuYBQFFFVC5S-HkLiyYXhTnp7g?e=pls2d8 
-
-
+https://365e590-my.sharepoint.com/:f:/g/personal/elise123_365e590_onmicrosoft_com/EpV-spGOeQBNgibhCiKxvuYBQFFFVC5S-HkLiyYXhTnp7g?e=pls2d8
 
 **运行**:
 
@@ -51,9 +46,7 @@ cd /Users/elise666/Sites/stable-diffusion-webui
 
 ls
 
-./webui.sh 
-
-
+./webui.sh
 
 **模组下载**(**可能需要**magic)
 
@@ -61,9 +54,7 @@ https://civitai.com
 
 https://huggingface.co/gsdf/Counterfeit-V2.5/blob/main/Counterfeit-V2.5_pruned.safetensors
 
-https://365e590-my.sharepoint.com/:f:/g/personal/elise123_365e590_onmicrosoft_com/EoRaL7Am3DxLnly_bKaf7DkByscvrC641d-wB7Dq6ZmiKw?e=SeSL5Y 
-
-
+https://365e590-my.sharepoint.com/:f:/g/personal/elise123_365e590_onmicrosoft_com/EoRaL7Am3DxLnly_bKaf7DkByscvrC641d-wB7Dq6ZmiKw?e=SeSL5Y
 
 **图片变高清网站**/**软件**
 
@@ -85,19 +76,13 @@ https://www.imageenlarger.com
 
 https://imgupscaler.com
 
-
-
 **考虑你们的各种关于百度和夸克的吐槽**, **我转**onedrive**了**
 
 **等夸克失效后就彻底**onedrive**了**,**这样最起码你们不需要客户端**
 
-
-
 **每个**b**站视频都该太累了**,**之后的全部在这**
 
 **需要便宜魔法的私信我**
-
-
 
 onedrive**链接如下**:(**我都有分好类别**, **之后其他视频链接失效就都来这里下**)
 
@@ -105,11 +90,7 @@ https://365e590-my.sharepoint.com/:f:/g/personal/elise123_365e590_onmicrosoft_co
 
 **密码**1234
 
-
-
-onedrive链接如下:(我都有分好类别, 之后其他视频链接失效就都来这里下) https://365e590-my.sharepoint.com/:f:/g/personal/elise123_365e590_onmicrosoft_com/ElXHQTzCcytBuu4EhOkooFcBzC6MT_QYalOeHWBJ2iWQJA?e=d8H2Ph 密码1234
-
-
+onedrive 链接如下:(我都有分好类别, 之后其他视频链接失效就都来这里下) https://365e590-my.sharepoint.com/:f:/g/personal/elise123_365e590_onmicrosoft_com/ElXHQTzCcytBuu4EhOkooFcBzC6MT_QYalOeHWBJ2iWQJA?e=d8H2Ph 密码 1234
 
 ```
 masterpiece, best quality, ultra-detailed, illustration, close-up, straight on, face focus, 1girl, white hair, golden eyes, long hair, halo, angel wings, serene expression, looking at viewer, <lora:LORAFlatColor_flatColor:0.4>, (dynamic angle: 1.3)
@@ -134,8 +115,6 @@ Size: 512x768, Seed: 4001540119, Model: 0.6(facebombmix_v1) + 0.4(chikmix_V1), S
 Negative prompt: (((NSFW)))(ng_deepnegative_v1_75t,easynegative:1) bright lighting,ugly,lowres,bad anatomy,amputation,amputee,missing limbs,missing fingers,extra digit,cropped head,(worst quality,low quality,normal quality:2)jpg artifacts,text,watermark,logo,collage,frame,border,split image,double image,(simple background),signature,username,blurry
 ENSD: 69420, Size: 512x1024, Seed: 2268882203, Model: perfectWorld_v2Baked, Steps: 25, Sampler: Euler a, CFG scale: 7, Clip skip: 2, Model hash: 79e42fb744, Hires upscale: 1.5, Hires upscaler: Latent (nearest-exact), ControlNet Model: control_sd15_canny [fef5e48e], Face restoration: CodeFormer, ControlNet Module: canny, ControlNet Weight: 1, ControlNet Enabled: True, Denoising strength: 0.55, ControlNet Guidance End: 1, ControlNet Guidance Start: 0
 ```
-
-
 
 dalcefoPainting_2nd
 
@@ -179,12 +158,10 @@ Negative prompt: EasyNegative, paintings, sketches, (worst quality:2), (low qual
 ENSD: 31337, Size: 512x960, Seed: 46839005, Steps: 50, Sampler: DPM++ SDE Karras, CFG scale: 7, Clip skip: 2, Model hash: 74fda0645d, Hires upscale: 2, Hires upscaler: Latent, Denoising strength: 0.6
 ```
 
-
-
 ### majicmixRealistic_v2.safetensors [5d22b29ecd]
 
 ![16687-4131525014-nsfw, nude, 8K raw photo, Best quality, masterpiece, ultra high res, natural skin texture, realistic eye and face details, full.png](./assets/16687-4131525014-nsfw, nude, 8K raw photo, Best quality, masterpiece, ultra high res, natural skin texture, realistic eye and face details, full-20230519172239864.jpeg)
 
-nsfw, nude, 8K raw photo, Best quality, masterpiece, ultra high res, natural skin texture, realistic eye and face details, full lips, lipstick, rouge \(makeup\), red eyeshadow, little smile, fluffy short hair, beautiful legs, tall female, skinny, slim_legs, 1girl, sitting, (black pantyhose:1.5), solo, shoes, socks, black hair, white socks, sneakers, looking at viewer, nike, sleeves past wrists, realistic, red footwear, black eyes, full body, cardigan, red jacket, short hair, long sleeves, open clothes, lips,  <lora:Lora_v20:0.8:OUTALL>
+nsfw, nude, 8K raw photo, Best quality, masterpiece, ultra high res, natural skin texture, realistic eye and face details, full lips, lipstick, rouge \(makeup\), red eyeshadow, little smile, fluffy short hair, beautiful legs, tall female, skinny, slim_legs, 1girl, sitting, (black pantyhose:1.5), solo, shoes, socks, black hair, white socks, sneakers, looking at viewer, nike, sleeves past wrists, realistic, red footwear, black eyes, full body, cardigan, red jacket, short hair, long sleeves, open clothes, lips, <lora:Lora_v20:0.8:OUTALL>
 Negative prompt: (badhandv4:1.5), easynegative, ng_deepnegative_v1_75t, ((bra)), ((apron)), ((panties)), (((extra fingers,fewer fingers,strange fingers,bad anatomy, bad hands, extra hands, missing fingers, borken hand, more than two hands, well proportioned hands, more than two legs, unclear eyes, missing_arms, mutilated, extra limbs, extra legs, cloned face,fused fingers))), paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, mutated hands, distorted hands
 ENSD: 31337, Size: 1024x1536, Seed: 4131525014, Model: majicmixRealistic_v2, Steps: 50, Sampler: DPM++ 2M alt Karras, CFG scale: 7, Clip skip: 2, Model hash: 5d22b29ecd, Denoising strength: 0.35

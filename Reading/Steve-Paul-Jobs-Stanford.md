@@ -1,12 +1,12 @@
 ---
 title: Steve-Paul-Jobs-Stanford
 date: 2019/07/16/ 11:12:20
-categories: 
-tags: 
-updated: 
+categories:
+tags:
+updated:
 type:
 comments:
-description: 
+description:
 keywords:
 top_img:
 mathjax: true
@@ -14,8 +14,8 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
-sticky: 
-cover: 
+sticky:
+cover:
 ---
 
 ## 乔布斯斯坦福大学演讲中英文文本整理
@@ -46,7 +46,7 @@ I really didn’t know what to do for a few months. I felt that I had let the pr
 
 I didn’t see it then, but it turned out that getting fired from Apple was the best thing that could have ever happened to me. The heaviness of being successful was replaced by the lightness of being a beginner again, less sure about everything. It freed me to enter one of the most creative periods of my life.
 
-During the next five years, I started a company named NeXT, another company named Pixar, and fell in love with an amazing woman who would become my wife. Pixar went on to create the world’s first computer animated feature film, *Toy Story*, and is now the most successful animation studio in the world. In a remarkable turn of events, Apple bought NeXT, I returned to Apple, and the technology we developed at NeXT is at the heart of Apple’s current renaissance. And Laurene and I have a wonderful family together.
+During the next five years, I started a company named NeXT, another company named Pixar, and fell in love with an amazing woman who would become my wife. Pixar went on to create the world’s first computer animated feature film, _Toy Story_, and is now the most successful animation studio in the world. In a remarkable turn of events, Apple bought NeXT, I returned to Apple, and the technology we developed at NeXT is at the heart of Apple’s current renaissance. And Laurene and I have a wonderful family together.
 
 I’m pretty sure none of this would have happened if I hadn’t been fired from Apple. It was awful tasting medicine, but I guess the patient needed it. Sometimes life hits you in the head with a brick. Don’t lose faith. I’m convinced that the only thing that kept me going was that I loved what I did. You’ve got to find what you love. And that is as true for your work as it is for your lovers. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it. And, like any great relationship, it just gets better and better as the years roll on. So keep looking until you find it. Don’t settle.
 
@@ -66,9 +66,9 @@ No one wants to die. Even people who want to go to heaven don’t want to die to
 
 Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma — which is living with the results of other people’s thinking. Don’t let the noise of others’ opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.
 
-When I was young, there was an amazing publication called *The Whole Earth Catalog*, which was one of the bibles of my generation. It was created by a fellow named Stewart Brand not far from here in Menlo Park, and he brought it to life with his poetic touch. This was in the late 1960s, before personal computers and desktop publishing, so it was all made with typewriters, scissors and Polaroid cameras. It was sort of like Google in paperback form, 35 years before Google came along: It was idealistic, and overflowing with neat tools and great notions.
+When I was young, there was an amazing publication called _The Whole Earth Catalog_, which was one of the bibles of my generation. It was created by a fellow named Stewart Brand not far from here in Menlo Park, and he brought it to life with his poetic touch. This was in the late 1960s, before personal computers and desktop publishing, so it was all made with typewriters, scissors and Polaroid cameras. It was sort of like Google in paperback form, 35 years before Google came along: It was idealistic, and overflowing with neat tools and great notions.
 
-Stewart and his team put out several issues of *The Whole Earth Catalog*, and then when it had run its course, they put out a final issue. It was the mid-1970s, and I was your age. On the back cover of their final issue was a photograph of an early morning country road, the kind you might find yourself hitchhiking on if you were so adventurous. Beneath it were the words: “Stay Hungry. Stay Foolish.” It was their farewell message as they signed off. Stay Hungry. Stay Foolish. And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.
+Stewart and his team put out several issues of _The Whole Earth Catalog_, and then when it had run its course, they put out a final issue. It was the mid-1970s, and I was your age. On the back cover of their final issue was a photograph of an early morning country road, the kind you might find yourself hitchhiking on if you were so adventurous. Beneath it were the words: “Stay Hungry. Stay Foolish.” It was their farewell message as they signed off. Stay Hungry. Stay Foolish. And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.
 
 Stay Hungry. Stay Foolish.
 
@@ -88,17 +88,17 @@ Thank you all very much.
 
 当时的里得大学提供可能是全国最好的书法指导。校园中每一张海报，抽屉上的每一张标签，都是漂亮的手写体。由于我已退学，不用修那些必修课，我决定选一门书法课上上。在这门课上，我学会了“serif”和"sans-serif"两种字体、学会了怎样在不同的字母组合中改变字间距、学会了怎样写出好的字来。这是一种科学无法捕捉的微妙，楚楚动人、充满历史底蕴和艺术性，我觉得自己被完全吸引了。
 
-当时我并不指望书法在以后的生活中能有什么实用价值。但是，十年之后，我们在设计第一台Macintosh计算机时，它一下子浮现在我眼前。于是，我们把这些东西全都设计进了计算机中。这是第一台有这么漂亮的文字版式的计算机。要不是我当初在大学里偶然选了这么一门课，Macintosh计算机绝不会有那么多种印刷字体或间距安排合理的字号。要不是Windows照搬了Macintosh，个人电脑可能不会有这些字体和字号。要不是退了学，我决不会碰巧选了这门书法课，个人电脑也可能不会有现在这些漂亮的版式了。
+当时我并不指望书法在以后的生活中能有什么实用价值。但是，十年之后，我们在设计第一台 Macintosh 计算机时，它一下子浮现在我眼前。于是，我们把这些东西全都设计进了计算机中。这是第一台有这么漂亮的文字版式的计算机。要不是我当初在大学里偶然选了这么一门课，Macintosh 计算机绝不会有那么多种印刷字体或间距安排合理的字号。要不是 Windows 照搬了 Macintosh，个人电脑可能不会有这些字体和字号。要不是退了学，我决不会碰巧选了这门书法课，个人电脑也可能不会有现在这些漂亮的版式了。
 
 当然，我在大学里不可能从这一点上看到它与将来的关系。十年之后再回头看，两者之间关系就非常、非常清楚了。你们同样不可能从现在这个点上看到将来；只有回头看时，才会发现它们之间的关系。所以你必须相信，那些点点滴滴，会在你未来的生命里，以某种方式串联起来。你必须相信一些东西--你的勇气、宿命、生活、因缘，随便什么--因为相信这些点滴能够一路连接会给你带来循从本觉的自信，它使你走离平凡，变得与众不同。
 
 第二个故事是关于爱与失的。
 
-我很幸运。很早就发现自己喜欢做的事情。我二十岁的时候就和沃茨在父母的车库里开创了苹果公司。我们工作得很努力，十年后，苹果公司成长为拥有四千名员工，价值二十亿的大公司。我们只是推出了最好的创意，Macintosh操作系统，在这之前的一年，也就是我刚过三十岁，我被解雇了。你怎么可能被一个亲手创立的公司解雇？事情是这样的，在公司成长期间，雇佣了一个我们认为非常聪明，可以和我一起经营公司的人。一年后，我们对公司未来的看法产生分歧，董事会站在了他的一边。于是，在我三十岁的时候，我出局了，很公开地出局了。我整个成年生活的焦点没了，这很要命。一开始的几个月我真的不知道该干什么。我觉得我让公司的前一代创建者们失望了，我把传给我的权杖给弄丢了。我与戴维德-帕珂德和鲍勃-诺埃斯见面，试图为这彻头彻尾的失败道歉。我败得如此之惨以至于我想要逃离这儿。有些东西在呼唤我：我还爱着我从事的行业。这次失败一点儿都没有改变这一点。我被逐了，但我仍爱着。我决定重新开始。
+我很幸运。很早就发现自己喜欢做的事情。我二十岁的时候就和沃茨在父母的车库里开创了苹果公司。我们工作得很努力，十年后，苹果公司成长为拥有四千名员工，价值二十亿的大公司。我们只是推出了最好的创意，Macintosh 操作系统，在这之前的一年，也就是我刚过三十岁，我被解雇了。你怎么可能被一个亲手创立的公司解雇？事情是这样的，在公司成长期间，雇佣了一个我们认为非常聪明，可以和我一起经营公司的人。一年后，我们对公司未来的看法产生分歧，董事会站在了他的一边。于是，在我三十岁的时候，我出局了，很公开地出局了。我整个成年生活的焦点没了，这很要命。一开始的几个月我真的不知道该干什么。我觉得我让公司的前一代创建者们失望了，我把传给我的权杖给弄丢了。我与戴维德-帕珂德和鲍勃-诺埃斯见面，试图为这彻头彻尾的失败道歉。我败得如此之惨以至于我想要逃离这儿。有些东西在呼唤我：我还爱着我从事的行业。这次失败一点儿都没有改变这一点。我被逐了，但我仍爱着。我决定重新开始。
 
-当时我没有看出来，但事实证明“被苹果开除”是发生在我身上最好的事。成功的重担被重新起步的轻松替代，对任何事情都不再特别看重。这让我感觉如此自由，进入一生中最有创造力的阶段。接下来的五年，我创立了一个叫NeXT的公司，接着又建立了Pixar，然后与后来成为我妻子的女人相爱。Pixar出品了世界第一个电脑动画电影：“玩具总动员”，现在它已经是世界最成功的动画制作工作室了。
+当时我没有看出来，但事实证明“被苹果开除”是发生在我身上最好的事。成功的重担被重新起步的轻松替代，对任何事情都不再特别看重。这让我感觉如此自由，进入一生中最有创造力的阶段。接下来的五年，我创立了一个叫 NeXT 的公司，接着又建立了 Pixar，然后与后来成为我妻子的女人相爱。Pixar 出品了世界第一个电脑动画电影：“玩具总动员”，现在它已经是世界最成功的动画制作工作室了。
 
-在一系列的成功运转后，苹果收购了NeXT，我又回到了苹果。我们在NeXT开发的技术在苹果的复兴中起了核心作用，另外劳琳和我组建了一个幸福的家庭。
+在一系列的成功运转后，苹果收购了 NeXT，我又回到了苹果。我们在 NeXT 开发的技术在苹果的复兴中起了核心作用，另外劳琳和我组建了一个幸福的家庭。
 
 我非常确信，如果我没有被苹果炒掉，这些就都不会发生。这个药的味道太糟了，但是我想病人需要它。有些时候，生活会给你迎头一棒。不要丧失信心。我确信唯一让我一路走下来的是我对自己所做事情的热爱。你必须去找你热爱的东西，对工作如此，对你的爱人也是这样的。工作会占据你生命中很大的一部分，你只有相信自己做的是伟大的工作，你才能怡然自得。如果你还没有找到，那么就继续找，不要停。全心全意地找，当你找到时，你会知道的。就像任何真诚的关系，随着时间的流逝，只会越来越紧密。所以继续找，不要停。
 
@@ -112,6 +112,6 @@ Thank you all very much.
 
 这是我最接近死亡的时候，我也希望是我未来几十年里最接近死亡的一次。这次死里逃生让我比以往只知道死亡是一个有用而纯粹书面概念的时候更确信地告诉你们，没有人愿意死，即使那些想上天堂的人们也不愿意通过死亡来达到他们的目的。但是死亡是每个人共同的终点，没有人能够逃脱。也应该如此，因为死亡很可能是生命最好的发明。它去陈让新。现在，你们就是“新”。但是有一天，不用太久，你们有会慢慢变老然后死去。抱歉，这很戏剧性，但却是真的。你们的时间是有限的，不要浪费在重复别人的生活上。不要被教条束缚，那意味着会和别人思考的结果一块儿生活。不要被其他人的喧嚣观点掩盖自己内心真正的声音。你的直觉和内心知道你想要变成什么样子。所有其他东西都是次要的。
 
-我年轻的时候，有一份叫做“完整地球目录”的好杂志，是我们这一代人的圣经之一。它是一个叫斯纠华特-布兰得，住在离这不远的曼罗公园的家伙创立的。他用诗一般的触觉将这份杂志带到世界。那是六十年代后期，个人电脑出现之前，所以这份杂志全是用打字机、剪刀和偏光镜制作的。有点像软皮包装的Google，不过却早了三十五年。它理想主义，全文充斥着灵巧的工具和伟大的想法。斯纠华特和他的小组出版了几期“完整地球目录”，在完成使命之前，他们出版了最后一期。那是七十年代中期，我和你们差不多大。最后一期的封底是一张清晨乡村小路的照片，如果你有冒险精神，可以自己找到这条路。下面有一句话，“求知若渴，虚心若谷”。这是他们的告别语，“求知若渴，虚心若谷”。我常以此勉励自己。现在，在你们即将踏上新旅程的时候，我也希望你们能这样。
+我年轻的时候，有一份叫做“完整地球目录”的好杂志，是我们这一代人的圣经之一。它是一个叫斯纠华特-布兰得，住在离这不远的曼罗公园的家伙创立的。他用诗一般的触觉将这份杂志带到世界。那是六十年代后期，个人电脑出现之前，所以这份杂志全是用打字机、剪刀和偏光镜制作的。有点像软皮包装的 Google，不过却早了三十五年。它理想主义，全文充斥着灵巧的工具和伟大的想法。斯纠华特和他的小组出版了几期“完整地球目录”，在完成使命之前，他们出版了最后一期。那是七十年代中期，我和你们差不多大。最后一期的封底是一张清晨乡村小路的照片，如果你有冒险精神，可以自己找到这条路。下面有一句话，“求知若渴，虚心若谷”。这是他们的告别语，“求知若渴，虚心若谷”。我常以此勉励自己。现在，在你们即将踏上新旅程的时候，我也希望你们能这样。
 
 求知若渴，虚心若谷。

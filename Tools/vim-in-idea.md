@@ -1,8 +1,8 @@
 ---
 title: vim-in-idea
 date: 2023/04/06/ 11:49:42
-discription: 
- tags:
+discription:
+  tags:
 updated:
 type:
 comments:
@@ -22,7 +22,7 @@ cover:
 
 https://github.com/JetBrains/ideavim
 
-## Wiki of  ideavim
+## Wiki of ideavim
 
 https://github.com/JetBrains/ideavim/wiki
 
@@ -813,16 +813,14 @@ sb.append("b");
 
 And other features provided by the plugins.
 
-
-
 ## List of Supported Set Commands
 
 The following `:set` commands can appear in `~/.ideavimrc` or be set manually in the command mode:
 
 ```txt
 'clipboard'      'cb'       clipboard options
-                            Standard clipboard options plus 
-                            
+                            Standard clipboard options plus
+
                             `ideaput`  (default on)   - IdeaVim ONLY
                             enable native idea paste action for put operations
 
@@ -900,17 +898,17 @@ IdeaVim only commands:
 
                  If true, creation of global mark will trigger creation of IDE's bookmark
                  and vice versa.
-                 
+
 `idearefactormode` `idearefactormode` String(default "select")
 
              Define the mode that would be enabled during
              the refactoring (renaming, live template, introduce variable, etc)
-             
+
              Use one of the following values:
              - keep  - keep the mode that was enabled before starting a refactoring
              - select - start refactoring in select mode
              - visual - start refactoring in visual mode
-             
+
              This option has effect if you are in normal, insert or replace mode before refactoring start.
              Visual or select mode are not changed.
 
@@ -919,11 +917,11 @@ IdeaVim only commands:
 
               If true, join command will be performed via IDE
               See wiki/`ideajoin` examples
-              
+
 `ideastatusicon`  `ideastatusicon` String(default "enabled")
 
              Define the behavior of IdeaVim icon in the status bar.
-             
+
              Use one of the following values:
              - enabled - icon is shown in the status bar
              - gray - use the gray version of the icon
@@ -935,25 +933,24 @@ IdeaVim only commands:
               This feature exists because some IJ options like "Prettier on save" or "ESlint on save"
                    work only with "save all" action. If this option is set to "all", these actions work
                    also with ":w" command.
-              
+
 `lookupkeys`    `lookupkeys`   List of strings
 
               List of keys that should be processed by the IDE during the active lookup (autocompletion).
               For example, <Tab> and <Enter> are used by the IDE to finish the lookup,
                     but <C-W> should be passed to IdeaVim.
-              Default value: 
+              Default value:
                     "<Tab>", "<Down>", "<Up>", "<Enter>", "<Left>", "<Right>",
                     "<C-Down>", "<C-Up>", "<PageUp>", "<PageDown>",
                     "<C-J>", "<C-Q>"
-                 
+
 `ideavimsupport`  `ideavimsupport`  List of strings (default "dialog")
-              
+
               Define the list of additional buffers where IdeaVim is enabled.
-              
+
               - dialog - enable IdeaVim in dialogs
               - singleline - enable IdeaVim in single line editors (not suggested)
 
 ----------
 [1] - cursor keys, <End>, <Home>, <PageUp> and <PageDown>
 ```
-

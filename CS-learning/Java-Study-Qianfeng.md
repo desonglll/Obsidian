@@ -2,11 +2,11 @@
 title: 千锋Java学习
 date: 2022/07/16/ 11:17:25
 categories: 后端学习
-tags: 
-updated: 
+tags:
+updated:
 type:
 comments:
-description: 
+description:
 keywords:
 top_img:
 mathjax: true
@@ -14,15 +14,15 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
-sticky: 
+sticky:
 cover: https://pic.3gbizhi.com/2020/0414/thumb_1680_0_20200414032900672.jpg
 ---
 
-- [Java实用代码](#java实用代码)
+- [Java 实用代码](#java实用代码)
   - [Java 整数字符串字符数组互相转化](#java-整数字符串字符数组互相转化)
-    - [1.char数组(字符数组)-\>字符串](#1char数组字符数组-字符串)
+    - [1.char 数组(字符数组)-\>字符串](#1char数组字符数组-字符串)
     - [2. 字符串数组-\>字符串](#2-字符串数组-字符串)
-    - [3. 字符串-\>char数组(字符数组)](#3-字符串-char数组字符数组)
+    - [3. 字符串-\>char 数组(字符数组)](#3-字符串-char数组字符数组)
     - [4. 逆序](#4-逆序)
     - [5. int -\> String](#5-int---string)
     - [6. String -\> int](#6-string---int)
@@ -31,7 +31,7 @@ cover: https://pic.3gbizhi.com/2020/0414/thumb_1680_0_20200414032900672.jpg
   - [030 选择排序算法](#030-选择排序算法)
   - [031 插入排序](#031-插入排序)
   - [032 二分查找法](#032-二分查找法)
-  - [033 Array工具类](#033-array工具类)
+  - [033 Array 工具类](#033-array工具类)
   - [034 - 036 双色球案例](#034---036-双色球案例)
 - [037-075 面向对象](#037-075-面向对象)
   - [037 面向对象基本概念](#037-面向对象基本概念)
@@ -40,11 +40,11 @@ cover: https://pic.3gbizhi.com/2020/0414/thumb_1680_0_20200414032900672.jpg
   - [040 面向对象封装性](#040-面向对象封装性)
   - [041 成员变量和局部变量](#041-成员变量和局部变量)
   - [042 构造方法](#042-构造方法)
-  - [043 this关键字](#043-this关键字)
+  - [043 this 关键字](#043-this关键字)
   - [044 值传递与引用传递](#044-值传递与引用传递)
   - [045 对象的一对一关系](#045-对象的一对一关系)
-  - [046 static关键字修饰属性和方法](#046-static关键字修饰属性和方法)
-  - [047 完整内存结构图与main方法详解](#047-完整内存结构图与main方法详解)
+  - [046 static 关键字修饰属性和方法](#046-static关键字修饰属性和方法)
+  - [047 完整内存结构图与 main 方法详解](#047-完整内存结构图与main方法详解)
   - [048 代码块](#048-代码块)
   - [049 单例设计模式](#049-单例设计模式)
     - [1. 饿汉式](#1-饿汉式)
@@ -57,17 +57,17 @@ cover: https://pic.3gbizhi.com/2020/0414/thumb_1680_0_20200414032900672.jpg
     - [创建子类对象时，父类的构造方法也会被调用，为什么？](#创建子类对象时父类的构造方法也会被调用为什么)
     - [当父类中没有无参构造方法时，子类必须显示的调用父类的带参构造方法](#当父类中没有无参构造方法时子类必须显示的调用父类的带参构造方法)
   - [053 继承小结](#053-继承小结)
-  - [054 方法重写与super关键字](#054-方法重写与super关键字)
-    - [Overloading和Overriding的区别](#overloading和overriding的区别)
+  - [054 方法重写与 super 关键字](#054-方法重写与super关键字)
+    - [Overloading 和 Overriding 的区别](#overloading和overriding的区别)
   - [055 继承的应用示例](#055-继承的应用示例)
-  - [056 fianl关键字](#056-fianl关键字)
+  - [056 fianl 关键字](#056-fianl关键字)
   - [057 抽象类的基本概念](#057-抽象类的基本概念)
   - [058 接口的基本概念](#058-接口的基本概念)
   - [059 面向对象的多态性](#059-面向对象的多态性)
-  - [060 instanceof关键字](#060-instanceof关键字)
+  - [060 instanceof 关键字](#060-instanceof关键字)
   - [061 抽象类应用之模板方法设计模式](#061-抽象类应用之模板方法设计模式)
   - [062 接口应用之策略设计模式](#062-接口应用之策略设计模式)
-  - [063 Object类](#063-object类)
+  - [063 Object 类](#063-object类)
   - [064 简单工厂设计模式](#064-简单工厂设计模式)
   - [065 静态代理设计模式](#065-静态代理设计模式)
   - [066 适配器设计模式](#066-适配器设计模式)
@@ -77,33 +77,28 @@ cover: https://pic.3gbizhi.com/2020/0414/thumb_1680_0_20200414032900672.jpg
   - [074 基本数据类型包装类](#074-基本数据类型包装类)
   - [075 包与访问修饰符](#075-包与访问修饰符)
 - [076-081 Eclipse](#076-081-eclipse)
-  - [076 Eclipse开发工具基本使用](#076-eclipse开发工具基本使用)
+  - [076 Eclipse 开发工具基本使用](#076-eclipse开发工具基本使用)
   - [077 异常概念与简单使用](#077-异常概念与简单使用)
-  - [078 try catch finally的使用](#078-try-catch-finally的使用)
-  - [079 throw throws与异常规则](#079-throw-throws与异常规则)
-  - [080 自定义异常与assert](#080-自定义异常与assert)
-  - [081 新特性与debug技术](#081-新特性与debug技术)
+  - [078 try catch finally 的使用](#078-try-catch-finally的使用)
+  - [079 throw throws 与异常规则](#079-throw-throws与异常规则)
+  - [080 自定义异常与 assert](#080-自定义异常与assert)
+  - [081 新特性与 debug 技术](#081-新特性与debug技术)
 - [082-096 API](#082-096-api)
-  - [082 String类原理分析](#082-string类原理分析)
-  - [083 String常用方法介绍](#083-string常用方法介绍)
-  - [084 StringBuffer源码分析与常用方法](#084-stringbuffer源码分析与常用方法)
-  - [085 StringBuilder分析](#085-stringbuilder分析)
-        - [面试题：StringBuffer与StringBuilder的区别](#面试题stringbuffer与stringbuilder的区别)
-  - [086 程序国际化Local与属性文件](#086-程序国际化local与属性文件)
-        - [Locale类](#locale类)
-        - [使用此类中的构造方法来创建 Locale](#使用此类中的构造方法来创建-locale)
-        - [通过静态方法创建Locale](#通过静态方法创建locale)
-        - [ResourceBundle类](#resourcebundle类)
-  - [087 程序国际化ResourceBundle与动态文本处理](#087-程序国际化resourcebundle与动态文本处理)
-  - [088 Math与Random类](#088-math与random类)
+  - [082 String 类原理分析](#082-string类原理分析)
+  - [083 String 常用方法介绍](#083-string常用方法介绍)
+  - [084 StringBuffer 源码分析与常用方法](#084-stringbuffer源码分析与常用方法)
+  - [085 StringBuilder 分析](#085-stringbuilder分析) - [面试题：StringBuffer 与 StringBuilder 的区别](#面试题stringbuffer与stringbuilder的区别)
+  - [086 程序国际化 Local 与属性文件](#086-程序国际化local与属性文件) - [Locale 类](#locale类) - [使用此类中的构造方法来创建 Locale](#使用此类中的构造方法来创建-locale) - [通过静态方法创建 Locale](#通过静态方法创建locale) - [ResourceBundle 类](#resourcebundle类)
+  - [087 程序国际化 ResourceBundle 与动态文本处理](#087-程序国际化resourcebundle与动态文本处理)
+  - [088 Math 与 Random 类](#088-math与random类)
 
 <iframe src="//player.bilibili.com/player.html?aid=883829806&bvid=BV1FK4y1x7Ny&cid=405715221&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-## Java实用代码
+## Java 实用代码
 
 ### Java 整数字符串字符数组互相转化
 
-#### 1.char数组([字符数组](https://so.csdn.net/so/search?q=字符数组&spm=1001.2101.3001.7020))->字符串
+#### 1.char 数组([字符数组](https://so.csdn.net/so/search?q=字符数组&spm=1001.2101.3001.7020))->字符串
 
 ```java
   //char数组(字符数组)->字符串
@@ -130,7 +125,7 @@ cover: https://pic.3gbizhi.com/2020/0414/thumb_1680_0_20200414032900672.jpg
         System.out.println(sb1);    //0123sb12f
 ```
 
-#### 3. 字符串->char数组(字符数组)
+#### 3. 字符串->char 数组(字符数组)
 
 ```java
    //字符串->char数组(字符数组)
@@ -311,7 +306,7 @@ public class BinarySearch {
 
 ```
 
-### 033 Array工具类
+### 033 Array 工具类
 
 - Arrays.toString()
 - Arrays.sort()
@@ -358,7 +353,7 @@ public class ArrayClass {
         //Equal.
         System.out.println(Arrays.equals(num, num2));
 
-    
+
         //Fill array.
         Arrays.fill(newNum, 0);
         System.out.println(Arrays.toString(newNum));
@@ -527,17 +522,17 @@ public class TwoColorBall {
 
 ### 042 构造方法
 
-### 043 this关键字
+### 043 this 关键字
 
 ### 044 值传递与引用传递
 
 ### 045 对象的一对一关系
 
-### 046 static关键字修饰属性和方法
+### 046 static 关键字修饰属性和方法
 
-### 047 完整内存结构图与main方法详解
+### 047 完整内存结构图与 main 方法详解
 
-- String[] args默认是空的数组，长度为0
+- String[] args 默认是空的数组，长度为 0
 
 ### 048 代码块
 
@@ -619,7 +614,7 @@ class Singleton2 {
 
 - 继承：继承是从已有的类创建新类的过程
 - 继承一个父类，只能继承非私有的数据（属性和方法）
-- protected访问权限修饰符，在继承关系中使用，在父类中使用protected修饰的属性或方法可以被子类继承
+- protected 访问权限修饰符，在继承关系中使用，在父类中使用 protected 修饰的属性或方法可以被子类继承
 
 #### 创建子类对象时，父类的构造方法也会被调用，为什么？
 
@@ -629,36 +624,36 @@ class Singleton2 {
 
 #### 当父类中没有无参构造方法时，子类必须显示的调用父类的带参构造方法
 
-- 可以在子类中显示的使用super（），只能出现在第一句
+- 可以在子类中显示的使用 super（），只能出现在第一句
 
 ### 053 继承小结
 
 - 调用构造方法不一定是创建对象
 - 开发原则：高内聚，低耦合
 
-### 054 方法重写与super关键字
+### 054 方法重写与 super 关键字
 
-#### Overloading和Overriding的区别
+#### Overloading 和 Overriding 的区别
 
 - overloading：方法的重载，发生在同一个类中，方法名相同，参数列表不同，返回值无关
 
-- overriding：方法的重写，发生在子父类中，方法名相同，参数列表相同，返回值相同，子类的访问修饰符要大于或等于父类的访问修饰符，子类的异常声明必须小于或等于父类的异常声明。如果方法被private，static，final修饰，那么不能被重写。
+- overriding：方法的重写，发生在子父类中，方法名相同，参数列表相同，返回值相同，子类的访问修饰符要大于或等于父类的访问修饰符，子类的异常声明必须小于或等于父类的异常声明。如果方法被 private，static，final 修饰，那么不能被重写。
 
-this表示当前对象
+this 表示当前对象
 
-使用super来调用父类的属性，方法和构造方法
+使用 super 来调用父类的属性，方法和构造方法
 
 ### 055 继承的应用示例
 
-### 056 fianl关键字
+### 056 fianl 关键字
 
-1. 使用final声明一个属性，就是常量，常量的命名规则建议使用全大写，常量必须在定义时或在构造器中初始化
-2. 使用final声明的方法，不能被子类重写，只能被继承
-3. 使用final声明的类，该类就转变为最终类，没有子类的类，final修饰的类无法被继承
+1. 使用 final 声明一个属性，就是常量，常量的命名规则建议使用全大写，常量必须在定义时或在构造器中初始化
+2. 使用 final 声明的方法，不能被子类重写，只能被继承
+3. 使用 final 声明的类，该类就转变为最终类，没有子类的类，final 修饰的类无法被继承
 
 ### 057 抽象类的基本概念
 
-抽象类：用abstract关键字声明的类称为抽象类
+抽象类：用 abstract 关键字声明的类称为抽象类
 
 很多具有相同特征和行为的对象可以抽象为一个类，很多具有相同特征和行为的类可以抽象为一个抽象类
 
@@ -671,7 +666,7 @@ this表示当前对象
 - 方法的重载与重写
 - 对象的多态性
 
-### 060 instanceof关键字
+### 060 instanceof 关键字
 
 当我们需要把父类的实例强制转换为子类引用时，为了避免类型转换异常 `java.lang.ClassCastException` ，那么我们需要在转换之前作类型检查（判断）
 
@@ -696,11 +691,11 @@ if(homeChicken instanceof Chicken){
 - 多用封装
 - 少用继承
 
-### 063 Object类
+### 063 Object 类
 
-- Objiect类 是类层次结构的根类
-- 每个类都使用 Object作为超类。所有对象（包括数组）都实现这个类的方法
-- 所有类都是Object类的子类。
+- Objiect 类 是类层次结构的根类
+- 每个类都使用 Object 作为超类。所有对象（包括数组）都实现这个类的方法
+- 所有类都是 Object 类的子类。
 
 public String toString() 方法
 
@@ -737,7 +732,7 @@ public boolean equals(Object obj)
 
 1、方法内部类只能在定义该内部类的方法内实例化，不可以在此方法外对其实例化。
 
-2、方法内部类对象不能使用该内部类所在质法的非final局部变量。
+2、方法内部类对象不能使用该内部类所在质法的非 final 局部变量。
 
 3、静态内部类：在一个类内部定义一个静态内部类，静态的含义是该内部类可以像其他静态成员一样，没有外部类对象时，也能够访问它。静态嵌套类仅能访问外部类的静态成员和方法。
 
@@ -944,7 +939,7 @@ class NodeManager {
 
 ### 075 包与访问修饰符
 
-OO原则总结
+OO 原则总结
 
 （1）开闭原则
 
@@ -976,23 +971,23 @@ OO原则总结
 
 ## 076-081 Eclipse
 
-### 076 Eclipse开发工具基本使用
+### 076 Eclipse 开发工具基本使用
 
 ### 077 异常概念与简单使用
 
 异常是阻止当前方法或作用域继续执行的问题，在程序中导致程序中断运行的一些指令。
 
-1、 Throwable是异常的基类，分为Error和Exception，在编程中我们关注Exception
+1、 Throwable 是异常的基类，分为 Error 和 Exception，在编程中我们关注 Exception
 
-2、 Exception分为编译期异常（受检）和运行期异常（非受检）
+2、 Exception 分为编译期异常（受检）和运行期异常（非受检）
 
 3、异常会导致程序中断，无法继续执行
 
-4、在开发中，我们需要把可能出现异常的代码使用try语句块包裏起来
+4、在开发中，我们需要把可能出现异常的代码使用 try 语句块包裏起来
 
 5、处理异常可以让程序保持运行状态
 
-6、catch可以有多个，顺序为从子类到父类，大的放后面，小的放前面
+6、catch 可以有多个，顺序为从子类到父类，大的放后面，小的放前面
 
 - ArithmeticException
 
@@ -1008,7 +1003,7 @@ OO原则总结
 - DataFormatException
 - ClassCastException
 
-### 078 try catch finally的使用
+### 078 try catch finally 的使用
 
 **ExceptionDemo**
 
@@ -1059,11 +1054,11 @@ public class ExceptionDemo {
 
 ```
 
-### 079 throw throws与异常规则
+### 079 throw throws 与异常规则
 
-**throws**关键字主要在方法的声明上使用，表示方法中不处理异常，而交给调用处处理。实际上对于Java程序来讲，如果没有加入任何的异常处理，默认由JVM进行异常的处理操作。
+**throws**关键字主要在方法的声明上使用，表示方法中不处理异常，而交给调用处处理。实际上对于 Java 程序来讲，如果没有加入任何的异常处理，默认由 JVM 进行异常的处理操作。
 
-**throw**关键字表示在程序中手动抛出一个异常，因为从异常处理机制来看，所有的异常一旦产生之后，实际上抛出的就是一个异常类的实例化对象，那么此对象也可以由throw直接抛出。
+**throw**关键字表示在程序中手动抛出一个异常，因为从异常处理机制来看，所有的异常一旦产生之后，实际上抛出的就是一个异常类的实例化对象，那么此对象也可以由 throw 直接抛出。
 
 ```java
 public static int div2(int a, int b) throws ArithmeticException {
@@ -1088,9 +1083,9 @@ public static void input() {
 }
 ```
 
-### 080 自定义异常与assert
+### 080 自定义异常与 assert
 
-在Java中，己经提供了很多的异常类的定义，但是我们在实际项目开发中，可能需要使用一些自己的异常类，那么可以通过继承Exception类或己有的异常类的方式完成一个自定义异常类的操作。
+在 Java 中，己经提供了很多的异常类的定义，但是我们在实际项目开发中，可能需要使用一些自己的异常类，那么可以通过继承 Exception 类或己有的异常类的方式完成一个自定义异常类的操作。
 
 ```java
 /**
@@ -1115,22 +1110,22 @@ public class MyException extends Exception {
 
 **受检异常：Exception**
 
-定义方法时必须南明所有可能会抛出的exception：在调用这个方法时，必须捕获它的checked exception，不然就得把它的exception传递下去：exception是从java.lang.Exception类衍生出来的。例如：IOException,SQ LException就属于 Exception
+定义方法时必须南明所有可能会抛出的 exception：在调用这个方法时，必须捕获它的 checked exception，不然就得把它的 exception 传递下去：exception 是从 java.lang.Exception 类衍生出来的。例如：IOException,SQ LException 就属于 Exception
 
 **非受检异常：RuntimeException**
 
-在定义方法时不需要声明会抛出runtime exception：在调用这个方法时不需要捕获这个runtime exception； runtime exception是 Mjava.lang.RuntimeException或java.lang.Error类衍生出来的。例如：Null PointException, IndexOutOfBoundsException就属于 runtime
+在定义方法时不需要声明会抛出 runtime exception：在调用这个方法时不需要捕获这个 runtime exception； runtime exception 是 Mjava.lang.RuntimeException 或 java.lang.Error 类衍生出来的。例如：Null PointException, IndexOutOfBoundsException 就属于 runtime
 exception
 
-Exception与RuntimeException
+Exception 与 RuntimeException
 
-Exception：受检异常，在编程期检查，在调用抛出这个异常的方法时，必须显示的使用try catch
+Exception：受检异常，在编程期检查，在调用抛出这个异常的方法时，必须显示的使用 try catch
 
-RuntimException：非受检异常，在运行期检查，在调用抛出这个异常的方法时，可以不显示的使用try catch
+RuntimException：非受检异常，在运行期检查，在调用抛出这个异常的方法时，可以不显示的使用 try catch
 
 在使用自定义异常时，根据实际的业务要求，来决定使用哪个父类
 
-**assert关键字，表示断言**
+**assert 关键字，表示断言**
 
 当程序执行到某个固定位置的时候，程序中的某个变量的取值肯定是预期的结果，那么这种操作可以使用断言完成。
 
@@ -1152,65 +1147,65 @@ public class AssertDemo {
 
 ```
 
-### 081 新特性与debug技术
+### 081 新特性与 debug 技术
 
 ## 082-096 API
 
-### 082 String类原理分析
+### 082 String 类原理分析
 
-1、 String可以表示一个字符串。
+1、 String 可以表示一个字符串。
 
-2、 String类实际是使用字符数组存储的。
+2、 String 类实际是使用字符数组存储的。
 
-String类的两种赋值方式：
+String 类的两种赋值方式：
 
 （1）一种称为直接赋值：
 
 `String name = "小白"`
 
-（2）通过关键字new调用 String的构造方法赋值
+（2）通过关键字 new 调用 String 的构造方法赋值
 
 `String name = new String("小白")`
 
-### 083 String常用方法介绍
+### 083 String 常用方法介绍
 
 - `public char charAt(int index)` 根据下表找到指定的字符
 - `public char[] toCharArray()` 以字符数组的形式返回全部的字符串内容
 - `public String(char[] value)` 将全部的字符数组变为字符串
 - `public String(char[] value, int offset, int count)` 将指定范围内的字符数组变为字符串
 
-### 084 StringBuffer源码分析与常用方法
+### 084 StringBuffer 源码分析与常用方法
 
-StringBuffer目的是来解决字符串相加时带来的性能问题（常量与变量）
+StringBuffer 目的是来解决字符串相加时带来的性能问题（常量与变量）
 
-StringBuffer的内部实现采用字符数组，默认数组的长度为16，超过数组大小时，动态扩充的算法是原来长度*2+2
+StringBuffer 的内部实现采用字符数组，默认数组的长度为 16，超过数组大小时，动态扩充的算法是原来长度\*2+2
 
 所以当我们预支要添加的数据长度时，建议使用带初始化容量的构造方法，来避免动态扩充的次数，从而提高效率
 
 线程安全的，会影响性能
 
-### 085 StringBuilder分析
+### 085 StringBuilder 分析
 
-StringBuffer的兄弟StringBuilder:
+StringBuffer 的兄弟 StringBuilder:
 
-一个可变的字符序列。此类提供一不与 StringBuffer 兼容的 APl，但不保证同步。该类被设计用作 StringBuffer 的一个简易替换，用在字符串缓冲区被单个线程使用的时候（这种情况很普遍）。如果可能，建议优先采用该类，因为在大多数实现中，它比String Buffer要快。
+一个可变的字符序列。此类提供一不与 StringBuffer 兼容的 APl，但不保证同步。该类被设计用作 StringBuffer 的一个简易替换，用在字符串缓冲区被单个线程使用的时候（这种情况很普遍）。如果可能，建议优先采用该类，因为在大多数实现中，它比 String Buffer 要快。
 
-###### 面试题：StringBuffer与StringBuilder的区别
+###### 面试题：StringBuffer 与 StringBuilder 的区别
 
-StringBuffer是线程安全的，性能低，适合在多线程中使用
+StringBuffer 是线程安全的，性能低，适合在多线程中使用
 
-StringBuilder是线程不安全的，性能高，适合在单线程中使用，这种情况占大多数，在jdk1.5以后添加
+StringBuilder 是线程不安全的，性能高，适合在单线程中使用，这种情况占大多数，在 jdk1.5 以后添加
 
 字符串相加操作
 
 1. 多个常量相加，没有性能问题，在编译器优化
 2. 变量与常量相加，会产生多个垃圾对象
 
-字符串相加，在编译后，会使用StringBuilder来优化代码，实现拼接
+字符串相加，在编译后，会使用 StringBuilder 来优化代码，实现拼接
 
-### 086 程序国际化Local与属性文件
+### 086 程序国际化 Local 与属性文件
 
-###### Locale类
+###### Locale 类
 
 Locale 对象表示了特定的地理、政治和文化地区。需要 Locale 来执行其任务的操作称为语言环境敏感的操作，它使用 Locale 为用户量身定制信息。例如，显示一个数值就是语言环境敏感的操作，应该根据用户的国家、地区或文化的风俗/传统来格式化该数值。
 
@@ -1220,7 +1215,7 @@ Locale 对象表示了特定的地理、政治和文化地区。需要 Locale �
 
 `Locale(String language, String country)`
 
-###### 通过静态方法创建Locale
+###### 通过静态方法创建 Locale
 
 `getDefault()`
 
@@ -1235,10 +1230,10 @@ Locale locale_US = new Locale("en", "US");
 Locale locale_default = Locale.getDefault();
 ```
 
-###### ResourceBundle类
+###### ResourceBundle 类
 
-国际化的实现核心在于显示的语言上，通常的做法是将其定义成若干个属性文件（文件后缀是*.properties），属性文件中的格式采用“key=value”的格式进行操作。
-ResourceBundle类表示的是一个资源文件的读取操作，所有的资源文件需要使用ResourceBundle进行读取，读取的时候不需要加上文件的后缀。
+国际化的实现核心在于显示的语言上，通常的做法是将其定义成若干个属性文件（文件后缀是\*.properties），属性文件中的格式采用“key=value”的格式进行操作。
+ResourceBundle 类表示的是一个资源文件的读取操作，所有的资源文件需要使用 ResourceBundle 进行读取，读取的时候不需要加上文件的后缀。
 `getBundle(String baseName)`
 `getBundle(String baseName,Locale locale)`
 `getstring(String key)`
@@ -1263,7 +1258,7 @@ login.success=\u767B\u5F55\u6210\u529F
 login.error=\u767B\u5F55\u9519\u8BEF
 ```
 
-### 087 程序国际化ResourceBundle与动态文本处理
+### 087 程序国际化 ResourceBundle 与动态文本处理
 
 ```java
 ResourceBundle r = ResourceBundle.getBundle("com.vince.info", locale_US);
@@ -1299,4 +1294,4 @@ if("admin".equals(username) && "123".equals(password)){
 }
 ```
 
-### 088 Math与Random类
+### 088 Math 与 Random 类

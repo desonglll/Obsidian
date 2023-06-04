@@ -1,7 +1,7 @@
 ---
 title: 优质博主
 date: 2022/12/24/ 22:57:34
-discription: 
+discription:
 ---
 
 ## vim

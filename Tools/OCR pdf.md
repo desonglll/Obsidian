@@ -1,7 +1,7 @@
 ---
 title: OCR pdf
 date: 2023/05/19/ 11:01:51
-discription: 
+discription:
 tags:
 updated:
 type:
@@ -76,7 +76,7 @@ Install or upgrade the required Homebrew packages, if any are missing. To do thi
 
 This will include the English, French, German and Spanish language packs. If you need other languages you can optionally install them all:
 
-> brew install tesseract-lang  # Option 2: for all language packs
+> brew install tesseract-lang # Option 2: for all language packs
 
 Update the homebrew pip:
 
@@ -115,25 +115,25 @@ ocrmypdf -l eng+fra Bilingual-English-French.pdf Bilingual-English-French.pdf
 
 ocrmypdf has built-in help.
 
-``` bash
+```bash
 ocrmypdf --help
 ```
 
 ### Add an OCR layer and convert to PDF/A
 
-``` bash
+```bash
 ocrmypdf input.pdf output.pdf
 ```
 
 ### Add an OCR layer and output a standard PDF
 
-``` bash
+```bash
 ocrmypdf --output-type pdf input.pdf output.pdf
 ```
 
 ### Create a PDF/A with all color and grayscale images converted to JPEG
 
-``` bash
+```bash
 ocrmypdf --output-type pdfa --pdfa-image-compression jpeg input.pdf output.pdf
 ```
 
@@ -141,7 +141,7 @@ ocrmypdf --output-type pdfa --pdfa-image-compression jpeg input.pdf output.pdf
 
 The file will only be overwritten if OCRmyPDF is successful.
 
-``` bash
+```bash
 ocrmypdf myfile.pdf myfile.pdf
 ```
 
@@ -151,7 +151,7 @@ OCR will attempt to automatic correct the rotation of each page. This
 can help fix a scanning job that contains a mix of landscape and
 portrait pages.
 
-``` bash
+```bash
 ocrmypdf --rotate-pages myfile.pdf myfile.pdf
 ```
 
@@ -174,7 +174,7 @@ angle is wrong.
 OCRmyPDF assumes the document is in English unless told otherwise. OCR
 quality may be poor if the wrong language is used.
 
-``` bash
+```bash
 ocrmypdf -l fra LeParisien.pdf LeParisien.pdf
 ocrmypdf -l eng+fra Bilingual-English-French.pdf Bilingual-English-French.pdf
 ```
@@ -191,7 +191,7 @@ language when it is unknown.
 This produces a file named \"output.pdf\" and a companion text file
 named \"output.txt\".
 
-``` bash
+```bash
 ocrmypdf --sidecar output.txt input.pdf output.pdf
 ```
 
@@ -222,11 +222,11 @@ use a program like Poppler\'s `pdftotext` or `pdfgrep`.
 If you are starting with images, you can just use Tesseract directly to
 convert images to PDFs:
 
-``` bash
+```bash
 tesseract my-image.jpg output-prefix pdf
 ```
 
-``` bash
+```bash
 # When there are multiple images
 tesseract text-file-containing-list-of-image-filenames.txt output-prefix pdf
 ```
@@ -242,7 +242,7 @@ You can also use a program like
 images to PDFs, and then pipe the results to run ocrmypdf. The `-` tells
 ocrmypdf to read standard input.
 
-``` bash
+```bash
 img2pdf my-images*.jpg | ocrmypdf - myfile.pdf
 ```
 
@@ -256,7 +256,7 @@ own. If the resolution (dots per inch, DPI) of an image is not set or is
 incorrect, it can be overridden with `--image-dpi`. (As 1 inch is 2.54
 cm, 1 dpi = 0.39 dpcm).
 
-``` bash
+```bash
 ocrmypdf --image-dpi 300 image.png myfile.pdf
 ```
 
@@ -276,21 +276,21 @@ desired. The same processing is applied to each page. It is suggested
 that the user review files after image processing as these commands
 might remove desirable content, especially from poor quality scans.
 
--   `--rotate-pages` attempts to determine the correct orientation for
-    each page and rotates the page if necessary.
--   `--remove-background` attempts to detect and remove a noisy
-    background from grayscale or color images. Monochrome images are
-    ignored. This should not be used on documents that contain color
-    photos as it may remove them.
--   `--deskew` will correct pages were scanned at a skewed angle by
-    rotating them back into place.
--   `--clean` uses [unpaper](https://www.flameeyes.eu/projects/unpaper)
-    to clean up pages before OCR, but does not alter the final output.
-    This makes it less likely that OCR will try to find text in
-    background noise.
--   `--clean-final` uses unpaper to clean up pages before OCR and
-    inserts the page into the final output. You will want to review each
-    page to ensure that unpaper did not remove something important.
+- `--rotate-pages` attempts to determine the correct orientation for
+  each page and rotates the page if necessary.
+- `--remove-background` attempts to detect and remove a noisy
+  background from grayscale or color images. Monochrome images are
+  ignored. This should not be used on documents that contain color
+  photos as it may remove them.
+- `--deskew` will correct pages were scanned at a skewed angle by
+  rotating them back into place.
+- `--clean` uses [unpaper](https://www.flameeyes.eu/projects/unpaper)
+  to clean up pages before OCR, but does not alter the final output.
+  This makes it less likely that OCR will try to find text in
+  background noise.
+- `--clean-final` uses unpaper to clean up pages before OCR and
+  inserts the page into the final output. You will want to review each
+  page to ensure that unpaper did not remove something important.
 
 ::: note
 ::: title
@@ -315,7 +315,7 @@ should be visually reviewed after using these options.
 
 Deskew:
 
-``` bash
+```bash
 ocrmypdf --deskew input.pdf output.pdf
 ```
 
@@ -324,7 +324,7 @@ are given does not matter. OCRmyPDF always applies the steps of the
 image processing pipeline in the same order (rotate, remove background,
 deskew, clean).
 
-``` bash
+```bash
 ocrmypdf --deskew --clean --rotate-pages input.pdf output.pdf
 ```
 
@@ -334,7 +334,7 @@ If you set `--tesseract-timeout 0` OCRmyPDF will apply its image
 processing without performing OCR, if all you want to is to apply image
 processing or PDF/A conversion.
 
-``` bash
+```bash
 ocrmypdf --tesseract-timeout=0 --remove-background input.pdf output.pdf
 ```
 
@@ -342,7 +342,7 @@ ocrmypdf --tesseract-timeout=0 --remove-background input.pdf output.pdf
 
 You can also optimize all images without performing any OCR:
 
-``` bash
+```bash
 ocrmypdf --tesseract-timeout=0 --optimize 3 --skip-text input.pdf output.pdf
 ```
 
@@ -351,7 +351,7 @@ ocrmypdf --tesseract-timeout=0 --optimize 3 --skip-text input.pdf output.pdf
 You can ask OCRmyPDF to only apply [image processing](#image-processing)
 and OCR to certain pages.
 
-``` bash
+```bash
 ocrmypdf --pages 2,3,13-17 input.pdf output.pdf
 ```
 
@@ -371,7 +371,7 @@ those options. Both of these steps are \"whole file\" operations. In
 this example, we want to OCR only the title and otherwise change the PDF
 as little as possible:
 
-``` bash
+```bash
 ocrmypdf --pages 1 --output-type pdf --optimize 0 input.pdf output.pdf
 ```
 
@@ -386,7 +386,7 @@ This may be helpful for users who want to take advantage of accuracy
 improvements in Tesseract for files they previously OCRed with an
 earlier version of Tesseract and OCRmyPDF.
 
-``` bash
+```bash
 ocrmypdf --redo-ocr input.pdf output.pdf
 ```
 
@@ -430,12 +430,14 @@ The `--optimize N` (short form `-O`) argument controls optimization,
 where `N` ranges from 0 to 3 inclusive, analogous to the optimization
 levels in the GCC compiler.
 
-  Level            Comments
----------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  `--optimize 0`   Disables optimization.
-  `--optimize 1`   Enables lossless optimizations, such as transcoding images to more efficient formats. Also compress other uncompressed objects in the PDF and enables the more efficient \"object streams\" within the PDF. (If `--jbig2-lossy` is issued, then lossy JBIG2 optimization is used. The decision to use lossy JBIG2 is separate from standard optimization settings.)
-  `--optimize 2`   All of the above, and enables lossy optimizations and color quantization.
-  `--optimize 3`   All of the above, and enables more aggressive optimizations and targets lower image quality.
+Level Comments
+
+---
+
+`--optimize 0` Disables optimization.
+`--optimize 1` Enables lossless optimizations, such as transcoding images to more efficient formats. Also compress other uncompressed objects in the PDF and enables the more efficient \"object streams\" within the PDF. (If `--jbig2-lossy` is issued, then lossy JBIG2 optimization is used. The decision to use lossy JBIG2 is separate from standard optimization settings.)
+`--optimize 2` All of the above, and enables lossy optimizations and color quantization.
+`--optimize 3` All of the above, and enables more aggressive optimizations and targets lower image quality.
 
 Optimization is improved when a JBIG2 encoder is available and when
 `pngquant` is installed. If either of these components are missing, then
@@ -447,7 +449,7 @@ inefficient compression modes to more modern versions. A program like
 `qpdf` can be used to change encodings, e.g. to inspect the internals
 for a PDF.
 
-``` bash
+```bash
 ocrmypdf --optimize 3 in.pdf out.pdf  # Make it small
 ```
 

@@ -2,11 +2,11 @@
 title: 千锋Python学习
 date: 2022/08/16/ 11:28:44
 categories: 后端学习
-tags: 
-updated: 
+tags:
+updated:
 type:
 comments:
-description: 
+description:
 keywords:
 top_img:
 mathjax: true
@@ -14,12 +14,11 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
-sticky: 
+sticky:
 cover: https://pic.3gbizhi.com/2020/1106/thumb_1680_0_20201106023719291.jpg
-
 ---
 
-## P9 Python基础实战8-类型转换
+## P9 Python 基础实战 8-类型转换
 
 ```python
 one = input('输入第一个数：)
@@ -36,17 +35,17 @@ print (float (one) float (two)) # 50.0
 
 以变量名：a
 
-str---> int   int(a) 但是如果'9.9'而且是字符串类型转成int的时候报错了
+str---> int int(a) 但是如果'9.9'而且是字符串类型转成 int 的时候报错了
 
-str---> float  float (a)
+str---> float float (a)
 
-int--->str   str(a)
+int--->str str(a)
 
-float----> str  str(a)
+float----> str str(a)
 
-int---> float   float(a)
+int---> float float(a)
 
-float---> int   int(a) 只不过float类型中小数点后面的数字被抹掉了
+float---> int int(a) 只不过 float 类型中小数点后面的数字被抹掉了
 
 ```python
 flag = True
@@ -56,7 +55,7 @@ print (float (flag))
 print (str(flag))   # 'True'
 ```
 
-能否将a转成bool
+能否将 a 转成 bool
 
 ```python
 a = 2
@@ -69,7 +68,7 @@ print(bool(a))
 # 变量的值是：0, '',转换结果是false
 ```
 
-## P10 Python基础实战9-算术运算符
+## P10 Python 基础实战 9-算术运算符
 
 ```python
 a = 1
@@ -92,7 +91,7 @@ print(a, b, c)
 
 `%`表示取模（取余）
 
-## P11 Python基础实战10-赋值运算符
+## P11 Python 基础实战 10-赋值运算符
 
 ```python
 a = 8
@@ -107,9 +106,9 @@ d = 3
 b //= d   # b = b // d
 ```
 
-## P12 Python基础实战11-比较（关系）运算符
+## P12 Python 基础实战 11-比较（关系）运算符
 
-结果True或False
+结果 True 或 False
 
 `> < >= <= == != is`
 

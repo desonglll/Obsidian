@@ -10,7 +10,7 @@ PyPI 镜像在每次同步成功后间隔 5 分钟同步一次。
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ```
 
-注意，`simple` 不能少, 是 `https` 而不是 `http`
+注意，`simple`  不能少, 是  `https`  而不是  `http`
 
 #### 设为默认
 
@@ -29,7 +29,7 @@ python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
 
 #### 配置多个镜像源
 
-如果您想配置多个镜像源平衡负载，可在已经替换 `index-url` 的情况下通过以下方式继续增加源站：
+如果您想配置多个镜像源平衡负载，可在已经替换  `index-url`  的情况下通过以下方式继续增加源站：
 
 ```
 pip config set global.extra-index-url "<url1> <url2>..."
@@ -37,7 +37,7 @@ pip config set global.extra-index-url "<url1> <url2>..."
 
 请自行替换引号内的内容，源地址之间需要有空格
 
-可用的 `pypi` 源列表（校园网联合镜像站）：[https://mirrors.cernet.edu.cn/list/pypi](https://mirrors.cernet.edu.cn/list/pypi)
+可用的  `pypi`  源列表（校园网联合镜像站）：[https://mirrors.cernet.edu.cn/list/pypi](https://mirrors.cernet.edu.cn/list/pypi)
 
 ### PDM
 

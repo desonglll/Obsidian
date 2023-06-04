@@ -1,7 +1,7 @@
 ---
 title: neovim based on lua
 date: 2022/12/08/ 00:22:51
-discription: 
+discription:
 ---
 
 ## Table Of Contents

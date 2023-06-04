@@ -2,11 +2,11 @@
 title: 数据结构代码
 date: 2022/07/10/ 11:29:34
 categories: 后端学习
-tags: 
-updated: 
+tags:
+updated:
 type:
 comments:
-description: 
+description:
 keywords:
 top_img:
 mathjax: true
@@ -14,8 +14,8 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
-sticky: 
-cover: 
+sticky:
+cover:
 ---
 
 ## Currently, we have visualizations for the following data structures and algorithms
@@ -144,7 +144,7 @@ cover:
 ```java
     /* Insertion sort class. */
     public class InsertionSort_Class {
-      
+
         public static void InsertionSort(int[] x) {
             for (int i = 0; i < x.length - 1; i++) {
                 int temp = x[i];
@@ -159,7 +159,7 @@ cover:
                     x[j + 1] = temp;
             }
         }
-      
+
         public static void insertion_sort(int[] x) {
             for (int i = 0; i < x.length; i++) {
                 int smallIndex = findSmallest(x, i);

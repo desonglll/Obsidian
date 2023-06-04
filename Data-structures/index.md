@@ -1,7 +1,7 @@
 ---
 title: index
 date: 2023/05/30/ 19:17:47
-discription: 
+discription:
 tags:
 updated:
 type:

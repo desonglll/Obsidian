@@ -1,10 +1,10 @@
 ---
 title: 我的Mac应用清单以及系统配置整理
 date: 2022/12/24/ 23:22:49
-discription: 
+discription:
 ---
 
-## MacApp下载
+## MacApp 下载
 
 #### <https://macos.one/>
 
@@ -12,7 +12,7 @@ discription:
 
 <https://www.macappbox.com/>
 
-## Mac图标
+## Mac 图标
 
 <https://macosicons.com/>
 
@@ -32,11 +32,11 @@ discription:
 
 #### Final Cut Pro
 
-[Final Cut Pro 10.6.1 中文破解版 (mac最好用的视频剪辑工具](https://macos.one/?id=423)
+[Final Cut Pro 10.6.1 中文破解版 (mac 最好用的视频剪辑工具](https://macos.one/?id=423)
 
 #### Adobe
 
-[Adobe全家桶](https://foxirj.com/topics/adobe)
+[Adobe 全家桶](https://foxirj.com/topics/adobe)
 
 ## UninstallPKG – 免费的 PKG 卸载器，macOS 安装包 .pkg 文件卸载工具
 

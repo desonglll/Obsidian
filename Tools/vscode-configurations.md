@@ -1,25 +1,25 @@
 ---
 title: VScode配置
 date: 2022/09/26/ 15:29:58
-description: 
+description:
 ---
 
-- [User Snippets配置](#user-snippets配置)
+- [User Snippets 配置](#user-snippets配置)
   - [Variables](#variables)
   - [.md file](#md-file)
 - [Google Fonts API](#google-fonts-api)
   - [Noto Sans](#noto-sans)
 - [Personal access tokens (classic)](#personal-access-tokens-classic)
 
-## User Snippets配置
+## User Snippets 配置
 
-[[VS Code]跟我一起在Visual Studio Code 添加自定义snippet（代码段），附详细配置](https://blog.csdn.net/maokelong95/article/details/54379046)
+[[VS Code]跟我一起在 Visual Studio Code 添加自定义 snippet（代码段），附详细配置](https://blog.csdn.net/maokelong95/article/details/54379046)
 
 ### Variables
 
 Variables：变量
 
-使用$name或${name:default}可以插入变量的值。当变量未赋值时（如），将插入其缺省值或空字符串。 当varibale未知（即，其名称未定义）时，将插入变量的名称，并将其转换为「Placeholder」。可以使用的「Variable」如下：
+使用$name或${name:default}可以插入变量的值。当变量未赋值时（如），将插入其缺省值或空字符串。 当 varibale 未知（即，其名称未定义）时，将插入变量的名称，并将其转换为「Placeholder」。可以使用的「Variable」如下：
 
 - TM_SELECTED_TEXT：当前选定的文本或空字符串；
 
@@ -40,7 +40,7 @@ Variables：变量
 - CLIPBOARD：当前剪贴板中内容；
 - WORKSPACE_NAME：当前工作目录的名称（而非完整路径）；
 - WORKSPACE_FOLDER：当前工作目录的路径。
-还有一些用于插入当前时间的变量，这里单独列出：
+  还有一些用于插入当前时间的变量，这里单独列出：
 - CURRENT_YEAR: 当前年份；
 - CURRENT_YEAR_SHORT: 当前年份的后两位；
 - CURRENT_MONTH: 格式化为两位数字的当前月份，如 02；
@@ -56,21 +56,23 @@ Variables：变量
 
 还有一些用于插入随机值的变量：
 
-- RANDOM 6个随机十进制数
+- RANDOM 6 个随机十进制数
 
-- RANDOM_HEX 6个随机十六进制数（小写）
+- RANDOM_HEX 6 个随机十六进制数（小写）
 
-> 注：希望生成大写可用 \${RANDOM_HEX/(.*)/${1:/upcase}/}。具体原理见后续「变量转换」章节。
+> 注：希望生成大写可用 \${RANDOM_HEX/(.\*)/${1:/upcase}/}。具体原理见后续「变量转换」章节。
 
 - UUID 生成 UUIDv4
 
 还有一些用于插入行/块注释的变量，其将根据当前文件的语言模式自动调整：
 
 - BLOCK_COMMENT_START 块注释上半段，输出示例:
+
   - PHP: `/*`
   - HTML: `<!--`
 
 - BLOCK_COMMENT_END 块注释下半段，输出示例:
+
   - PHP: `*/`
   - HTML: `-->`
 
@@ -84,81 +86,79 @@ Variables：变量
 
 ```json
 {
- // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
- // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
- // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
- // used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
- // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
- // Placeholders with the same ids are connected.
- // Example:
- // "Print to console": {
- //  "scope": "javascript,typescript",
- //  "prefix": "log",
- //  "body": [
- //   "console.log('$1');",
- //   "$2"
- //  ],
- //  "description": "Log output to console"
- // }
- "insertDate": {
-  "prefix": "date",
-  "body": "$CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE/ $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND"
- },
- "insertTitle": {
-  "prefix": "title",
-  "body": [
-   "---",
-   "title: $TM_FILENAME_BASE",
-   "date: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE/ $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
-   "categories: $1",
-   "tags: $2",
-   "updated: ",
-   "type:",
-   "comments:",
-   "description: ",
-   "keywords:",
-   "top_img:",
-   "mathjax: true",
-   "katex:",
-   "aside:",
-   "aplayer:",
-   "highlight_shrink:",
-   "sticky: ",
-   "cover: ",
-   "---",
-  ]
- },
- "InsertFileName_BASE": {
-  "prefix": "filename",
-  "body": [
-   "$TM_FILENAME_BASE"
-  ]
- },
+  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  //  "scope": "javascript,typescript",
+  //  "prefix": "log",
+  //  "body": [
+  //   "console.log('$1');",
+  //   "$2"
+  //  ],
+  //  "description": "Log output to console"
+  // }
+  "insertDate": {
+    "prefix": "date",
+    "body": "$CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE/ $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND"
+  },
+  "insertTitle": {
+    "prefix": "title",
+    "body": [
+      "---",
+      "title: $TM_FILENAME_BASE",
+      "date: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE/ $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      "categories: $1",
+      "tags: $2",
+      "updated: ",
+      "type:",
+      "comments:",
+      "description: ",
+      "keywords:",
+      "top_img:",
+      "mathjax: true",
+      "katex:",
+      "aside:",
+      "aplayer:",
+      "highlight_shrink:",
+      "sticky: ",
+      "cover: ",
+      "---"
+    ]
+  },
+  "InsertFileName_BASE": {
+    "prefix": "filename",
+    "body": ["$TM_FILENAME_BASE"]
+  },
   "head": {
-  "prefix": "head",
-  "body": [
-    "---",
-    "title: $TM_FILENAME_BASE",
-    "date: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE/ $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
-    "discription: ",
-    " tags:",
-    "updated:",
-    "type:",
-    "comments:",
-    "description:",
-    "keywords:",
-    "top_img:",
-    "mathjax: true",
-    "katex:",
-    "aside:",
-    "aplayer:",
-    "highlight_shrink:",
-    "sticky:",
-    "cover:",
-    "---"
-  ],
-  "description": ""
-}
+    "prefix": "head",
+    "body": [
+      "---",
+      "title: $TM_FILENAME_BASE",
+      "date: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE/ $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      "discription: ",
+      " tags:",
+      "updated:",
+      "type:",
+      "comments:",
+      "description:",
+      "keywords:",
+      "top_img:",
+      "mathjax: true",
+      "katex:",
+      "aside:",
+      "aplayer:",
+      "highlight_shrink:",
+      "sticky:",
+      "cover:",
+      "---"
+    ],
+    "description": ""
+  }
 }
 ```
 
@@ -172,15 +172,15 @@ Noto Sans Traditional Chinese & Simplified Chinese
 
 ```html
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 </style>
 ```
 
 CSS rules to specify families
 
 ```css
-font-family: 'Noto Sans SC', sans-serif;
-font-family: 'Noto Sans TC', sans-serif;
+font-family: "Noto Sans SC", sans-serif;
+font-family: "Noto Sans TC", sans-serif;
 ```
 
 ## Personal access tokens (classic)

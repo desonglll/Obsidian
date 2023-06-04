@@ -1,7 +1,7 @@
 ---
 title: Index
 date: 2022/12/20/ 19:17:43
-discription: 
+discription:
 ---
 
 ## README

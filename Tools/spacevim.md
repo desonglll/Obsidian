@@ -1,8 +1,8 @@
 ---
 title: spacevim
 date: 2023/04/06/ 11:49:30
-discription: 
- tags:
+discription:
+  tags:
 updated:
 type:
 comments:
@@ -24,11 +24,8 @@ cover:
 curl -sLf https://spacevim.org/install.sh | bash
 ```
 
-
-
 ### Uninstall
 
 ```bash
 curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall
 ```
-

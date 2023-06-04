@@ -1,10 +1,8 @@
-## 查看ubuntu版本
+## 查看 ubuntu 版本
 
 ```
 lsb_release -a
 ```
-
-
 
 ## apt install Neovim
 
@@ -39,4 +37,3 @@ sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update
 sudo apt install fish
 ```
-

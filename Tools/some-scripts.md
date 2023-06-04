@@ -1,8 +1,8 @@
 ## Python
 
-### 给出优化当前文件夹及子文件夹内所有图片的文件大小的python代码
+### 给出优化当前文件夹及子文件夹内所有图片的文件大小的 python 代码
 
-对于优化当前文件夹及其子文件夹中所有图片的文件大小，你可以使用Python的Pillow库（PIL）来重新保存这些图片，选择更高的压缩质量或调整图片的尺寸。以下是一个示例代码，它会递归遍历文件夹并优化所有图片文件的大小：
+对于优化当前文件夹及其子文件夹中所有图片的文件大小，你可以使用 Python 的 Pillow 库（PIL）来重新保存这些图片，选择更高的压缩质量或调整图片的尺寸。以下是一个示例代码，它会递归遍历文件夹并优化所有图片文件的大小：
 
 ```python
 import os
@@ -41,11 +41,9 @@ optimize_images(input_folder, output_folder, quality=80, max_size=(800, 800))
 
 你可以根据需要调整`quality`参数以选择压缩质量，以及使用`max_size`参数调整图片的尺寸。请确保将`input_folder`和`output_folder`替换为实际的文件夹路径。注意，原始文件夹中的图片将不会被修改，而是在`output_folder`中保存优化后的图片。
 
+### 给出转换当前文件夹及子文件夹下所有文件名到大写的 python 代码，不包含后缀名
 
-
-### 给出转换当前文件夹及子文件夹下所有文件名到大写的python代码，不包含后缀名
-
-当使用Python时，可以使用`os`和`os.path`模块来遍历文件夹及其子文件夹，然后使用字符串的`upper()`方法将文件名转换为大写。下面是一个示例代码：
+当使用 Python 时，可以使用`os`和`os.path`模块来遍历文件夹及其子文件夹，然后使用字符串的`upper()`方法将文件名转换为大写。下面是一个示例代码：
 
 ```python
 import os
@@ -68,11 +66,9 @@ convert_filenames_to_uppercase(current_folder)
 
 请确保在运行此代码之前备份重要的文件，以防出现意外情况。
 
+### 给出压缩输入文件夹并显示压缩进度的 python 代码
 
-
-### 给出压缩输入文件夹并显示压缩进度的python代码
-
-要在Python中压缩输入文件夹并显示压缩进度，你可以使用`shutil`和`tqdm`模块。`shutil`模块用于进行文件和文件夹操作，而`tqdm`模块用于显示进度条。以下是一个示例的Python代码：
+要在 Python 中压缩输入文件夹并显示压缩进度，你可以使用`shutil`和`tqdm`模块。`shutil`模块用于进行文件和文件夹操作，而`tqdm`模块用于显示进度条。以下是一个示例的 Python 代码：
 
 ```python
 import shutil
@@ -99,13 +95,11 @@ compress_folder_with_progress(input_folder, output_zip)
 
 请确保在运行此代码之前已经安装了`tqdm`模块，并将`input_folder`和`output_zip`变量替换为实际的文件夹路径和输出压缩文件的路径。
 
-
-
 ## Shell
 
-### 给出压缩输入文件夹并显示压缩进度的shell代码
+### 给出压缩输入文件夹并显示压缩进度的 shell 代码
 
-要压缩输入文件夹并显示压缩进度，你可以使用`pv`命令结合`zip`命令。`pv`是一个用于监视进度的实用程序。以下是一个示例的Shell代码：
+要压缩输入文件夹并显示压缩进度，你可以使用`pv`命令结合`zip`命令。`pv`是一个用于监视进度的实用程序。以下是一个示例的 Shell 代码：
 
 ```shell
 zip -r input_folder.zip input_folder | pv -lep -s $(du -sb input_folder | awk '{print $1}') > /dev/null

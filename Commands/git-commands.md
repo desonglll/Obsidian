@@ -1,43 +1,43 @@
 ---
 title: Github相关的命令
 date: 2022/09/26/ 15:29:12
-description: 
+description:
 ---
 
-- [Github相关](#github相关)
+- [Github 相关](#github相关)
   - [GIT 查看/修改用户名和邮箱地址](#git-查看修改用户名和邮箱地址)
     - [用户名和邮箱地址的作用](#用户名和邮箱地址的作用)
     - [查看用户名和邮箱地址](#查看用户名和邮箱地址)
     - [配置用户名和邮箱地址](#配置用户名和邮箱地址)
-  - [配置SSH](#配置ssh)
-    - [一、生成SSH Key](#一生成ssh-key)
+  - [配置 SSH](#配置ssh)
+    - [一、生成 SSH Key](#一生成ssh-key)
     - [二、添加公钥到你的远程仓库（github）](#二添加公钥到你的远程仓库github)
       - [1 、查看你生成的公钥](#1-查看你生成的公钥)
       - [2、添加公钥到远程仓库](#2添加公钥到远程仓库)
-      - [3、查看 ssh文件是否配置成功](#3查看-ssh文件是否配置成功)
-    - [三、修改git的remote url](#三修改git的remote-url)
+      - [3、查看 ssh 文件是否配置成功](#3查看-ssh文件是否配置成功)
+    - [三、修改 git 的 remote url](#三修改git的remote-url)
       - [1、查看当前的 remote url](#1查看当前的-remote-url)
-      - [2、复制远程仓库的ssh链接](#2复制远程仓库的ssh链接)
-      - [3、修改git的remote url](#3修改git的remote-url)
-  - [Github提交命令](#github提交命令)
+      - [2、复制远程仓库的 ssh 链接](#2复制远程仓库的ssh链接)
+      - [3、修改 git 的 remote url](#3修改git的remote-url)
+  - [Github 提交命令](#github提交命令)
   - [合并远程分支到本地](#合并远程分支到本地)
   - [切换分支](#切换分支)
   - [查看文件差异](#查看文件差异)
   - [添加文件到暂缓区](#添加文件到暂缓区)
-  - [macOS的.gitignore文件](#macos的gitignore文件)
+  - [macOS 的.gitignore 文件](#macos的gitignore文件)
   - [Deploy.sh](#deploysh)
 
-## Github相关
+## Github 相关
 
 ### GIT 查看/修改用户名和邮箱地址
 
 #### 用户名和邮箱地址的作用
 
-用户名和邮箱地址是本地git客户端的一个变量，不随git库而改变。
+用户名和邮箱地址是本地 git 客户端的一个变量，不随 git 库而改变。
 
-每次commit都会用用户名和邮箱纪录。
+每次 commit 都会用用户名和邮箱纪录。
 
-github的contributions统计就是按邮箱来统计的。
+github 的 contributions 统计就是按邮箱来统计的。
 
 #### 查看用户名和邮箱地址
 
@@ -53,9 +53,9 @@ git config user.email
 git config --global user.name "desonglll" && git config --global user.password "Lindesong7758?" && git config --global user.email "lindesong666@163.com"
 ```
 
-### 配置SSH
+### 配置 SSH
 
-#### 一、生成SSH Key
+#### 一、生成 SSH Key
 
 ```bash
 ssh-keygen -t rsa -C "lindesong666@163.com"
@@ -75,25 +75,25 @@ cat ~/.ssh/id_rsa.pub
 
 ##### 2、添加公钥到远程仓库
 
-登陆你的github帐户 -> 点击你的头像，然后点击 `Settings` -> 左栏点击 `SSH and GPG keys` -> 点击 `New SSH key`
+登陆你的 github 帐户 -> 点击你的头像，然后点击 `Settings` -> 左栏点击 `SSH and GPG keys` -> 点击 `New SSH key`
 
-然后将复制的公钥内容，粘贴进 `Key` 文本域内。 `title` 域，自己随便起个名字，建议与电脑位置或作用相关的名字，以为你今后可能会新增或者删除ssh，取个好理解的名字也知道他是个哪台电脑的。
+然后将复制的公钥内容，粘贴进 `Key` 文本域内。 `title` 域，自己随便起个名字，建议与电脑位置或作用相关的名字，以为你今后可能会新增或者删除 ssh，取个好理解的名字也知道他是个哪台电脑的。
 
-点击 `Add SSH key` 
+点击 `Add SSH key`
 
-##### 3、查看 ssh文件是否配置成功
+##### 3、查看 ssh 文件是否配置成功
 
 ```shell
 ssh -T git@github.com
 ```
 
- `输出： Hi danygitgit! You've successfully authenticated, but GitHub does not provide shell access.`
+`输出： Hi danygitgit! You've successfully authenticated, but GitHub does not provide shell access.`
 
 恭喜你，你的设置已经成功了
 
-#### 三、修改git的remote url
+#### 三、修改 git 的 remote url
 
-如果之前添加的是 `HTTPS` 协议的github仓库地址，那么每次push或者pull仍然需要密码，所以，我们需要将其修改为 `ssh` 协议的，这样，就不需要这么麻烦了。
+如果之前添加的是 `HTTPS` 协议的 github 仓库地址，那么每次 push 或者 pull 仍然需要密码，所以，我们需要将其修改为 `ssh` 协议的，这样，就不需要这么麻烦了。
 
 那么我们应该怎么办呢？
 
@@ -110,17 +110,17 @@ ssh -T git@github.com
 输出： origin https://github.com/danygitgit/document-library.git (push)
 ```
 
-如果是以上的结果那么说明此项目是使用 `https` 协议进行访问的（如果地址是git开头则表示是 `git` 协议）
+如果是以上的结果那么说明此项目是使用 `https` 协议进行访问的（如果地址是 git 开头则表示是 `git` 协议）
 
-##### 2、复制远程仓库的ssh链接
+##### 2、复制远程仓库的 ssh 链接
 
-登陆你的远程仓库，在上面可以看到你的ssh协议相应的url，类似：
+登陆你的远程仓库，在上面可以看到你的 ssh 协议相应的 url，类似：
 
 `git@github.com:desonglll/codes.git`
 
-复制此ssh链接。
+复制此 ssh 链接。
 
-##### 3、修改git的remote url
+##### 3、修改 git 的 remote url
 
 方法：
 
@@ -140,7 +140,7 @@ git remote rm origin
 git remote add origin [url]
 ```
 
-### Github提交命令
+### Github 提交命令
 
 ```shell
 echo "README" >> README.md
@@ -166,7 +166,7 @@ git checkout -b xxx
 git branch -M main
 ```
 
-> git checkout xxx是指切换到xxx（用local区的xxx替换disk区文件），-b意味着branch，即创建新分支，这条指令合起来意思是创建并切换到xxx
+> git checkout xxx 是指切换到 xxx（用 local 区的 xxx 替换 disk 区文件），-b 意味着 branch，即创建新分支，这条指令合起来意思是创建并切换到 xxx
 
 ### 查看文件差异
 
@@ -198,14 +198,14 @@ git pull <RemoteHostName> <RemoteBranchName>
 git rebase xxx
 ```
 
-> 假设当前分支与xxx分支存在共同部分common，该指令用xxx分支包括common在内的整体替换当前分支的common部分（原先xxx分支内容为common->diversityA，当前分支内容为common->diversityB，执行完该指令后当前分支内容为common->diversityA->diversityB）
+> 假设当前分支与 xxx 分支存在共同部分 common，该指令用 xxx 分支包括 common 在内的整体替换当前分支的 common 部分（原先 xxx 分支内容为 common->diversityA，当前分支内容为 common->diversityB，执行完该指令后当前分支内容为 common->diversityA->diversityB）
 
 ```bash
 # 不加-D表示创建新local分支xxx，加-D表示强制删除local分支xxx
 git branch -D xxx
 ```
 
-### macOS的.gitignore文件
+### macOS 的.gitignore 文件
 
 ```.gitignore
 # General
@@ -253,3 +253,143 @@ git branch -M main
 git push -u origin main -f
 ```
 
+## 显示 Git 仓库的所有更改历史
+
+要显示 Git 仓库的所有更改历史，您可以使用`git log`命令。`git log`会按照提交的时间顺序列出所有的提交历史记录。
+
+以下是使用`git log`命令的基本用法：
+
+```bash
+git log
+```
+
+这将显示完整的提交历史记录，包括每个提交的哈希值、作者、提交日期和提交消息。
+
+`git log`还有一些有用的选项可以帮助您更详细地查看历史记录。例如，您可以使用`--oneline`选项以精简的单行格式显示每个提交：
+
+```bash
+git log --oneline
+```
+
+您还可以使用`--graph`选项以图形化的方式展示提交历史，并显示分支和合并的路径：
+
+```bash
+git log --graph
+```
+
+还有许多其他选项和参数可用于`git log`命令，以适应不同的需求。您可以使用`git log --help`查看完整的帮助文档，以了解更多详细信息和选项。
+
+## 切换分支
+
+要在 Git 中切换分支，可以使用`git checkout`命令。下面是一些常见的用法：
+
+1. 切换到已存在的分支：
+
+   ```bash
+   git checkout branch_name
+   ```
+
+   其中`branch_name`是您要切换到的分支的名称。
+
+2. 创建并切换到新的分支：
+
+   ```bash
+   git checkout -b new_branch_name
+   ```
+
+   这将创建一个新的分支`new_branch_name`并立即切换到该分支。
+
+3. 切换到上一个分支：
+   ```bash
+   git checkout -
+   ```
+   这将切换回上一个所在的分支。
+
+在切换分支之前，请确保您已提交或保存了当前分支的更改，因为切换分支时可能会丢失未提交的更改。
+
+注意：在切换分支时，Git 会将工作目录和文件更新为目标分支的状态。因此，确保您已经完成了当前分支上的工作，或者至少保存了未提交的更改，以免丢失数据。
+
+请注意，切换分支可能会导致未提交的更改和本地未跟踪的文件出现冲突。在切换分支之前，确保您了解当前分支的状态，并做好相应的处理，例如提交更改或保存文件。
+
+## 显示所有的分支
+
+要显示所有的分支，可以使用`git branch`命令。下面是几种常见的用法：
+
+1. 显示所有本地分支：
+
+   ```bash
+   git branch
+   ```
+
+   这将列出本地仓库中的所有分支，并在当前分支前面用`*`标记。
+
+2. 显示所有本地和远程分支：
+
+   ```bash
+   git branch -a
+   ```
+
+   这将列出本地仓库和远程仓库中的所有分支，包括远程分支的跟踪分支。
+
+3. 显示分支及其最近的提交信息：
+   ```bash
+   git branch -v
+   ```
+   这将列出所有本地分支，并显示每个分支的最新提交的 SHA 值和提交消息。
+
+通过使用这些`git branch`命令的不同选项，您可以获取有关仓库中存在的所有分支的详细信息。
+
+## 创建一个新的分支
+
+要在 Git 中创建一个新的分支，您可以使用`git branch`命令。下面是创建新分支的步骤：
+
+1. 确保您当前位于希望创建新分支的代码状态下。
+
+2. 运行以下命令来创建一个新的分支：
+
+   ```bash
+   git branch <branch-name>
+   ```
+
+   在`<branch-name>`中替换为您想要给新分支起的名称。
+
+3. 您可以使用`git branch`命令检查新分支是否成功创建。在分支列表中，新分支将显示，但当前分支不会改变。
+
+4. 要切换到新创建的分支，可以使用`git checkout`命令：
+   ```bash
+   git checkout <branch-name>
+   ```
+   这将切换到新分支，并将您的工作目录和代码状态切换到该分支下。
+
+除了上述方法，还有一个简化的方法可以直接创建并切换到新分支：
+
+```bash
+git checkout -b <branch-name>
+```
+
+这将创建一个名为`<branch-name>`的新分支，并立即切换到该分支。
+
+无论使用哪种方法，您都可以使用`git branch`命令来验证新分支的创建和切换。
+
+## 在 Git 中删除分支
+
+要在 Git 中删除分支，您可以使用`git branch`命令的`-d`或`-D`选项。下面是删除分支的步骤：
+
+1. 首先，确保您不在要删除的分支上工作。您可以通过使用`git branch`命令查看当前分支以及其他分支的列表。
+
+2. 运行以下命令来删除分支：
+
+   - 对于已经合并到主分支或其他分支的分支，可以使用`-d`选项：
+     ```bash
+     git branch -d <branch-name>
+     ```
+     在`<branch-name>`中替换为要删除的分支的名称。
+   - 对于尚未合并的分支，如果要强制删除分支，可以使用`-D`选项：
+     ```bash
+     git branch -D <branch-name>
+     ```
+     同样，在`<branch-name>`中替换为要删除的分支的名称。
+
+3. 运行命令后，Git 会删除指定的分支。
+
+请注意，删除分支是一个不可逆的操作，请确保您真正想要删除指定的分支。建议在删除分支之前，确认分支上的工作已经合并或保存。

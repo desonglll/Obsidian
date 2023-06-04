@@ -113,8 +113,8 @@ live-server [options]
 ```
 
 live-server also offers a lot of `[options]` that you can run in the command line to configure. if you leave it blank it will automatically run on `localhost:8080`. Use the below link as reference for other `[options]`
+
 ```shell
 mikeshinoda@MikedeMacBook-Air ~/reference-pages (gh-pages) [SIGINT]> live-server -h
 Usage: live-server [-v|--version] [-h|--help] [-q|--quiet] [--port=PORT] [--host=HOST] [--open=PATH] [--no-browser] [--browser=BROWSER] [--ignore=PATH] [--ignorePattern=RGXP] [--no-css-inject] [--entry-file=PATH] [--spa] [--mount=ROUTE:PATH] [--wait=MILLISECONDS] [--htpasswd=PATH] [--cors] [--https=PATH] [--https-module=MODULE_NAME] [--proxy=PATH] [PATH]
 ```
-

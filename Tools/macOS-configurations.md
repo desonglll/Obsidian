@@ -2,11 +2,11 @@
 title: 环境配置等笔记
 date: 2022/06/16/ 10:27:46
 categories: CS学习
-tags: 
-updated: 
+tags:
+updated:
 type:
 comments:
-description: 
+description:
 keywords:
 top_img:
 mathjax: true
@@ -14,55 +14,53 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
-sticky: 
-cover: 
+sticky:
+cover:
 ---
 
-- [用alias在.bash\_profile中创建别名](#用alias在bash_profile中创建别名)
-  - [1. 使用touch创建.bash\_profile文件](#1-使用touch创建bash_profile文件)
-  - [2. 使用alias命令给python3起别名](#2-使用alias命令给python3起别名)
-  - [3. .bash\_profile source](#3-bash_profile-source)
-- [修改.zshrc文件](#修改zshrc文件)
-- [配置环境变量PATH](#配置环境变量path)
-  - [macOS 12 要在.zprofile文件设置](#macos-12-要在zprofile文件设置)
-  - [要配置的bin目录的地址](#要配置的bin目录的地址)
+- [用 alias 在.bash_profile 中创建别名](#用alias在bash_profile中创建别名)
+  - [1. 使用 touch 创建.bash_profile 文件](#1-使用touch创建bash_profile文件)
+  - [2. 使用 alias 命令给 python3 起别名](#2-使用alias命令给python3起别名)
+  - [3. .bash_profile source](#3-bash_profile-source)
+- [修改.zshrc 文件](#修改zshrc文件)
+- [配置环境变量 PATH](#配置环境变量path)
+  - [macOS 12 要在.zprofile 文件设置](#macos-12-要在zprofile文件设置)
+  - [要配置的 bin 目录的地址](#要配置的bin目录的地址)
   - [添加以下代码](#添加以下代码)
   - [使生效](#使生效)
 - [安装 homebrew 2022.07.13](#安装-homebrew-20220713)
-  - [1. 设置USTC的镜像](#1-设置ustc的镜像)
-  - [2. 安装homebrew](#2-安装homebrew)
-  - [3. 添加Homebrew到环境变量](#3-添加homebrew到环境变量)
+  - [1. 设置 USTC 的镜像](#1-设置ustc的镜像)
+  - [2. 安装 homebrew](#2-安装homebrew)
+  - [3. 添加 Homebrew 到环境变量](#3-添加homebrew到环境变量)
   - [有关报错](#有关报错)
-    - [brew update的错误](#brew-update的错误)
+    - [brew update 的错误](#brew-update的错误)
   - [替换国内镜像源](#替换国内镜像源)
   - [fatal: not in a git directory Error: Command failed with exit 128: git](#fatal-not-in-a-git-directory-error-command-failed-with-exit-128-git)
-- [npm换源](#npm换源)
-- [安装fishshell](#安装fishshell)
-  - [使用Homebrew安装](#使用homebrew安装)
-  - [讲fishshell设为默认Terminal](#讲fishshell设为默认terminal)
-- [修改host文件提高Github访问速度](#修改host文件提高github访问速度)
-- [安装Tree](#安装tree)
-  - [在macOS里安装Tree](#在macos里安装tree)
-    - [1. 写入"~/.bash\_profile"](#1-写入bash_profile)
-    - [2. 通过Homebrew安装Tree](#2-通过homebrew安装tree)
-- [Tree命令行参数](#tree命令行参数)
-  - [1. tree命令行参数](#1-tree命令行参数)
+- [npm 换源](#npm换源)
+- [安装 fishshell](#安装fishshell)
+  - [使用 Homebrew 安装](#使用homebrew安装)
+  - [讲 fishshell 设为默认 Terminal](#讲fishshell设为默认terminal)
+- [修改 host 文件提高 Github 访问速度](#修改host文件提高github访问速度)
+- [安装 Tree](#安装tree)
+  - [在 macOS 里安装 Tree](#在macos里安装tree)
+    - [1. 写入"~/.bash_profile"](#1-写入bash_profile)
+    - [2. 通过 Homebrew 安装 Tree](#2-通过homebrew安装tree)
+- [Tree 命令行参数](#tree命令行参数)
+  - [1. tree 命令行参数](#1-tree命令行参数)
   - [2. 常用的命令](#2-常用的命令)
     - [查看不同级别子目录和文件](#查看不同级别子目录和文件)
-    - [目录结构信息输入保存到txt文件中](#目录结构信息输入保存到txt文件中)
+    - [目录结构信息输入保存到 txt 文件中](#目录结构信息输入保存到txt文件中)
 - [Tools](#tools)
   - [Material UI](#material-ui)
-- [在macOS使用npm安装yarn](#在macos使用npm安装yarn)
-- [安装live-server](#安装live-server)
-  - [1. 使用npm命令安装](#1-使用npm命令安装)
-- [安装Android Studio](#安装android-studio)
-  - [配置代理Proxy](#配置代理proxy)
-- [yarn更换源](#yarn更换源)
-- [npm更换源](#npm更换源)
+- [在 macOS 使用 npm 安装 yarn](#在macos使用npm安装yarn)
+- [安装 live-server](#安装live-server)
+  - [1. 使用 npm 命令安装](#1-使用npm命令安装)
+- [安装 Android Studio](#安装android-studio)
+  - [配置代理 Proxy](#配置代理proxy)
+- [yarn 更换源](#yarn更换源)
+- [npm 更换源](#npm更换源)
   - [“Navicat Premium.app”已损坏，无法打开。 您应该将它移到废纸篓](#navicat-premiumapp已损坏无法打开-您应该将它移到废纸篓)
   - [查看端口被哪个程序占用](#查看端口被哪个程序占用)
-
-
 
 ```shell
 # git clone加速
@@ -70,21 +68,19 @@ cover:
 ==> git clone https://gitclone.com/github.com/...
 ```
 
+## 用 alias 在.bash_profile 中创建别名
 
+> 以 Python3 为例子
 
-## 用alias在.bash_profile中创建别名
-
-> 以Python3为例子
-
-### 1. 使用touch创建.bash_profile文件
+### 1. 使用 touch 创建.bash_profile 文件
 
 ```shell
 touch ~/.bash_profile
 ```
 
-### 2. 使用alias命令给python3起别名
+### 2. 使用 alias 命令给 python3 起别名
 
-找到python3安装的路径`usr/local/bin/python3`
+找到 python3 安装的路径`usr/local/bin/python3`
 
 添加以下命令到`.bash_profile`
 
@@ -98,11 +94,11 @@ alias python='/usr/local/bin/python3'
 source ~/.bash_profile
 ```
 
-## 修改.zshrc文件
+## 修改.zshrc 文件
 
-有的时候需要每次在启动Terminal之后手动source `.bash_profile`文件，所以可以修改.zshrc文件，让Terminal每次启动时都自动source
+有的时候需要每次在启动 Terminal 之后手动 source `.bash_profile`文件，所以可以修改.zshrc 文件，让 Terminal 每次启动时都自动 source
 
-> 打开.zshrc文件并添加以下命令
+> 打开.zshrc 文件并添加以下命令
 
 ```shell
 vim ~/.zshrc
@@ -112,15 +108,15 @@ vim ~/.zshrc
 source ~/.bash_profile
 ```
 
-## 配置环境变量PATH
+## 配置环境变量 PATH
 
-### macOS 12 要在.zprofile文件设置
+### macOS 12 要在.zprofile 文件设置
 
-``````bash
+```bash
 nvim ~/.zprofile
-``````
+```
 
-### 要配置的bin目录的地址
+### 要配置的 bin 目录的地址
 
 ```shell
 /Users/mikeshinoda/.config/nvim/sources/jdtls/jdt-language-server-latest/bin
@@ -140,15 +136,15 @@ source ~/.zprofile
 
 ## 安装 homebrew 2022.07.13
 
-Homebrew的官方网站 [https://brew.sh/](https://brew.sh/)
+Homebrew 的官方网站 [https://brew.sh/](https://brew.sh/)
 
-### 1. 设置USTC的镜像
+### 1. 设置 USTC 的镜像
 
 ```shell
 HOMEBREW_CORE_GIT_REMOTE=https://mirrors.ustc.edu.cn/homebrew-core.git
 ```
 
-### 2. 安装homebrew
+### 2. 安装 homebrew
 
 执行以下命令
 
@@ -156,7 +152,7 @@ HOMEBREW_CORE_GIT_REMOTE=https://mirrors.ustc.edu.cn/homebrew-core.git
 /bin/bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install.sh)"
 ```
 
-### 3. 添加Homebrew到环境变量
+### 3. 添加 Homebrew 到环境变量
 
 ```shell
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$whoiam/.zprofile
@@ -168,7 +164,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ### 有关报错
 
-#### brew update的错误
+#### brew update 的错误
 
 fatal: Could not resolve HEAD to a revision
 
@@ -189,7 +185,7 @@ https://blog.csdn.net/m0_50324291/article/details/108564732
 
 [fatal: not in a git directory Error: Command failed with exit 128: git](https://blog.csdn.net/king14bhhb/article/details/126799622)
 
-## npm换源
+## npm 换源
 
 ```shell
 //换源
@@ -198,23 +194,21 @@ npm config set registry https://registry.npm.taobao.org
 npm config get registry
 ```
 
+## 安装 fishshell
 
+Fishshell 的官方网站 [https://fishshell.com/](https://fishshell.com/)
 
-## 安装fishshell
-
-Fishshell的官方网站 [https://fishshell.com/](https://fishshell.com/)
-
-### 使用Homebrew安装
+### 使用 Homebrew 安装
 
 ```shell
 brew install fish
 ```
 
-### 讲fishshell设为默认Terminal
+### 讲 fishshell 设为默认 Terminal
 
 打开`~/.bash_profile`并且添加`fish`
 
-## 修改host文件提高Github访问速度
+## 修改 host 文件提高 Github 访问速度
 
 > Improve the speed of loading GitHub.
 
@@ -224,17 +218,17 @@ sed -i "/# GitHub520 Host Start/Q" /etc/hosts && curl
 https://raw.hellogithub.com/hosts >> /etc/hosts
 ```
 
-## 安装Tree
+## 安装 Tree
 
-> tree命令可以以树形结构显示文件目录结构
+> tree 命令可以以树形结构显示文件目录结构
 > 它非常适合于我们给别人介绍我们的文件目录的组成框架
 > 同时该命令使用适当的参数也可以将命令结果输出到文本文件中
 
-### 在macOS里安装Tree
+### 在 macOS 里安装 Tree
 
 #### 1. 写入"~/.bash_profile"
 
-mac下默认是没有 tree命令的，我们将命令写到~/.bash_profile里，以后直接运行tree命令就更方便了
+mac 下默认是没有 tree 命令的，我们将命令写到~/.bash_profile 里，以后直接运行 tree 命令就更方便了
 
 Open "~/.bash_profile" file.
 
@@ -248,18 +242,18 @@ Copy these codes to "~/.bash_profile" file.
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 ```
 
-#### 2. 通过Homebrew安装Tree
+#### 2. 通过 Homebrew 安装 Tree
 
 ```shell
 brew install tree
 ```
 
-## Tree命令行参数
+## Tree 命令行参数
 
-### 1. tree命令行参数
+### 1. tree 命令行参数
 
 - -a 显示所有文件和目录。
-- -A 使用ASNI绘图字符显示树状图而非以ASCII字符组合。
+- -A 使用 ASNI 绘图字符显示树状图而非以 ASCII 字符组合。
 - -C 在文件和目录清单加上色彩，便于区分各种类型。
 - -d 显示目录名称而非内容。
 - -D 列出文件或目录的更改时间。
@@ -285,17 +279,17 @@ brew install tree
 
 #### 查看不同级别子目录和文件
 
-使用`tree -L N`这个命令，只查看当前第N级的目录和文件
+使用`tree -L N`这个命令，只查看当前第 N 级的目录和文件
 使用`tree -L 1`这个命令，只查看当前第一级的目录
 使用`tree -L 2`这个命令，只查看当前第二级的目录和文件
 
-#### 目录结构信息输入保存到txt文件中
+#### 目录结构信息输入保存到 txt 文件中
 
 ```shell
 tree > /home/index.text
 ```
 
-会在指定目录下创建index.txt文件
+会在指定目录下创建 index.txt 文件
 
 ## Tools
 
@@ -303,29 +297,29 @@ tree > /home/index.text
 
 <https://mui.com>
 
-## 在macOS使用npm安装yarn
+## 在 macOS 使用 npm 安装 yarn
 
 ```shell
 sudo npm install --global yarn
 ```
 
-## 安装live-server
+## 安装 live-server
 
-### 1. 使用npm命令安装
+### 1. 使用 npm 命令安装
 
 ```shell
 sudo npm install -g live-server
 ```
 
-## 安装Android Studio
+## 安装 Android Studio
 
-### 配置代理Proxy
+### 配置代理 Proxy
 
 Select `Auto-detect proxy settings` and use this address:
 
 `mirrors.opencas.org:80`
 
-## yarn更换源
+## yarn 更换源
 
 ```bash
 //查看当前源
@@ -337,7 +331,7 @@ yarn config set registry https://registry.yarnpkg.com --global
 
 ```
 
-## npm更换源
+## npm 更换源
 
 ```bash
 查看当前源地址：
@@ -360,10 +354,8 @@ npm --registry https://registry.npm.taobao.org install express
 https://blog.csdn.net/bx_jobs/article/details/127986496
 
 ```
-sudo xattr -r -d com.apple.quarantine 
+sudo xattr -r -d com.apple.quarantine
 ```
-
-
 
 ### 查看端口被哪个程序占用
 
@@ -373,7 +365,7 @@ sudo xattr -r -d com.apple.quarantine
 
   - 如：`sudo lsof -i tcp:8082`
 
-- 2.看到进程的PID，可以将进程杀死。
+- 2.看到进程的 PID，可以将进程杀死。
 
   - `sudo kill -9 PID`
   - 如：`sudo kill -9 3210`

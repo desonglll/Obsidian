@@ -1,7 +1,7 @@
 ---
 title: Tree
 date: 2023/05/30/ 19:19:11
-discription: 
+discription:
 tags:
 updated:
 type:
@@ -23,7 +23,6 @@ cover:
 $n=n_0+n_1+n_2$
 $n_0=n_2+1$
 
-
 ## 遍历顺序对应关系
 
 树、森林、二叉树的不同顺序遍历之间的对应
@@ -33,8 +32,6 @@ $n_0=n_2+1$
 | 先序遍历 | 先序遍历 | 先序遍历 |
 | 后序遍历 | 中序遍历 | 中序遍历 |
 | 层次遍历 |          | 后序遍历 |
-
-
 
 ## 二叉树
 
@@ -123,6 +120,7 @@ int Deepth(BitTree T) {
 ```
 
 ### 二叉树转中缀表达式（将树中序输出）
+
 [[数据结构真题#^4186bb]]
 
 ```cpp
@@ -159,11 +157,15 @@ void BtreeToE(BTree *node) {
 ```
 
 ### 卡特兰数
- ![[Stack#卡特兰数]]
+
+![[Stack#卡特兰数]]
+
 ### 计算带权路径长度
+
 [[数据结构真题#^2bf728|2014真题]]
 
 基于先序遍历的算法
+
 ```cpp
 typedef struct node {
   int weight;
@@ -184,7 +186,9 @@ int wpl_PreOrder(BiTree root, int deep) {
   return wpl;
 }
 ```
+
 ### 交换二叉树结点左右子树的递归算法
+
 ```cpp
 Bitree *function(Bitree *bt) {
   Bitree *t, *t1, *t2;
@@ -201,7 +205,9 @@ Bitree *function(Bitree *bt) {
   return (t);
 }
 ```
+
 ### 计算二叉树中的节点总数
+
 ```cpp
 // 计算二叉树中的节点总数
 int countNode(BitTree T) {

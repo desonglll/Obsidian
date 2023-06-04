@@ -1,7 +1,7 @@
 ---
 title: rust
 date: 2023/05/30/ 19:00:43
-discription: 
+discription:
 tags:
 updated:
 type:
@@ -19,7 +19,7 @@ cover:
 ---
 
 - [大纲目录](#大纲目录)
-- [给出基本的rust代码，涵盖rust基础语法的示例](#给出基本的rust代码涵盖rust基础语法的示例)
+- [给出基本的 rust 代码，涵盖 rust 基础语法的示例](#给出基本的rust代码涵盖rust基础语法的示例)
 - [Rust 简介](#rust-简介)
   - [Rust 是什么？](#rust-是什么)
   - [Rust 的优势和特点](#rust-的优势和特点)
@@ -70,62 +70,72 @@ cover:
   - [生命周期和引用的标注](#生命周期和引用的标注)
   - [unsafe 代码块的使用](#unsafe-代码块的使用)
   - [宏的定义和使用](#宏的定义和使用)
-- [rust数组](#rust数组)
-
+- [rust 数组](#rust数组)
 
 ## 大纲目录
 
 以下是一个可能的 Rust 基础语法的学习大纲目录：
 
 1. Rust 简介
+
    - Rust 是什么？
    - Rust 的优势和特点
    - Rust 在系统级编程和并发编程中的应用
 
 2. 安装和配置
+
    - 安装 Rust 编译器和工具链
    - 配置 Rust 环境
 
 3. Hello, World!
+
    - 创建和运行第一个 Rust 程序
    - Rust 的编译和执行过程
 
 4. 变量和数据类型
+
    - 变量的声明和赋值
    - 基本数据类型（整数、浮点数、布尔值、字符）
    - 复合数据类型（数组、元组、字符串、向量）
 
 5. 控制流程
+
    - 条件表达式（if-else、match）
    - 循环语句（for、while）
    - 跳转语句（break、continue）
 
 6. 函数和模块
+
    - 函数的定义和调用
    - 函数参数和返回值
    - 模块的创建和使用
 
 7. 所有权和借用
+
    - Rust 的所有权概念和规则
    - 借用和引用的概念和用法
    - 所有权和借用的规则和限制
 
 8. 结构体和枚举
+
    - 结构体的定义和使用
    - 枚举类型的定义和匹配
    - 结构体和枚举的方法和关联函数
 
 9. 错误处理和异常
+
    - Option 和 Result 类型的使用
    - 错误处理的方式和惯用法
    - panic 和 unwrap 的使用
 
 10. 泛型和 trait
+
     - 泛型类型和函数
     - trait 的定义和实现
     - trait 的特性和用法
 
 11. 并发和多线程
+
     - 并发编程的基本概念
     - 线程的创建和操作
     - 线程间的消息传递和共享状态
@@ -137,7 +147,7 @@ cover:
 
 这个学习大纲涵盖了 Rust 基础语法的主要内容。你可以根据自己的学习进度和需求来调整学习顺序和深度。建议在学习过程中进行实践和编码练习，以便更好地理解和掌握 Rust。同时，查阅官方文档和参考资料，并参与 Rust 社区的讨论和交流，有助于加深对 Rust 的理解和应用。
 
-## 给出基本的rust代码，涵盖rust基础语法的示例
+## 给出基本的 rust 代码，涵盖 rust 基础语法的示例
 
 当然！以下是一些基本的 Rust 代码示例，涵盖了 Rust 基础语法的不同方面：
 
@@ -228,8 +238,6 @@ fn main() {
 
 这些示例覆盖了 Rust 的一些基本语法，包括变量和数据类型、控制流程、函数和模块、所有权和借用等。你可以运行这些代码示例来进一步了解 Rust 的基础语法。请确保已经安装了 Rust 编译器和工具链，并使用 `cargo run` 命令运行代码。
 
-
-
 ## Rust 简介
 
 ### Rust 是什么？
@@ -277,6 +285,7 @@ Rust 具有以下优势和特点：
 Rust 在系统级编程和并发编程领域有广泛的应用。以下是 Rust 在这两个方面的一些应用示例：
 
 1. 系统级编程：
+
    - 操作系统开发：Rust 的内存安全性和高性能使其成为编写操作系统的理想选择。例如，Redox OS 和 Tock OS 都是使用 Rust 开发的操作系统。
    - 嵌入式系统开发：Rust 的控制精度和内存安全性使其非常适合开发嵌入式系统。例如，Rust 可以用于开发无人机控制器、物联网设备和嵌入式传感器。
    - 文件系统、网络协议和驱动程序：Rust 可以用于开发高性能的文件系统、网络协议和驱动程序，因为它提供了底层的内存控制和对硬件的直接访问能力。
@@ -495,46 +504,54 @@ fn main() {
 在 Rust 中，有一些基本数据类型，包括整数、浮点数、布尔值和字符。以下是这些基本数据类型的示例：
 
 1. 整数类型（Integer Types）：
-   - `i8`：有符号8位整数
-   - `i16`：有符号16位整数
-   - `i32`：有符号32位整数（默认类型）
-   - `i64`：有符号64位整数
-   - `u8`：无符号8位整数
-   - `u16`：无符号16位整数
-   - `u32`：无符号32位整数
-   - `u64`：无符号64位整数
+
+   - `i8`：有符号 8 位整数
+   - `i16`：有符号 16 位整数
+   - `i32`：有符号 32 位整数（默认类型）
+   - `i64`：有符号 64 位整数
+   - `u8`：无符号 8 位整数
+   - `u16`：无符号 16 位整数
+   - `u32`：无符号 32 位整数
+   - `u64`：无符号 64 位整数
    - `isize`：有符号的机器字长整数
    - `usize`：无符号的机器字长整数
 
    示例：
+
    ```rust
    let number: i32 = 42;
    let unsigned_number: u64 = 100;
    ```
 
 2. 浮点数类型（Floating-Point Types）：
-   - `f32`：32位浮点数
-   - `f64`：64位浮点数（默认类型）
+
+   - `f32`：32 位浮点数
+   - `f64`：64 位浮点数（默认类型）
 
    示例：
+
    ```rust
    let pi: f64 = 3.14159;
    let half: f32 = 0.5;
    ```
 
 3. 布尔值类型（Boolean Type）：
+
    - `bool`：表示真（`true`）或假（`false`）
 
    示例：
+
    ```rust
    let is_true: bool = true;
    let is_false: bool = false;
    ```
 
 4. 字符类型（Character Type）：
+
    - `char`：表示单个 Unicode 字符，用单引号括起来
 
    示例：
+
    ```rust
    let ch: char = 'A';
    let heart: char = '❤';
@@ -549,6 +566,7 @@ Rust 是一门静态类型语言，需要在声明变量时明确指定其类型
 在 Rust 中，有几种复合数据类型可用于组织和存储多个值，包括数组、元组、字符串和向量（Vectors）。
 
 1. 数组（Arrays）：
+
    - 数组是固定长度的数据结构，其中每个元素具有相同的类型。
    - 数组的长度在声明时是固定的，并且不可更改。
    - 数组中的元素在内存中是连续存储的。
@@ -559,6 +577,7 @@ Rust 是一门静态类型语言，需要在声明变量时明确指定其类型
      ```
 
 2. 元组（Tuples）：
+
    - 元组是固定长度的有序集合，每个元素可以具有不同的类型。
    - 元组的长度在声明时是固定的，但元素的类型可以不同。
    - 元组中的元素可以通过索引访问。
@@ -568,6 +587,7 @@ Rust 是一门静态类型语言，需要在声明变量时明确指定其类型
      ```
 
 3. 字符串（Strings）：
+
    - 字符串是一段文本数据，通常由多个字符组成。
    - 在 Rust 中，字符串类型有两种形式：`&str` 和 `String`。
    - `&str` 是不可变的字符串切片，常用于字符串的引用和读取。
@@ -595,11 +615,13 @@ Rust 是一门静态类型语言，需要在声明变量时明确指定其类型
 在 Rust 中，有几种控制语句可以用于条件判断和循环操作。以下是 Rust 中常用的控制流程语句：
 
 1. 条件表达式（Conditional Expression）：
+
    - 使用 `if`、`else if` 和 `else` 关键字来进行条件判断。
    - 示例：
+
      ```rust
      let number = 10;
-     
+
      if number > 10 {
          println!("Number is greater than 10");
      } else if number < 10 {
@@ -610,10 +632,12 @@ Rust 是一门静态类型语言，需要在声明变量时明确指定其类型
      ```
 
 2. 循环（Loop）：
+
    - `loop`：创建一个无限循环，可以通过 `break` 语句来跳出循环。
    - `while`：根据条件判断执行循环，条件为真时执行循环体。
    - `for`：用于遍历迭代器、范围或集合中的元素。
    - 示例：
+
      ```rust
      // 使用 loop 创建无限循环，通过 break 来跳出循环
      let mut count = 0;
@@ -624,14 +648,14 @@ Rust 是一门静态类型语言，需要在声明变量时明确指定其类型
              break;
          }
      }
-     
+
      // 使用 while 进行条件判断循环
      let mut number = 1;
      while number <= 5 {
          println!("Number: {}", number);
          number += 1;
      }
-     
+
      // 使用 for 进行迭代循环
      let numbers = vec![1, 2, 3, 4, 5];
      for num in numbers {
@@ -640,11 +664,13 @@ Rust 是一门静态类型语言，需要在声明变量时明确指定其类型
      ```
 
 3. 匹配模式（Match）：
+
    - 使用 `match` 关键字根据模式匹配进行分支选择。
    - 示例：
+
      ```rust
      let number = 2;
-     
+
      match number {
          1 => println!("One"),
          2 => println!("Two"),
@@ -656,6 +682,7 @@ Rust 是一门静态类型语言，需要在声明变量时明确指定其类型
 4. 提前返回（Early Return）：
    - 使用 `return` 关键字提前退出函数并返回结果。
    - 示例：
+
      ```rust
      fn calculate_square(number: i32) -> i32 {
          if number <= 0 {
@@ -663,7 +690,7 @@ Rust 是一门静态类型语言，需要在声明变量时明确指定其类型
          }
          number * number
      }
-     
+
      let result = calculate_square(5);
      println!("Result: {}", result);
      ```
@@ -691,7 +718,7 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
 
    ```rust
    let number = 5;
-   
+
    if number > 0 {
        println!("Number is positive");
    } else if number < 0 {
@@ -722,7 +749,7 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
 
    ```rust
    let number = 2;
-   
+
    match number {
        1 => println!("One"),
        2 => println!("Two"),
@@ -752,7 +779,7 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
 
    ```rust
    let numbers = vec![1, 2, 3, 4, 5];
-   
+
    for number in numbers {
        println!("Number: {}", number);
    }
@@ -773,7 +800,7 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
 
    ```rust
    let mut count = 0;
-   
+
    while count < 5 {
        println!("Count: {}", count);
        count += 1;
@@ -794,7 +821,7 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
    ```rust
    loop {
        // 循环体内的代码
-   
+
        if condition {
            break; // 跳出循环
        }
@@ -805,11 +832,11 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
 
    ```rust
    let mut count = 0;
-   
+
    loop {
        println!("Count: {}", count);
        count += 1;
-   
+
        if count == 5 {
            break; // 当 count 等于 5 时跳出循环
        }
@@ -822,11 +849,11 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
    ```rust
    loop {
        // 循环体内的代码
-   
+
        if condition {
            continue; // 跳过当前迭代，继续下一次迭代
        }
-   
+
        // 在满足条件时，不执行后续代码，直接开始下一次迭代
    }
    ```
@@ -838,7 +865,7 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
        if number % 2 == 0 {
            continue; // 当 number 是偶数时跳过当前迭代
        }
-   
+
        println!("Number: {}", number);
    }
    ```
@@ -858,7 +885,7 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
    fn function_name(parameter1: Type1, parameter2: Type2) -> ReturnType {
        // 函数体内的代码
        // 可以执行特定的任务
-   
+
        // 返回值（可选）
        return some_value;
    }
@@ -870,7 +897,7 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
    fn add(a: i32, b: i32) -> i32 {
        return a + b;
    }
-   
+
    let result = add(3, 5);
    println!("Result: {}", result);
    ```
@@ -889,13 +916,13 @@ Rust 的控制流程语句非常灵活，并提供了多种方式来满足不同
        pub fn add(a: i32, b: i32) -> i32 {
            return a + b;
        }
-   
+
        // 私有的函数
        fn multiply(a: i32, b: i32) -> i32 {
            return a * b;
        }
    }
-   
+
    // 使用模块中的函数
    let result = math::add(3, 5);
    println!("Result: {}", result);
@@ -920,6 +947,7 @@ fn function_name(parameter1: Type1, parameter2: Type2) -> ReturnType {
 ```
 
 其中：
+
 - `function_name` 是函数的名称，可以根据需求自定义。
 - `parameter1`, `parameter2`, ... 是函数的参数，每个参数由名称和类型组成。
 - `Type1`, `Type2`, ... 是参数的类型，用于指定参数的数据类型。
@@ -987,7 +1015,7 @@ println!("Result: {}", result);
        num += 1;
        println!("Incremented value: {}", num);
    }
-   
+
    fn main() {
        let mut value = 5;
        increment(value);
@@ -1009,6 +1037,7 @@ println!("Result: {}", result);
    使用 `mod` 关键字创建一个模块，可以在一个文件中定义一个模块，也可以在多个文件中定义。通常情况下，模块的定义放在与模块同名的文件中。模块的定义由 `mod` 关键字后面跟随模块名称和模块代码块组成。
 
    示例：
+
    ```rust
    // 创建名为 `my_module` 的模块
    mod my_module {
@@ -1020,6 +1049,7 @@ println!("Result: {}", result);
    在模块的代码块中，可以定义函数、结构体、枚举和其他内容，用于组织和封装相关的代码。
 
    示例：
+
    ```rust
    mod my_module {
        // 定义函数
@@ -1033,10 +1063,11 @@ println!("Result: {}", result);
    使用 `use` 关键字可以在其他模块中引入一个模块，从而可以在当前模块中使用该模块中定义的内容。
 
    示例：
+
    ```rust
    // 在当前模块中使用 `my_module`
    use my_module;
-   
+
    fn main() {
        // 调用 `my_module` 中的函数
        my_module::hello();
@@ -1137,7 +1168,7 @@ Rust 的所有权概念和规则通过编译器的静态检查，在编译时就
 ```rust
 fn main() {
     let mut value = 5;
-    
+
     // 创建不可变引用
     let reference = &value;
     println!("Immutable reference: {}", reference);
@@ -1185,12 +1216,13 @@ fn main() {
    结构体是一种自定义数据类型，允许将不同类型的数据组合在一起形成一个新的类型。结构体通过关键字 `struct` 定义，可以拥有多个命名字段（fields）。结构体允许我们创建具有自定义属性和行为的数据类型。
 
    示例：
+
    ```rust
    struct Person {
        name: String,
        age: u32,
    }
-   
+
    let person = Person {
        name: String::from("Alice"),
        age: 25,
@@ -1201,23 +1233,25 @@ fn main() {
    枚举是一种允许定义一个类型的所有可能取值的方式。它用于表示有限的选择集合。枚举通过关键字 `enum` 定义，每个枚举值被称为一个变体（variant），可以关联不同类型的数据。
 
    示例：
+
    ```rust
    enum TrafficLight {
        Red,
        Yellow,
        Green,
    }
-   
+
    let light = TrafficLight::Red;
    ```
 
    枚举的变体可以有关联的数据：
+
    ```rust
    enum Option<T> {
        Some(T),
        None,
    }
-   
+
    let some_value = Option::Some(42);
    ```
 
@@ -1792,11 +1826,13 @@ Rust 的并发编程能力使得开发者可以编写高性能、安全和可靠
 在 Rust 中，可以通过标准库提供的 `std::thread` 模块来创建和操作线程。以下是线程的创建和操作的基本步骤：
 
 1. 导入 `std::thread` 模块：
+
    ```rust
    use std::thread;
    ```
 
 2. 创建线程：
+
    ```rust
    let handle = thread::spawn(|| {
        // 线程执行的代码
@@ -1823,6 +1859,7 @@ Rust 的并发编程能力使得开发者可以编写高性能、安全和可靠
 1. 通道（Channel）：通道是一种线程间通信的机制，用于在不同线程之间传递消息。Rust 的标准库提供了 `std::sync::mpsc` 模块，其中的 `channel` 函数可以用于创建一个通道。通过通道，可以在一个线程中发送消息，而在另一个线程中接收消息。
 
    示例：
+
    ```rust
    use std::sync::mpsc;
    use std::thread;
@@ -1844,23 +1881,24 @@ Rust 的并发编程能力使得开发者可以编写高性能、安全和可靠
 2. 原子类型（Atomic types）：原子类型是一种特殊的数据类型，可以在并发环境下安全地进行读写操作，而不需要额外的同步机制。Rust 的标准库提供了原子类型，如原子整数（`AtomicUsize`）、原子布尔值（`AtomicBool`）等。通过原子类型，可以在多个线程之间共享状态，而无需担心数据竞争。
 
    示例：
+
    ```rust
    use std::sync::atomic::{AtomicBool, Ordering};
    use std::thread;
-   
+
    // 创建一个原子布尔值
    let flag = AtomicBool::new(false);
-   
+
    // 在多个线程中共享和修改状态
    let thread1 = thread::spawn(move || {
        flag.store(true, Ordering::SeqCst);
    });
-   
+
    let thread2 = thread::spawn(move || {
        let value = flag.load(Ordering::SeqCst);
        println!("Flag value: {}", value);
    });
-   
+
    thread1.join().unwrap();
    thread2.join().unwrap();
    ```
@@ -1871,7 +1909,7 @@ Rust 的并发编程能力使得开发者可以编写高性能、安全和可靠
 
 当涉及到 Rust 的高级主题时，有一些重要的概念和技术值得探索。以下是一些常见的高级主题：
 
-1. 异步编程（Asynchronous Programming）：Rust 提供了一套强大的异步编程工具和模式，包括异步/await 语法、Future 和 async trait 等。通过使用异步编程，可以编写高效的非阻塞代码，处理并发和IO密集型任务。
+1. 异步编程（Asynchronous Programming）：Rust 提供了一套强大的异步编程工具和模式，包括异步/await 语法、Future 和 async trait 等。通过使用异步编程，可以编写高效的非阻塞代码，处理并发和 IO 密集型任务。
 
 2. 内存管理（Memory Management）：Rust 以所有权系统和借用规则为基础，提供了内存安全性和无垃圾回收的内存管理机制。了解所有权、借用和生命周期的概念，可以编写高效且安全的代码。
 
@@ -1898,6 +1936,7 @@ Rust 的并发编程能力使得开发者可以编写高性能、安全和可靠
 以下是一些常见的生命周期和引用标注的使用情况：
 
 1. 函数签名中的生命周期标注：
+
    ```rust
    fn foo<'a>(x: &'a i32) -> &'a i32 {
        // 函数体
@@ -1906,6 +1945,7 @@ Rust 的并发编程能力使得开发者可以编写高性能、安全和可靠
    ```
 
 2. 结构体中的引用标注：
+
    ```rust
    struct MyStruct<'a> {
        data: &'a i32,
@@ -1913,6 +1953,7 @@ Rust 的并发编程能力使得开发者可以编写高性能、安全和可靠
    ```
 
 3. 方法的生命周期标注：
+
    ```rust
    impl<'a> MyStruct<'a> {
        fn get_data(&self) -> &'a i32 {
@@ -1998,7 +2039,7 @@ unsafe fn dangerous_function() {
 
    ```rust
    use proc_macro::TokenStream;
-   
+
    #[proc_macro]
    pub fn my_macro(input: TokenStream) -> TokenStream {
        // 这里可以进行 AST 级别的操作和转换
@@ -2013,7 +2054,7 @@ unsafe fn dangerous_function() {
 
 总而言之，宏是 Rust 中一种强大的元编程工具，可以用于在编译时生成和转换代码。通过定义和使用宏，可以减少重复、简化代码，并增加代码的灵活性。
 
-## rust数组
+## rust 数组
 
 当涉及到 Rust 数组时，以下是一个示例代码，展示了如何创建和使用数组：
 

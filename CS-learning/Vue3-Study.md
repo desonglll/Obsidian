@@ -1,36 +1,36 @@
 ---
 title: Vue3
 date: 2022/12/19/ 01:15:13
-discription: 
+discription:
 ---
 
 - [初始化](#初始化)
   - [创建项目](#创建项目)
-  - [安装Element UI](#安装element-ui)
-  - [CSS样式和预处理器](#css样式和预处理器)
-    - [使用SASS](#使用sass)
-    - [使用less](#使用less)
-    - [CSS预处理器-ResetCSS](#css预处理器-resetcss)
+  - [安装 Element UI](#安装element-ui)
+  - [CSS 样式和预处理器](#css样式和预处理器)
+    - [使用 SASS](#使用sass)
+    - [使用 less](#使用less)
+    - [CSS 预处理器-ResetCSS](#css预处理器-resetcss)
     - [Font-awesome](#font-awesome)
-  - [Axios和路由](#axios和路由)
+  - [Axios 和路由](#axios和路由)
     - [Axios](#axios)
     - [Router](#router)
     - [路由懒加载](#路由懒加载)
     - [异步组件加载](#异步组件加载)
-- [Vue3基础](#vue3基础)
+- [Vue3 基础](#vue3基础)
   - [Template](#template)
   - [语法糖](#语法糖)
   - [计算属性](#计算属性)
   - [侦听器](#侦听器)
     - [侦听器案例](#侦听器案例)
     - [深度监听](#深度监听)
-  - [class类名的对象使用方式](#class类名的对象使用方式)
-  - [class类名的数组使用方式](#class类名的数组使用方式)
-  - [style样式的多种操作方式](#style样式的多种操作方式)
+  - [class 类名的对象使用方式](#class类名的对象使用方式)
+  - [class 类名的数组使用方式](#class类名的数组使用方式)
+  - [style 样式的多种操作方式](#style样式的多种操作方式)
   - [条件渲染](#条件渲染)
-    - [条件渲染v-if](#条件渲染v-if)
-    - [条件渲染v-show](#条件渲染v-show)
-  - [列表渲染v-for](#列表渲染v-for)
+    - [条件渲染 v-if](#条件渲染v-if)
+    - [条件渲染 v-show](#条件渲染v-show)
+  - [列表渲染 v-for](#列表渲染v-for)
   - [数组更新检测](#数组更新检测)
   - [事件处理](#事件处理)
   - [事件修饰符](#事件修饰符)
@@ -39,8 +39,8 @@ discription:
     - [系统按键修饰符](#系统按键修饰符)
     - [`.exact` 修饰符](#exact-修饰符)
   - [鼠标按键修饰符](#鼠标按键修饰符)
-  - [v-model表单控件的基本使用](#v-model表单控件的基本使用)
-  - [父组件通过Prop传给子组件值](#父组件通过prop传给子组件值)
+  - [v-model 表单控件的基本使用](#v-model表单控件的基本使用)
+  - [父组件通过 Prop 传给子组件值](#父组件通过prop传给子组件值)
   - [子组件通过自定义事件向父组件传值](#子组件通过自定义事件向父组件传值)
   - [父组件访问子组件`$refs`](#父组件访问子组件refs)
   - [子组件访问父组件和根组件`$parent $root`](#子组件访问父组件和根组件parent-root)
@@ -48,19 +48,19 @@ discription:
     - [`$root`](#root)
   - [插槽](#插槽)
   - [组件之间的跨级通信`provide`和`inject`](#组件之间的跨级通信provide和inject)
-  - [组合式API在setup()函数中定义以及使用变量](#组合式api在setup函数中定义以及使用变量)
+  - [组合式 API 在 setup()函数中定义以及使用变量](#组合式api在setup函数中定义以及使用变量)
   - [Router](#router-1)
     - [安装](#安装)
       - [npm](#npm)
       - [yarn](#yarn)
     - [使用](#使用)
       - [官方文档](#官方文档)
-      - [Vue项目](#vue项目)
+      - [Vue 项目](#vue项目)
     - [带参数的动态路由匹配](#带参数的动态路由匹配)
     - [404NotFound](#404notfound)
     - [路由正则表达式匹配与重复参数](#路由正则表达式匹配与重复参数)
     - [嵌套路由](#嵌套路由)
-    - [使用JavaScript实现页面跳转](#使用javascript实现页面跳转)
+    - [使用 JavaScript 实现页面跳转](#使用javascript实现页面跳转)
 - [登陆页简单验证](#登陆页简单验证)
 
 ## 初始化
@@ -98,7 +98,7 @@ module.exports = defineConfig({
 });
 ```
 
-### 安装Element UI
+### 安装 Element UI
 
 初始化**安装**
 
@@ -122,9 +122,9 @@ Vue.use(ElementUI);
 <el-button type="success">button</el-button>
 ```
 
-### CSS样式和预处理器
+### CSS 样式和预处理器
 
-#### 使用SASS
+#### 使用 SASS
 
 安装
 
@@ -143,7 +143,8 @@ cnpm install sass-loader
     color: red;
   }
 }
-</style><style lang="scss">
+</style>
+<style lang="scss">
 .hello {
   background: yellow;
   .el-button {
@@ -153,7 +154,7 @@ cnpm install sass-loader
 </style>
 ```
 
-#### 使用less
+#### 使用 less
 
 安装
 
@@ -172,10 +173,10 @@ cnpm i less-loader
     color: red;
   }
 }
-</style> 
+</style>
 ```
 
-#### CSS预处理器-ResetCSS
+#### CSS 预处理器-ResetCSS
 
 <https://meyerweb.com/eric/tools/css/reset/>
 
@@ -189,48 +190,129 @@ cnpm i less-loader
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
- margin: 0;
- padding: 0;
- border: 0;
- font-size: 100%;
- font: inherit;
- vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
- display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
- line-height: 1;
+  line-height: 1;
 }
-ol, ul {
- list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
- quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
- content: '';
- content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
- border-collapse: collapse;
- border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 ```
 
@@ -270,7 +352,7 @@ import "font-awesome/css/font-awesome.min.css";
 <i class="fa fa-users"></i>
 ```
 
-### Axios和路由
+### Axios 和路由
 
 #### Axios
 
@@ -369,7 +451,7 @@ export default new Router({
 component: (resolve) => require(["@/components/Home"], resolve),
 ```
 
-## Vue3基础
+## Vue3 基础
 
 ### Template
 
@@ -492,7 +574,6 @@ export default {
   font-size: 30px;
 }
 </style>
-
 ```
 
 ### 计算属性
@@ -522,9 +603,9 @@ export default {
 ```
 
 ```vue
-    <!-- 计算属性 -->
-    <p>{{ reverseMsg }}</p>
-    <button @click="message = 'hello mikeshinoda'">改变Message</button>
+<!-- 计算属性 -->
+<p>{{ reverseMsg }}</p>
+<button @click="message = 'hello mikeshinoda'">改变Message</button>
 ```
 
 ### 侦听器
@@ -535,30 +616,30 @@ export default {
 export default {
   data() {
     return {
-      question: '',
-      answer: 'Questions usually contain a question mark. ;-)'
-    }
+      question: "",
+      answer: "Questions usually contain a question mark. ;-)",
+    };
   },
   watch: {
     // 每当 question 改变时，这个函数就会执行
     question(newQuestion, oldQuestion) {
-      if (newQuestion.includes('?')) {
-        this.getAnswer()
+      if (newQuestion.includes("?")) {
+        this.getAnswer();
       }
-    }
+    },
   },
   methods: {
     async getAnswer() {
-      this.answer = 'Thinking...'
+      this.answer = "Thinking...";
       try {
-        const res = await fetch('https://yesno.wtf/api')
-        this.answer = (await res.json()).answer
+        const res = await fetch("https://yesno.wtf/api");
+        this.answer = (await res.json()).answer;
       } catch (error) {
-        this.answer = 'Error! Could not reach the API. ' + error
+        this.answer = "Error! Could not reach the API. " + error;
       }
-    }
-  }
-}
+    },
+  },
+};
 ```
 
 ```vue
@@ -595,8 +676,8 @@ export default {
 ```
 
 ```vue
-    <!-- watch -->
-    <div>
+<!-- watch -->
+<div>
       <p>{{ message }}</p>
       <button @click="message = 'hello mike'">改变Message</button>
       <input type="text" v-model="message" />
@@ -605,7 +686,7 @@ export default {
 
 #### 深度监听
 
-watch监听不到对象的属性变化，需要使用深度监听
+watch 监听不到对象的属性变化，需要使用深度监听
 
 ```js
   data() {
@@ -646,7 +727,7 @@ watch监听不到对象的属性变化，需要使用深度监听
     // },
 ```
 
-### class类名的对象使用方式
+### class 类名的对象使用方式
 
 ```vue
 <script lang="ts">
@@ -708,10 +789,9 @@ export default {
   background: pink;
 }
 </style>
-
 ```
 
-### class类名的数组使用方式
+### class 类名的数组使用方式
 
 ```js
   data() {
@@ -729,11 +809,11 @@ export default {
 ```
 
 ```vue
-    <!-- 数组语法 -->
-    <p class="[message,activeClass]"></p>
+<!-- 数组语法 -->
+<p class="[message,activeClass]"></p>
 ```
 
-### style样式的多种操作方式
+### style 样式的多种操作方式
 
 ```vue
 <script lang="ts">
@@ -768,7 +848,7 @@ export default {
 
 ### 条件渲染
 
-#### 条件渲染v-if
+#### 条件渲染 v-if
 
 ```vue
 <script lang="ts">
@@ -800,7 +880,7 @@ export default {
 </style>
 ```
 
-#### 条件渲染v-show
+#### 条件渲染 v-show
 
 ```js
   data() {
@@ -813,16 +893,16 @@ export default {
 ```
 
 ```vue
-  <!-- v-show -->
-  <p v-show="gender == 'male'">man</p>
-  <p v-show="gender == 'female'">woman</p>
-  <!--v-show 只是简单地切换元素的 display CSS property-->
-  <h2 v-if="isShow">v-if</h2>
-  <h2 v-show="!isShow">v-show</h2>
-  <button @click="isShow = !isShow">change show</button>
+<!-- v-show -->
+<p v-show="gender == 'male'">man</p>
+<p v-show="gender == 'female'">woman</p>
+<!--v-show 只是简单地切换元素的 display CSS property-->
+<h2 v-if="isShow">v-if</h2>
+<h2 v-show="!isShow">v-show</h2>
+<button @click="isShow = !isShow">change show</button>
 ```
 
-### 列表渲染v-for
+### 列表渲染 v-for
 
 ```vue
 <script lang="ts">
@@ -1149,7 +1229,7 @@ Vue 为一些常用的按键提供了别名：
 
 这些修饰符将处理程序限定为由特定鼠标按键触发的事件。
 
-### v-model表单控件的基本使用
+### v-model 表单控件的基本使用
 
 ```vue
 <script lang="ts">
@@ -1205,9 +1285,9 @@ export default {
 </style>
 ```
 
-### 父组件通过Prop传给子组件值
+### 父组件通过 Prop 传给子组件值
 
-在**父组件Content.vue**
+在**父组件 Content.vue**
 
 ```vue
 <script lang="ts">
@@ -1228,11 +1308,10 @@ export default {
   </div>
 </template>
 
-<style>
-</style>
+<style></style>
 ```
 
-在**子组件Hello.vue**
+在**子组件 Hello.vue**
 
 ```vue
 <script lang="ts">
@@ -1252,13 +1331,12 @@ export default {
   </div>
 </template>
 
-<style>
-</style>
+<style></style>
 ```
 
 ### 子组件通过自定义事件向父组件传值
 
-在**父组件App.vue**
+在**父组件 App.vue**
 
 ```vue
 <script lang="ts">
@@ -1288,12 +1366,10 @@ export default {
   </div>
 </template>
 
-<style>
-</style>
-
+<style></style>
 ```
 
-在**子组件Content.vue**
+在**子组件 Content.vue**
 
 ```vue
 <script lang="ts">
@@ -1317,9 +1393,7 @@ export default {
   </div>
 </template>
 
-<style>
-</style>
-
+<style></style>
 ```
 
 ### 父组件访问子组件`$refs`
@@ -1380,7 +1454,7 @@ export default {
 
 子组件可直接通过`$parent`来访问父组件的内容
 
-> ⚠️不建议使用，因为影响复用性
+> ⚠️ 不建议使用，因为影响复用性
 
 ```vue
 <template>
@@ -1466,7 +1540,6 @@ export default {
   color: #2c3e50;
 }
 </style>
-
 ```
 
 在**Slot.vue**
@@ -1581,7 +1654,7 @@ export default {
 <style></style>
 ```
 
-### 组合式API在setup()函数中定义以及使用变量
+### 组合式 API 在 setup()函数中定义以及使用变量
 
 ```vue
 <script>
@@ -1669,41 +1742,41 @@ yarn add vue-router@4
 
 <!-- JavaScript -->
 <script>
-  // 1. 定义路由组件.
-  // 也可以从其他文件导入
-  const Home = { template: '<div>Home</div>' }
-  const About = { template: '<div>About</div>' }
+// 1. 定义路由组件.
+// 也可以从其他文件导入
+const Home = { template: "<div>Home</div>" };
+const About = { template: "<div>About</div>" };
 
-  // 2. 定义一些路由
-  // 每个路由都需要映射到一个组件。
-  // 我们后面再讨论嵌套路由。
-  const routes = [
-    { path: '/', component: Home },
-    { path: '/about', component: About },
-  ]
+// 2. 定义一些路由
+// 每个路由都需要映射到一个组件。
+// 我们后面再讨论嵌套路由。
+const routes = [
+  { path: "/", component: Home },
+  { path: "/about", component: About },
+];
 
-  // 3. 创建路由实例并传递 `routes` 配置
-  // 你可以在这里输入更多的配置，但我们在这里
-  // 暂时保持简单
-  const router = VueRouter.createRouter({
-    // 4. 内部提供了 history 模式的实现。为了简单起见，我们在这里使用 hash 模式。
-    history: VueRouter.createWebHashHistory(),
-    routes, // `routes: routes` 的缩写
-  })
+// 3. 创建路由实例并传递 `routes` 配置
+// 你可以在这里输入更多的配置，但我们在这里
+// 暂时保持简单
+const router = VueRouter.createRouter({
+  // 4. 内部提供了 history 模式的实现。为了简单起见，我们在这里使用 hash 模式。
+  history: VueRouter.createWebHashHistory(),
+  routes, // `routes: routes` 的缩写
+});
 
-  // 5. 创建并挂载根实例
-  const app = Vue.createApp({})
-  //确保 _use_ 路由实例使
-  //整个应用支持路由。
-  app.use(router)
+// 5. 创建并挂载根实例
+const app = Vue.createApp({});
+//确保 _use_ 路由实例使
+//整个应用支持路由。
+app.use(router);
 
-  app.mount('#app')
+app.mount("#app");
 
-  // 现在，应用已经启动了！
+// 现在，应用已经启动了！
 </script>
 ```
 
-##### Vue项目
+##### Vue 项目
 
 文件目录
 
@@ -1933,7 +2006,7 @@ import StyleTwo from "../views/StyleTwo.vue";
   },
 ```
 
-#### 使用JavaScript实现页面跳转
+#### 使用 JavaScript 实现页面跳转
 
 `App.vue`
 
@@ -1955,7 +2028,7 @@ const routes = [
     path: "/",
     component: Index,
   },
-    {
+  {
     path: "/detail",
     component: Deatil,
   },
@@ -1988,7 +2061,5 @@ export default {
 };
 </script>
 ```
-
-
 
 ## 登陆页简单验证

@@ -1,7 +1,7 @@
 ---
 title: String
 date: 2023/05/30/ 19:19:04
-discription: 
+discription:
 tags:
 updated:
 type:
@@ -111,7 +111,8 @@ int Index(SString *s, SString *t) {
 }
 ```
 
-### KMP算法
+### KMP 算法
+
 ```c
 #define MaxSize 255
 

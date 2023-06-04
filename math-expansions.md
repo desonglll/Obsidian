@@ -122,13 +122,8 @@ Sure! Here are the LaTeX codes for the Taylor expansions of some common trigonom
 
 Note that the Taylor expansion for $\tan(x)$ involves the Bernoulli numbers, which can be defined recursively by $B_0 = 1$, $B_1 = -\frac{1}{2}$, and the formula $B_n = \sum_{k=0}^{n-1}\binom{n}{k}\frac{B_k}{n-k+1}$ for $n \geq 2$.
 
-
-
-
-
 Sure! Here's the LaTeX code for the result of the integral of $\frac{1}{\sqrt{1+x^4}}$:
 
 $\int \frac{1}{\sqrt{1+x^4}} \mathrm{d}x = \frac{1}{2}\sqrt{\frac{\sqrt{2}+1}{2}}\ln\left(\frac{\sqrt{2}+1}{\sqrt{2}-1}\cdot\frac{\sqrt[4]{x^2-\sqrt{2}x+1}}{\sqrt[4]{x^2+\sqrt{2}x+1}}\right)+C$
 
 where $C$ is the constant of integration.
-

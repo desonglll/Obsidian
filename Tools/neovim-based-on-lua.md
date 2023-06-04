@@ -1,7 +1,7 @@
 ---
 title: neovim based on lua
 date: 2022/12/08/ 00:22:51
-discription: 
+discription:
 ---
 
 ## Table Of Contents
@@ -34,8 +34,6 @@ discription:
 - [Others](#others)
   - [keymaps repeat](#keymaps-repeat)
   - [Setting workplace of neovim](#setting-workplace-of-neovim)
-
-
 
 基于 Lua 的 NeoVim 配置可以提供更强大的扩展性和灵活性。以下是基于 Lua 的 NeoVim 配置步骤：
 
@@ -80,8 +78,6 @@ discription:
 7. 重新启动 NeoVim，它将加载你的 Lua 配置并应用更改。
 
 这只是一个简单的示例，你可以根据自己的需求进一步扩展和定制你的 NeoVim 配置。
-
-
 
 ## **Github** repository link
 

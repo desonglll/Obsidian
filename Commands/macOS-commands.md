@@ -1,7 +1,7 @@
 ---
 title: macOS-commands
 date: 2023/05/30/ 10:02:25
-discription: 
+discription:
 tags:
 updated:
 type:
@@ -20,7 +20,7 @@ cover:
 
 ## 开发
 
-### macOS终端查看某一端口占用程序并杀死该程序
+### macOS 终端查看某一端口占用程序并杀死该程序
 
 要在 macOS 终端中查看某一端口的占用程序并杀死该程序，可以使用以下命令：
 
@@ -52,7 +52,7 @@ kill 12345
 
 请确保谨慎使用 `kill` 命令，并确保你要终止的进程是正确的，以避免意外关闭其他重要进程。
 
-### macOS终端查看本机本地ip地址
+### macOS 终端查看本机本地 ip 地址
 
 在 macOS 终端中，你可以使用 `ifconfig` 命令来查看本机的本地 IP 地址。以下是具体步骤：
 
@@ -67,6 +67,7 @@ ifconfig
 4. 在相应的网络接口部分，查找名为 `inet` 的行。该行将显示你的本地 IP 地址。
 
 示例输出：
+
 ```
 en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
     ...
@@ -297,9 +298,9 @@ diskutil apfs listcryptousers /dev/apfs_volume_id_goes_here
 
 ![Screen Shot 2019 01 14 at 9 19 59 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-9.19.59-PM.png)
 
-In this case, use the UUID associated with the **Local Open Directory  User** entry.
+In this case, use the UUID associated with the **Local Open Directory User** entry.
 
-Unfortunately, this may lead to some guesswork on your part if there is more than one FileVault enabled account enabled. With multiple accounts enabled, there will be will be multiple **Local Open Directory  User** entries.
+Unfortunately, this may lead to some guesswork on your part if there is more than one FileVault enabled account enabled. With multiple accounts enabled, there will be will be multiple **Local Open Directory User** entries.
 
 **Decrypting using an account password:**
 
@@ -358,4 +359,3 @@ You can also monitor it via the following means:
 5. View the current decryption status
 
 ![Screen Shot 2019 01 14 at 10 50 12 PM](./macOS-commands.assets/Screen-Shot-2019-01-14-at-10.50.12-PM.png)
-

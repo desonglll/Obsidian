@@ -1,7 +1,7 @@
 ---
 title: cmake
 date: 2023/05/30/ 19:13:14
-discription: 
+discription:
 tags:
 updated:
 type:
@@ -18,7 +18,7 @@ sticky:
 cover:
 ---
 
-当涉及到CMake代码时，以下是一个基本的示例，涵盖了CMake的基础语法：
+当涉及到 CMake 代码时，以下是一个基本的示例，涵盖了 CMake 的基础语法：
 
 ```cmake
 # 设置项目的最低版本要求
@@ -28,7 +28,7 @@ cmake_minimum_required(VERSION 3.0)
 project(MyProject)
 
 # 添加源文件
-set(SOURCES 
+set(SOURCES
     src/main.cpp
     src/foo.cpp
     src/bar.cpp
@@ -44,7 +44,7 @@ include_directories(include)
 link_directories(lib)
 
 # 添加链接的库
-target_link_libraries(MyExecutable 
+target_link_libraries(MyExecutable
     lib1
     lib2
 )
@@ -58,7 +58,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 上述示例代码包括以下内容：
 
-- `cmake_minimum_required`：设置要求的CMake最低版本。
+- `cmake_minimum_required`：设置要求的 CMake 最低版本。
 - `project`：设置项目名称。
 - `set`：添加源文件到变量。
 - `add_executable`：创建可执行文件并链接源文件。
@@ -69,4 +69,3 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 - `set`：设置输出路径。
 
 请根据你的具体项目需求进行相应的修改和扩展。
-

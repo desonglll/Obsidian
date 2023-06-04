@@ -1,7 +1,7 @@
 ---
 title: List
 date: 2023/05/30/ 19:18:51
-discription: 
+discription:
 tags:
 updated:
 type:

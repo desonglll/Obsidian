@@ -1,7 +1,7 @@
 ---
 title: markdown书写
 date: 2023/04/06/ 11:49:04
-discription: 
+discription:
 tags:
 updated:
 type:
@@ -24,7 +24,7 @@ cover:
 ---
 title: centos7
 date: 2023/04/06/ 11:49:04
-discription: 
+discription:
 tags:
 updated:
 type:
@@ -42,9 +42,7 @@ cover:
 ---
 ```
 
-
-
-### VS Code版
+### VS Code 版
 
 ```json
 "head": {
@@ -73,4 +71,3 @@ cover:
   "description": ""
 }
 ```
-

@@ -13,9 +13,8 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
-sticky: 
-cover:
-    https://fastly.jsdelivr.net/gh/jerryc127/CDN/img/Markdown-Style-test-cover.png
+sticky:
+cover: https://fastly.jsdelivr.net/gh/jerryc127/CDN/img/Markdown-Style-test-cover.png
 ---
 
 This is foot [^1] test.
@@ -23,11 +22,12 @@ This is foot [^1] test.
 [^1]: This is the first footnote.
 
 ---
-__Advertisement :)__
 
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
+**Advertisement :)**
+
+- **[pica](https://nodeca.github.io/pica/demo/)** - high quality and fast image
   resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+- **[babelfish](https://github.com/nodeca/babelfish/)** - developer friendly
   i18n with plurals support and easy syntax.
 
 You will like those projects!
@@ -52,18 +52,17 @@ $$
 
 ## Horizontal Rules
 
-___
+---
 
 ---
 
-***
+---
 
 ## Latex support
 
 $$
 e^{i\pi + 1} = 0
 $$
-
 
 ## Typographic replacements
 
@@ -73,26 +72,28 @@ Enable typographer option to see result.
 
 test.. test... test..... test?..... test!....
 
-!!!!!! ???? ,,  -- ---
+!!!!!! ???? ,, -- ---
 
 "Smartypants, double quotes" and 'single quotes'
 
 ## Emphasis
 
-__This is bold text__
+**This is bold text**
 
-__This is bold text__
+**This is bold text**
 
-*This is italic text*
+_This is italic text_
 
-*This is italic text*
+_This is italic text_
 
 ~~Strikethrough~~
 
 ## Blockquotes
 
 > Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
+>
+> > ...by using additional greater-than signs right next to each other...
+> >
 > > > ...or with spaces between arrows.
 
 ## Lists
@@ -113,8 +114,8 @@ Ordered
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
 
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
+4. You can use sequential numbers...
+5. ...or keep all the numbers as `1.`
 
 Start numbering with offset:
 
@@ -140,7 +141,7 @@ Sample text here...
 
 Syntax highlighting
 
-``` js
+```js
 var foo = function (bar) {
   return bar++;
 };
@@ -183,7 +184,7 @@ Like links, Images also have a footnote style syntax
 
 With a reference later in the document defining the URL location:
 
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+[id]: https://octodex.github.com/images/dojocat.jpg "The Dojocat"
 
 ## Plugins
 
@@ -221,7 +222,7 @@ Inline footnote^[Text of inline footnote] definition.
 
 Duplicated footnote reference[^second].
 
-[^first]: Footnote __can have markup__
+[^first]: Footnote **can have markup**
 
     and multiple paragraphs.
 
@@ -231,25 +232,25 @@ Duplicated footnote reference[^second].
 
 Term 1
 
-:   Definition 1
+: Definition 1
 with lazy continuation.
 
-Term 2 with *inline markup*
+Term 2 with _inline markup_
 
-:   Definition 2
+: Definition 2
 
         { some code, part of Definition 2 }
-    
+
     Third paragraph of definition 2.
 
-*Compact style:*
+_Compact style:_
 
 Term 1
-  ~ Definition 1
+~ Definition 1
 
 Term 2
-  ~ Definition 2a
-  ~ Definition 2b
+~ Definition 2a
+~ Definition 2b
 
 ### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
 
@@ -257,10 +258,10 @@ This is HTML abbreviation example.
 
 It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 
-*[HTML]: Hyper Text Markup Language
+\*[HTML]: Hyper Text Markup Language
 
 ### [Custom containers](https://github.com/markdown-it/markdown-it-container)
 
 ::: warning
-*here be dragons*
+_here be dragons_
 :::

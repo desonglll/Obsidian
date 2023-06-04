@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data-structures/Sort.md",
+                "file": "Commands/git-commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data-structures/Sort.md",
+                "file": "Commands/git-commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data-structures/Sort.md",
+                "file": "Commands/git-commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data-structures/Sort.md"
+                "file": "Commands/git-commands.md"
               }
             }
           }
@@ -151,11 +151,11 @@
   },
   "active": "cb4b34fa480dfd6e",
   "lastOpenFiles": [
+    "Data-structures/Sort.md",
     "LICENSE",
     "Data-structures/Sort~.md",
     "README.md",
     "Tools/vim-in-idea.md",
-    "Data-structures/Sort.md",
     "Tools/markdown-syntax.md",
     "Deep-Learning/深度学习指南.md",
     "深度学习指南.pdf",
@@ -197,7 +197,6 @@
     "杂七杂八的工具/assets/640-20230531145423947.png",
     "杂七杂八的工具/assets/640-20230531145416931.png",
     "Data-structures/optimize_images.py",
-    "Data-structures/assets/optimize_images.py",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
   ]

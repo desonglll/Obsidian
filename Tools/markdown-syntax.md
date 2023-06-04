@@ -1,7 +1,7 @@
 ---
 title: MarkDown学习
 date: 2022/09/26/ 15:29:24
-description: 
+description:
 ---
 
 - [Cheat Sheet](#cheat-sheet)
@@ -56,7 +56,7 @@ hello
 | --------------- | -------------------------------- |
 | Heading         | # H1 ## H2 ### H3                |
 | Bold            | **bold text**                    |
-| Italic          | *italicized text*                |
+| Italic          | _italicized text_                |
 | Blockquote      | > blockquote                     |
 | Ordered List    | 1. First item                    |
 | Unordered List  | - First item                     |
@@ -68,17 +68,17 @@ hello
 
 ### Extended Syntax
 
-```markdown
+````markdown
 | Element           | Markdown Syntax                       |
 | ----------------- | ------------------------------------- |
 | Table             | [Tables](#tables)                     |
-| Fenced Code Block | ```{hello world}```                   |
+| Fenced Code Block | `{hello world}`                       |
 | Footnote          | [Footnotes](#footnotes)               |
 | Heading ID        | ### My Great Heading {#custom-id}     |
 | Definition List   | [Definition Lists](#definition-lists) |
 | Strikethrough     | ~~the~~                               |
 | Task List         | [Task Lists](#task-lists)             |
-```
+````
 
 ## Basic Syntax
 
@@ -88,10 +88,15 @@ To create a heading, add number signs (#) in front of a word or phrase. The numb
 
 ```markdown
 # Heading level 1
+
 ## Heading level 2
+
 ### Heading level 3
+
 #### Heading level 4
+
 ##### Heading level 5
+
 ###### Heading level 6
 ```
 
@@ -100,11 +105,9 @@ To create a heading, add number signs (#) in front of a word or phrase. The numb
 Alternatively, on the line below the text, add any number of == characters for heading level 1 or -- characters for heading level 2.
 
 ```markdown
-Heading level 1
-===============
+# Heading level 1
 
-Heading level 2
----------------
+## Heading level 2
 ```
 
 ### Paragraphs
@@ -146,28 +149,27 @@ Love**is**bold.
 #### italic
 
 ```markdown
-The *cat's meow*.
+The _cat's meow_.
 
 The _cat's meow_.
 
 A*cat*meow
 ```
 
-The *cat's meow*.
+The _cat's meow_.
 
-The *cat's meow*.
+The _cat's meow_.
 
 A*cat*meow
 
 #### Bold and Italic
 
 ```markdown
+**_Important_** text.
 
-***Important*** text.
+**_Important_** text.
 
-___Important___ text.
-
-__*Important*__ text.
+**_Important_** text.
 
 **_Important_** text.
 ```
@@ -183,7 +185,7 @@ __*Important*__ text.
 
 ```markdown
 > This the first paragraph.
-> 
+>
 > And this is the second paragraph.
 ```
 
@@ -196,12 +198,12 @@ __*Important*__ text.
 ```markdown
 > This the first pragraphs.
 >
->> And this is the nested paragraph.
+> > And this is the nested paragraph.
 ```
 
 > This the first pragraphs.
 >
->> And this is the nested paragraph.
+> > And this is the nested paragraph.
 
 #### Blockquotes with Other Elements
 
@@ -211,7 +213,7 @@ __*Important*__ text.
 > - Revenue was off the chart.
 > - Profits were higher than ever.
 >
-> *Everything* is going **well**.
+> _Everything_ is going **well**.
 ```
 
 > The quarterly results look greak
@@ -219,7 +221,7 @@ __*Important*__ text.
 > - Revenue was off the chart.
 > - Profits were higher than ever.
 >
-> *Everything* is going **well**.
+> _Everything_ is going **well**.
 
 ### Lists
 
@@ -233,15 +235,15 @@ To create an ordered list, add line items with numbers followed by periods. The 
 3. Third item
 4. Fourth item
 
-1. First item
-1. Second item
-1. Third item
-1. Fourth item
+5. First item
+6. Second item
+7. Third item
+8. Fourth item
 
-1. First item
-8. Second item
-3. Third item
-5. Fourth item
+9. First item
+10. Second item
+11. Third item
+12. Fourth item
 ```
 
 1. First item
@@ -249,15 +251,15 @@ To create an ordered list, add line items with numbers followed by periods. The 
 3. Third item
 4. Fourth item
 
-1. First item
-1. Second item
-1. Third item
-1. Fourth item
+5. First item
+6. Second item
+7. Third item
+8. Fourth item
 
-1. First item
-8. Second item
-3. Third item
-5. Fourth item
+9. First item
+10. Second item
+11. Third item
+12. Fourth item
 
 ##### Nesting List Items
 
@@ -267,17 +269,16 @@ To nest line items in an ordered list, indent the items four spaces or one tab.
 1. First item
 2. Second item
 3. Third item
-1. Indented item
-2. Indented item
-4. Fourth item
+4. Indented item
+5. Indented item
+6. Fourth item
 ```
 
 #### Unorded Lists
 
-To create an unordered list, add dashes (-), asterisks  (*),  or  plus  signs  (+)  in  front  of line items.
+To create an unordered list, add dashes (-), asterisks (\*), or plus signs (+) in front of line items.
 
 ```markdown
-
 - First item
 - Second item
 - Third item
@@ -288,11 +289,13 @@ To create an unordered list, add dashes (-), asterisks  (*),  or  plus  signs  (
 * Third item
 * Fourth item
 
-+ First item
-* Second item
-- Third item
-+ Fourth item
+- First item
 
+* Second item
+
+- Third item
+
+* Fourth item
 ```
 
 - First item
@@ -305,75 +308,76 @@ To create an unordered list, add dashes (-), asterisks  (*),  or  plus  signs  (
 * Third item
 * Fourth item
 
-+ First item
+- First item
+
 * Second item
+
 - Third item
-+ Fourth item
+
+* Fourth item
 
 #### Adding Elements in Lists
 
 ##### Paragraphs
 
 ```markdown
-
-* This is the first list item.
-* Here's the second list item.
+- This is the first list item.
+- Here's the second list item.
 
 I need to add another paragraph below the second list item.
 
-* And here's the third list item.
+- And here's the third list item.
 ```
 
-* This is the first list item.
-* Here's the second list item.
+- This is the first list item.
+- Here's the second list item.
 
 I need to add another paragraph below the second list item.
 
-* And here's the third list item.
+- And here's the third list item.
 
 ##### Blockquotes
 
 ```markdown
-
-* This is the first list item.
-* Here's the second list item.
+- This is the first list item.
+- Here's the second list item.
 
 > I need to add another paragraph below the second list item.
 
-* And here's the third list item.
+- And here's the third list item.
 ```
 
-* This is the first list item.
-* Here's the second list item.
+- This is the first list item.
+- Here's the second list item.
 
 > I need to add another paragraph below the second list item.
 
-* And here's the third list item.
+- And here's the third list item.
 
 ##### Code Blocks
 
-Code  blocks  are  normally  indented  four  spaces  or  one  tab.  When  they’re  in  a  list, indent them eight spaces  or two tabs.
+Code blocks are normally indented four spaces or one tab. When they’re in a list, indent them eight spaces or two tabs.
 
-1. Open the file.
-2. Find the following code block on line 21:
+1.  Open the file.
+2.  Find the following code block on line 21:
 
         <html>
             <head>
                 <title>Test</title>
             </head>
 
-3. Update the title to match the name of your website.
+3.  Update the title to match the name of your website.
 
 ```markdown
-1. Open the file.
-2. Find the following code block on line 21:
+1.  Open the file.
+2.  Find the following code block on line 21:
 
         <html>
             <head>
                 <title>Test</title>
             </head>
 
-3. Update the title to match the name of your website.
+3.  Update the title to match the name of your website.
 ```
 
 ##### Images
@@ -381,7 +385,7 @@ Code  blocks  are  normally  indented  four  spaces  or  one  tab.  When  they�
 ```markdown
 1. Open the file containing Tux, the Linux mascot.
 2. Marvel at its beauty.
-   
+
    ![Tux](images/tux.png)
 
 3. Close the file.
@@ -402,10 +406,10 @@ At the command prompt, type `nano`.
 If the word or phrase you want to denote as code includes one or more tick marks, you can escape it by enclosing the word or phrase in double tick marks(“).
 
 ```markdown
-``Use `code` in your Markdown file.``
+`` Use `code` in your Markdown file. ``
 ```
 
-``Use `code` in your Markdown file.``
+`` Use `code` in your Markdown file. ``
 
 #### Code Blocks
 
@@ -420,21 +424,21 @@ To create code blocks, indent every line of the block by at least four space or 
 
 ### Horizontal Rule
 
-To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+To create a horizontal rule, use three or more asterisks (\*\*\*), dashes (---), or underscores (\_\_\_) on a line by themselves.
 
 ```markdown
-***
+---
 
 ---
 
-___
+---
 ```
 
-***
+---
 
 ---
 
-___
+---
 
 ### Links
 
@@ -446,7 +450,7 @@ Use [Duck Duck Go](https://duckduckgo.com).
 
 #### Adding Titles
 
-You  can  optionally  add  a  title  for  a  link.  This  will  appear  as  a  tooltip  when  the  user hovers  over the  link. To add  a title, enclose it  in parentheses after the URL.
+You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
 
 ```markdown
 Use [Duck Duck Go](https://duckduckgo.com "My search engine!").
@@ -463,15 +467,15 @@ To quickly turn a URL or email address into a link, enclose it in angle brackets
 
 #### Formatting Links
 
-To emphasize links, add  asterisks before and after the  brackets and parentheses.
+To emphasize links, add asterisks before and after the brackets and parentheses.
 
 ```markdown
 I love supporting **[EFF](https://eff.org)**
-This is the *[EFF](https://eff.org)*.
+This is the _[EFF](https://eff.org)_.
 ```
 
 I love supporting **[EFF](https://eff.org)**
-This is the *[EFF](https://eff.org)*.
+This is the _[EFF](https://eff.org)_.
 
 ### Tables
 
@@ -507,7 +511,7 @@ You can align text in the columns to the left, right, or center by adding a colo
 
 ### Footnotes
 
-Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where  you  added  the  footnote  reference.  Readers  can  click  the  link  to  jump  to  the content of the  footnote  at  the bottom of the page.
+Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.
 To create a footnote reference, add a caret and an identifier inside brackets (`[^1]`). Identifiers can be numbers or words, but they can’t contain spaces or tabs. Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.
 Add the footnote using another caret and number inside brackets with a colon and text (`[^1]: My footnote.`). You don’t have to put footnotes at the end of the document. You can put them anywhere except inside other elements like lists, block quotes, and tables.
 
@@ -515,7 +519,6 @@ Add the footnote using another caret and number inside brackets with a colon and
 Here's a simple footnote, [^1] and here's a longer one.[^bignote]
 
 [^1]: This is the first footnote.
-
 [^bignote]: Here's one with multiple paragraphs and code.
 
     Indent paragraphs to include them in the footnote.
@@ -528,7 +531,6 @@ Here's a simple footnote, [^1] and here's a longer one.[^bignote]
 Here's a simple footnote, [^1] and here's a longer one.[^bignote]
 
 [^1]: This is the first footnote.
-
 [^bignote]: Here's one with multiple paragraphs and code.
 
     Indent paragraphs to include them in the footnote.
@@ -539,7 +541,7 @@ Here's a simple footnote, [^1] and here's a longer one.[^bignote]
 
 ### Escaping Characters
 
-To   display   a   literal   character   that   would   otherwise   be   used   to   format   text   in   a Markdown document, add a backslash (\) in  front of the  character.
+To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\) in front of the character.
 
 ```markdown
 \* Without the backslash, this would be a bullet in an unordered list.
@@ -568,7 +570,6 @@ First Term
 Second Term
 : This is one definition of the first term.
 : This is another definition of the second term.
-
 ```
 
 First Term
