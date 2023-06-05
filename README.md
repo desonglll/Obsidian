@@ -13,6 +13,8 @@ $\int_{birth}^{death}Study\ dt=life$
 
 My name is mike shinoda.
 
+20230605
+
 And this is a test for push static html files to my tencent server.
 
 It seems successful ⭐
@@ -62,4 +64,4 @@ https://www.cnblogs.com/luoxian1011/p/15854153.html#linux
 
 [Shield](https://shields.io/)
 
-hell there
+hi there
