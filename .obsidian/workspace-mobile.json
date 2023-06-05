@@ -11,8 +11,12 @@
             "id": "0abfebd0c0f83aaa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -69,7 +73,8 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 0,
+    "pinned": true
   },
   "right": {
     "id": "9717e173b057122a",
@@ -81,6 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "README.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "README.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,11 +114,14 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "README.md"
+          }
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 0,
+    "pinned": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -130,16 +140,46 @@
   },
   "active": "0abfebd0c0f83aaa",
   "lastOpenFiles": [
-    "node_modules/prettier/esm/parser-postcss.mjs",
-    "node_modules/prettier/esm/parser-markdown.mjs",
-    "node_modules/prettier/esm/parser-flow.mjs",
-    "node_modules/prettier/esm/parser-angular.mjs",
-    "node_modules/prettier/esm/parser-glimmer.mjs",
-    "programming-language/Front/javascript.md",
-    "node_modules/prettier/esm/parser-graphql.mjs",
-    "Deep-Learning/深度学习指南.md",
-    "README.md",
+    "node_modules/prettier/parser-meriyah.js",
+    "node_modules/prettier/parser-html.js",
+    "node_modules/prettier/parser-flow.js",
+    "node_modules/prettier/parser-babel.js",
+    "node_modules/prettier/esm/standalone.mjs",
+    "Data-structures/assets/image-20230529202006453.png",
+    "Data-structures/assets/image-20230530191841151.png",
+    "node_modules/prettier/parser-yaml.js",
+    "node_modules/prettier/parser-markdown.js",
+    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-10.50.13-PM.png",
+    "Data-structures/assets/image-20230529202228710.png",
+    "node_modules/prettier/parser-typescript.js",
+    "Data-structures/assets/image-20230529202159983.png",
+    "杂七杂八的工具/assets/640-20230531145416931.png",
+    "Data-structures/assets/image-20230529202210066.png",
+    "node_modules/prettier/esm/parser-babel.mjs",
+    "node_modules/prettier/index.js",
+    "杂七杂八的工具/assets/640-20230531145444423.png",
+    "node_modules/prettier/esm/parser-espree.mjs",
+    "Stable-diffusion/assets/16687-4131525014-nsfw, nude, 8K raw photo, Best quality, masterpiece, ultra high res, natural skin texture, realistic eye and face details, full.jpeg",
+    "Stable-diffusion/assets/16687-4131525014-nsfw, nude, 8K raw photo, Best quality, masterpiece, ultra high res, natural skin texture, realistic eye and face details, full-20230519172239864.jpeg",
+    "Commands/crontab-commands.md",
+    "CS-learning/Python-Study-Qianfeng.md",
+    "Obsidian/templates/markdown.md",
+    "Commands/linux-commands.md",
+    "Obsidian/templates/timestamped-note.md",
+    "node_modules/prettier/README.md",
+    "life/diary/2023-06-05.md",
+    "life/diary/2023-06-04.md",
+    "Obsidian/templates/diary01.md",
+    "life/reading/Steve-Paul-Jobs-Stanford.md",
+    "programming-language/Front/react.md",
+    "tools/my-neovim-based-on-lua.md",
+    "life/reading/读书-读紫色菩提-林清玄.md",
+    "programming-language/Front/typescript.md",
+    "life/reading/刘勖雯书单.md",
     "math-expansions.md",
-    "life/diary/2023-06-05.md"
+    "tools/markdown-study.md",
+    "programming-language/Front/javascript.md",
+    "Deep-Learning/深度学习指南.md",
+    "README.md"
   ]
 }
