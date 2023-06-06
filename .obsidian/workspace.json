@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/neovim-based-on-lua.md",
+                "file": "diary/2023-06-06.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/neovim-based-on-lua.md",
+                "file": "diary/2023-06-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/neovim-based-on-lua.md",
+                "file": "diary/2023-06-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/neovim-based-on-lua.md"
+                "file": "diary/2023-06-06.md"
               }
             }
           }
@@ -151,10 +151,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "f07dbe5d6d3d4afe",
+  "active": "f309d03b11164c64",
   "lastOpenFiles": [
-    "tools/markdown-syntax.md",
     "tools/markdown-study.md",
+    "tools/markdown-syntax.md",
+    "tools/neovim-based-on-lua.md",
     "tools/prettier.md",
     "剑指150.md",
     "diary/2023-06-06.md",
@@ -192,7 +193,6 @@
     "life/diary/2023-06-04.md",
     "Obsidian/templates/timestamped-note.md",
     "Obsidian/templates/markdown.md",
-    "Obsidian/templates/diary01.md",
     "Excalidraw",
     "timestamped-notes/assets",
     "tools/加快macOS的光标移动速.assets",
