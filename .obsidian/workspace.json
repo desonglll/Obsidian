@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "剑指150.md",
+                "file": "tools/prettier.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "剑指150.md",
+                "file": "tools/prettier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "剑指150.md",
+                "file": "tools/prettier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "剑指150.md"
+                "file": "tools/prettier.md"
               }
             }
           }
@@ -153,9 +153,13 @@
   },
   "active": "f309d03b11164c64",
   "lastOpenFiles": [
+    "剑指150.md",
+    "diary/2023-06-06.md",
+    "diary/2023-06-05.md",
+    "diary/2023-06-04.md",
+    "diary",
     "tools/prettier.md",
     "README.md",
-    "剑指150.md",
     "tools/converts.md",
     "life/diary/2023-06-06.md",
     "converts.md",
@@ -189,16 +193,12 @@
     "Obsidian/templates/diary01.md",
     "timestamped-notes/202306041931.md",
     "Data-structures/Tree.md",
-    "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
-    "Data-structures/String.md",
-    "Data-structures/Stack.md",
     "Excalidraw",
     "timestamped-notes/assets",
     "tools/加快macOS的光标移动速.assets",
     "tools/加快macOS的光标移动速度.assets",
     "assets",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
-    "Users/mikeshinoda/Desktop/notes/Tools",
     "Reading/a.canvas",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
