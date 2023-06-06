@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/prettier.md",
+                "file": "剑指150.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/prettier.md",
+                "file": "剑指150.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/prettier.md",
+                "file": "剑指150.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/prettier.md"
+                "file": "剑指150.md"
               }
             }
           }
@@ -151,8 +151,9 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "f07dbe5d6d3d4afe",
+  "active": "f309d03b11164c64",
   "lastOpenFiles": [
+    "tools/prettier.md",
     "README.md",
     "剑指150.md",
     "tools/converts.md",
@@ -191,7 +192,6 @@
     "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
     "Data-structures/String.md",
     "Data-structures/Stack.md",
-    "timestamped-notes/Drawing 2023-06-04 19.32.41.excalidraw.md",
     "Excalidraw",
     "timestamped-notes/assets",
     "tools/加快macOS的光标移动速.assets",

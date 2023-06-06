@@ -3,6 +3,7 @@ title: shell commands
 date: 2022/09/26/ 15:29:30
 description:
 ---
+
 - [copy file or directory](#copy-file-or-directory)
 - [delete all files in current directory but keep directory](#delete-all-files-in-current-directory-but-keep-directory)
 - [Useful commands](#useful-commands)

@@ -8,7 +8,6 @@ Tmux 是一个终端复用器（terminal multiplexer），非常有用，属于�
 
 本文介绍如何使用 Tmux。
 
-
 ## 一、Tmux 是什么？
 
 ### 1.1 会话与进程
@@ -61,7 +60,6 @@ $ tmux
 ```
 
 上面命令会启动 Tmux 窗口，底部有一个状态栏。状态栏的左侧是窗口信息（编号和名称），右侧是系统信息。
-
 
 按下`Ctrl+d`或者显式输入`exit`命令，就可以退出 Tmux 窗口。
 
@@ -187,7 +185,6 @@ $ tmux split-window
 # 划分左右两个窗格
 $ tmux split-window -h
 ```
-
 
 ### 5.2 移动光标
 

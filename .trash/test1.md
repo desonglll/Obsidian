@@ -1,5 +1,5 @@
 ---
-title: {{title}}
+title: { { title } }
 date: 2023/05/30/ 19:13:14
 discription:
 tags:
@@ -18,4 +18,4 @@ sticky:
 cover:
 ---
 
-## 
+##

@@ -1,7 +1,7 @@
 ---
 title: python
 date: 2023/06/04/ 17:50:33
-discription: 
+discription:
 tags:
 updated:
 type:
