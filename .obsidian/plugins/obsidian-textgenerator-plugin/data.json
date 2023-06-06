@@ -59,6 +59,6 @@
     "ImageExtractorEmbded": true,
     "ImageExtractor": true
   },
-  "displayErrorInEditor": false,
+  "displayErrorInEditor": true,
   "models": {}
 }
