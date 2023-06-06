@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "programming-language/python/python.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Python专栏",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "programming-language/python/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "programming-language/python/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "programming-language/python/python.md"
               }
             }
           }
@@ -153,6 +153,24 @@
   },
   "active": "f309d03b11164c64",
   "lastOpenFiles": [
+    "programming-language/python/用Python实现一个电影订票系统.md",
+    "programming-language/python/50个常用的Numpy函数详解.md",
+    "programming-language/python/assets/640-20230606081718391.png",
+    "programming-language/python/assets",
+    "programming-language/python/50个常用的Numpy函数详解~.md",
+    "programming-language/python/python.md",
+    "programming-language/python/用Python实现一个电影订票系统！.md",
+    "programming-language/python/assets/640.svg",
+    "programming-language/python/assets/640-20230606081213250.png",
+    "programming-language/python/assets/640.gif",
+    "programming-language/python/assets/0-20230606080700660.jpeg",
+    "programming-language/python/assets/0-20230606080700658.jpeg",
+    "programming-language/python/assets/0.jpeg",
+    "programming-language/python/assets/640-20230606080700618.png",
+    "programming-language/python/assets/640.png",
+    "programming-language/python/assets/0.png",
+    "life/diary/2023-06-06.md",
+    "programming-language/python",
     "Deep-Learning/深度学习指南.md",
     "README.md",
     "life/diary/2023-06-05.md",
@@ -172,24 +190,7 @@
     "Excalidraw/Drawing 2023-06-04 19.31.22.excalidraw.md",
     "Excalidraw/Drawing 2023-06-04 19.32.08.excalidraw.md",
     "Excalidraw",
-    "programming-language/python.md",
-    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-11.12.50-PM-1.png",
     "timestamped-notes/202306041840.md",
-    "README~.md",
-    "Users/mikeshinoda/Desktop/notes/Tools/assets/p519375.png.md",
-    "assets/1.png.md",
-    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-10.40.48-PM.png",
-    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-10.11.33-PM.png",
-    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.50.12-PM.png",
-    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.19.59-PM.png",
-    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.11.34-PM.png",
-    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.10.14-PM.png",
-    "Commands/macOS-commands.assets/Screen-Shot-2019-01-14-at-9.04.33-PM.png",
-    "CS-learning/assets/121212.jpg",
-    "CS-learning/Data-Structures.md",
-    "develop/live-server.md",
-    "tools/macOS-software.md",
-    "tools/assets/uninstallpkg.jpeg",
     "timestamped-notes/assets",
     "tools/加快macOS的光标移动速.assets",
     "tools/加快macOS的光标移动速度.assets",
@@ -197,8 +198,6 @@
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
-    "Users/mikeshinoda/Desktop",
-    "Users/mikeshinoda",
     "Reading/a.canvas",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
