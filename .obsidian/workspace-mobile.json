@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/diary/2023-06-06.md",
+                "file": "diary/2023-06-06.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "life/diary/2023-06-06.md",
+            "file": "diary/2023-06-06.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "life/diary/2023-06-06.md",
+            "file": "diary/2023-06-06.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "life/diary/2023-06-06.md"
+            "file": "diary/2023-06-06.md"
           }
         }
       }
@@ -136,8 +136,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "253b8d252f9a7efd",
+  "active": "0abfebd0c0f83aaa",
   "lastOpenFiles": [
+    "tools/converts.md",
+    "diary/2023-06-06.md",
+    "diary/2023-06-04.md",
+    "diary/2023-06-05.md",
+    "diary",
     "programming-language/python/python.md",
     "life/diary/2023-06-06.md",
     "programming-language/python/assets/640-20230606081718391.png",
@@ -171,7 +176,6 @@
     "node_modules/prettier/esm/standalone.mjs",
     "Data-structures/assets/image-20230529202006453.png",
     "node_modules/prettier/parser-yaml.js",
-    "node_modules/prettier/parser-markdown.js",
     "Commands/crontab-commands.md",
     "CS-learning/Python-Study-Qianfeng.md",
     "Obsidian/templates/markdown.md",
@@ -179,9 +183,6 @@
     "Obsidian/templates/timestamped-note.md",
     "node_modules/prettier/README.md",
     "Obsidian/templates/diary01.md",
-    "life/reading/Steve-Paul-Jobs-Stanford.md",
-    "programming-language/Front/react.md",
-    "tools/my-neovim-based-on-lua.md",
-    "life/reading/读书-读紫色菩提-林清玄.md"
+    "life/reading/Steve-Paul-Jobs-Stanford.md"
   ]
 }

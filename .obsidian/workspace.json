@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6f130db5e2ae3f76",
+        "id": "0c23f390b16edccb",
         "type": "tabs",
         "children": [
           {
-            "id": "f309d03b11164c64",
+            "id": "1eef05e2a874590f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2023-06-06.md",
+                "file": "math-expansions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2023-06-06.md",
+                "file": "math-expansions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2023-06-06.md",
+                "file": "math-expansions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2023-06-06.md"
+                "file": "math-expansions.md"
               }
             }
           }
@@ -151,14 +151,14 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "f309d03b11164c64",
+  "active": "1eef05e2a874590f",
   "lastOpenFiles": [
+    "diary/2023-06-06.md",
     "tools/markdown-study.md",
     "tools/markdown-syntax.md",
     "tools/neovim-based-on-lua.md",
     "tools/prettier.md",
     "剑指150.md",
-    "diary/2023-06-06.md",
     "diary/2023-06-05.md",
     "diary/2023-06-04.md",
     "diary",
