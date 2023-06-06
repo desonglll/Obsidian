@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "prett",
+                "query": "rar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,7 +151,7 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "1eef05e2a874590f",
+  "active": "f07dbe5d6d3d4afe",
   "lastOpenFiles": [
     "diary/2023-06-06.md",
     "tools/markdown-study.md",
