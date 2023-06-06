@@ -77,7 +77,7 @@ note
 note
 ```
 
-### [](https://github.com/azu/opml-to-markdown#custom-output-markdown)Custom output markdown
+### Custom output markdown
 
 You have to implement building module.
 
