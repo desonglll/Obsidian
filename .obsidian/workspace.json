@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/converts.md",
+                "file": "剑指150.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/converts.md",
+                "file": "剑指150.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/converts.md",
+                "file": "剑指150.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/converts.md"
+                "file": "剑指150.md"
               }
             }
           }
@@ -153,8 +153,9 @@
   },
   "active": "f309d03b11164c64",
   "lastOpenFiles": [
-    "life/diary/2023-06-06.md",
     "tools/converts.md",
+    "剑指150.md",
+    "life/diary/2023-06-06.md",
     "converts.md",
     "Untitled.md",
     "剑指150.opml",
@@ -191,7 +192,6 @@
     "Data-structures/String.md",
     "Data-structures/Stack.md",
     "timestamped-notes/Drawing 2023-06-04 19.32.41.excalidraw.md",
-    "Excalidraw/Drawing 2023-06-04 19.31.22.excalidraw.md",
     "Excalidraw",
     "timestamped-notes/assets",
     "tools/加快macOS的光标移动速.assets",
