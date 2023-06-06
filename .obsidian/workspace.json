@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "剑指150.md",
+                "file": "tools/prettier.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Python专栏",
+                "query": "prett",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "剑指150.md",
+                "file": "tools/prettier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "剑指150.md",
+                "file": "tools/prettier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "剑指150.md"
+                "file": "tools/prettier.md"
               }
             }
           }
@@ -151,10 +151,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "f309d03b11164c64",
+  "active": "f07dbe5d6d3d4afe",
   "lastOpenFiles": [
-    "tools/converts.md",
+    "README.md",
     "剑指150.md",
+    "tools/converts.md",
     "life/diary/2023-06-06.md",
     "converts.md",
     "Untitled.md",
@@ -177,7 +178,6 @@
     "programming-language/python/assets/0.png",
     "programming-language/python",
     "Deep-Learning/深度学习指南.md",
-    "README.md",
     "life/diary/2023-06-05.md",
     "tools/实用网站.md",
     "Commands/macOS-commands.md",
