@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "commands/linux-commands.md",
+                "file": "data-structures/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "commands/linux-commands.md",
+                "file": "data-structures/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "commands/linux-commands.md",
+                "file": "data-structures/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "commands/linux-commands.md"
+                "file": "data-structures/index.md"
               }
             }
           }
@@ -153,8 +153,8 @@
   },
   "active": "1eef05e2a874590f",
   "lastOpenFiles": [
-    "Users/mikeshinoda/Desktop/notes/Tools/assets/p519375.png.md",
     "commands/linux-commands.md",
+    "Users/mikeshinoda/Desktop/notes/Tools/assets/p519375.png.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
