@@ -1,3 +1,15 @@
+---
+title: some-scripts
+date: 2023-06-07 14:22
+author: Leo Song
+categories:
+  - Markdown
+tags:
+---
+
+标签
+
+- #脚本
 
 ## Python
 
