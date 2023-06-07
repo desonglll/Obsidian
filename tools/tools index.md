@@ -1,5 +1,5 @@
 [[latex]]
-[[vims]]
+editor [[vims]]
 [[tmux]]
-
+markdown [[markdown-syntax]]
 formating codes [[prettier]]
