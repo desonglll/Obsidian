@@ -1,22 +1,17 @@
 ---
 title: linux-commands
-date: 2023/04/06/ 11:49:04
-discription:
+date: 2023-06-07 14:25
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #commands 
+- #linux
+
 
 ## Linux 系统下如何保持进程在 SSH 客户端断开后仍继续运行？
 
