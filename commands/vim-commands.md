@@ -6,18 +6,7 @@ description:
 
 https://blog.csdn.net/m0_47696151/article/details/117792656
 
-- [Study videos](#study-videos)
-- [Let's get start](#lets-get-start)
-- [Save and quit](#save-and-quit)
-- [Visual Mode](#visual-mode)
-- [Navigation and cursor](#navigation-and-cursor)
-- [Editing and delete in line](#editing-and-delete-in-line)
-- [Movements (Macros)](#movements-macros)
-- [Copying and pasting](#copying-and-pasting)
-- [Making changes while in command mode(_Normal Mode_)](#making-changes-while-in-command-modenormal-mode)
-- [Finding](#finding)
-- [Replacing](#replacing)
-- [Screen slip](#screen-slip)
+
 
 ## Study videos
 
