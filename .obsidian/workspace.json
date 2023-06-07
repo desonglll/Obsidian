@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,11 +132,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,7 +159,7 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "0eaddb985f471829",
+  "active": "a3f90424c35a090d",
   "lastOpenFiles": [
     "README.md",
     "tools/vims.md",
@@ -167,11 +170,11 @@
     "tools/macOS-software.md",
     "tools/macOS-configurations.md",
     "programming-language/rust.md",
-    "programming-language/programming index.md",
+    "programming-language/index-programming.md",
     "develop/python.md",
     "programming-language/python/python.md",
     "commands/index-commands.md",
-    "data-structures/data-structures index.md",
+    "data-structures/index-data-structures.md",
     "diary/2023-06-07.md",
     "Obsidian/templates/timestamped-note.md",
     "Obsidian/templates/附件文件路径.md",
