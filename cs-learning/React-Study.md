@@ -1,22 +1,18 @@
 ---
-title: React学习
-date: 2022/09/16/ 10:07:39
-categories: 前端学习
+title: React-Study
+date: 2023-06-07 19:59
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #B站学习 
+- #React 
+- #编程语言 
+
 
 ## JSX 中使用 js 表达式
 

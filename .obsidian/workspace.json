@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs-learning/Data-Structures.md",
+                "file": "cs-learning/Vue3-Study.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs-learning/Data-Structures.md",
+                "file": "cs-learning/Vue3-Study.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs-learning/Data-Structures.md",
+                "file": "cs-learning/Vue3-Study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs-learning/Data-Structures.md"
+                "file": "cs-learning/Vue3-Study.md"
               }
             }
           }
@@ -153,7 +153,13 @@
   },
   "active": "428c6f42af9e526e",
   "lastOpenFiles": [
+    "cs-learning/regular-expressions.md",
+    "cs-learning/React-Study.md",
+    "cs-learning/Python-Study-Qianfeng.md",
+    "cs-learning/Java-Study-Qianfeng.md",
+    "cs-learning/gzh-Push.md",
     "data-structures/Tree.md",
+    "cs-learning/Data-Structures.md",
     "data-structures/String.md",
     "data-structures/Stack.md",
     "data-structures/Sort.md",
@@ -167,19 +173,13 @@
     "tools/converts.md",
     "commands/linux-commands.md",
     "life/reading/Steve-Paul-Jobs-Stanford.md",
-    "cs-learning/regular-expressions.md",
     "tools/markdown-syntax.md",
     "tools/macOS-software.md",
-    "cs-learning/Java-Study-Qianfeng.md",
     "tools/OCR pdf.md",
     "tools/vscode-configurations.md",
     "Obsidian/templates/diary01.md",
     "tools/hammerspoon.md",
-    "tools/neovim-based-on-lua.md",
-    "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
     "未命名.canvas",
-    "life/movies.md",
-    "life/movies/transformers.md",
     "life/movies",
     "未命名",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",

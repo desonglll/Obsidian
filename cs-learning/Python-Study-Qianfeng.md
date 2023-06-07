@@ -1,22 +1,18 @@
 ---
-title: 千锋Python学习
-date: 2022/08/16/ 11:28:44
-categories: 后端学习
+title: Python-Study-Qianfeng
+date: 2023-06-07 19:58
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover: https://pic.3gbizhi.com/2020/1106/thumb_1680_0_20201106023719291.jpg
 ---
+
+标签
+
+- #B站学习 
+- #Python 
+- #编程语言 
+
 
 ## P9 Python 基础实战 8-类型转换
 
