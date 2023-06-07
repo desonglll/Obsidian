@@ -1,15 +1,16 @@
 ---
-title: VScode配置
-date: 2022/09/26/ 15:29:58
-description:
+title: vscode-configurations
+date: 2023-06-07 14:12
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
 
-- [User Snippets 配置](#user-snippets配置)
-  - [Variables](#variables)
-  - [.md file](#md-file)
-- [Google Fonts API](#google-fonts-api)
-  - [Noto Sans](#noto-sans)
-- [Personal access tokens (classic)](#personal-access-tokens-classic)
+标签
+
+- #VSCode
+- #编辑器配置 
 
 ## User Snippets 配置
 
