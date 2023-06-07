@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs-learning/Java-Study-Qianfeng.md",
+                "file": "tools/macOS-software.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs-learning/Java-Study-Qianfeng.md",
+                "file": "tools/macOS-software.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs-learning/Java-Study-Qianfeng.md",
+                "file": "tools/macOS-software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs-learning/Java-Study-Qianfeng.md"
+                "file": "tools/macOS-software.md"
               }
             }
           }
@@ -152,6 +152,7 @@
   },
   "active": "428c6f42af9e526e",
   "lastOpenFiles": [
+    "cs-learning/Java-Study-Qianfeng.md",
     "tools/OCR pdf.md",
     "tools/vscode-configurations.md",
     "Obsidian/templates/diary01.md",
@@ -180,7 +181,6 @@
     "programming-language/Front/react.md",
     "programming-language/Front/javascript.md",
     "programming-language/python/用Python实现一个电影订票系统.md",
-    "programming-language/python/python.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",

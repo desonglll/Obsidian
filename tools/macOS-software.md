@@ -1,8 +1,17 @@
 ---
-title: 我的Mac应用清单以及系统配置整理
-date: 2022/12/24/ 23:22:49
-discription:
+title: macOS-software
+date: 2023-06-07 19:56
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
+
+标签
+
+- #macOS 
+- #shi y软件
+
 
 ## MacApp 下载
 

@@ -11,10 +11,7 @@ tags:
 
 - #Java
 - #编程语言 
-- #
-
-
-<iframe src="//player.bilibili.com/player.html?aid=883829806&bvid=BV1FK4y1x7Ny&cid=405715221&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+- #B站学习
 
 ## Java 实用代码
 
