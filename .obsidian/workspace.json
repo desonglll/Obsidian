@@ -11,11 +11,24 @@
             "id": "1eef05e2a874590f",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming-language/rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba4343237c78736d",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,8 +156,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "1eef05e2a874590f",
+  "active": "ba4343237c78736d",
   "lastOpenFiles": [
+    "programming-language/programming index.md",
+    "programming-language/rust.md",
     "develop/python.md",
     "programming-language/python/python.md",
     "tools/macOS-configurations.md",
@@ -176,8 +191,6 @@
     "diary/2023-06-04.md",
     "diary",
     "tools/converts.md",
-    "life/diary/2023-06-06.md",
-    "converts.md",
     "剑指150.opml",
     "programming-language/python/assets/640-20230606081718391.png",
     "programming-language/python/assets",

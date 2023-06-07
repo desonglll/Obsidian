@@ -1,0 +1,7 @@
+[[c]]
+[[cmake]]
+[[rust]]
+[[python/python|python]]
+[[Front/typescript|typescript]]
+[[Front/javascript|javascript]]
+[[Front/react|react]]
