@@ -16,7 +16,7 @@ map s" :surround_double_quotes
 map s' :surround_single_quotes
 map s` :surround_backticks
 map sb :surround_brackets
-map s( :surround_bracket
+map s( :surround_brackets
 map s) :surround_brackets
 map s[ :surround_square_brackets
 map s[ :surround_square_brackets
