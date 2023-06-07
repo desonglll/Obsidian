@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/latex.md",
+                "file": "tools/prettier.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/latex.md",
+                "file": "tools/prettier.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/latex.md",
+                "file": "tools/prettier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/latex.md"
+                "file": "tools/prettier.md"
               }
             }
           }
@@ -166,7 +166,11 @@
   },
   "active": "e445cbfdd08a70a1",
   "lastOpenFiles": [
+    "tools/OCR pdf.md",
     "tools/hammerspoon.md",
+    "tools/index-tools.md",
+    "tools/macOS-configurations.md",
+    "tools/latex.md",
     "tools/my-neovim-based-on-lua.md",
     "diary/2023-06-07.md",
     "README.md",
@@ -174,10 +178,8 @@
     "tools/vims.md",
     "tools/vim-in-idea.md",
     "tools/lunarvim.md",
-    "tools/index-tools.md",
     "tools/converts.md",
     "tools/macOS-software.md",
-    "tools/macOS-configurations.md",
     "programming-language/rust.md",
     "programming-language/index-programming.md",
     "develop/python.md",
@@ -196,8 +198,6 @@
     "Users",
     "commands/git-commands.md",
     "commands/vim-commands.md",
-    "math-expansions.md",
-    "commands/shell-commands.md",
     "diary",
     "剑指150.opml",
     "programming-language/python/assets/640-20230606081718391.png",

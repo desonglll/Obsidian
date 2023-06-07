@@ -1,3 +1,18 @@
+---
+title: prettier
+date: 2023-06-07 14:07
+author: Leo Song
+categories:
+  - Markdown
+tags:
+---
+
+标签
+
+- #npm
+- #yarn
+- #代码格式化
+
 要使用 Prettier 格式化文件夹下的所有 Markdown 文件，您可以使用以下步骤：
 
 1. 确保您已经安装了 Node.js 和 npm（Node.js 包管理器）。您可以在终端中运行以下命令来检查它们是否已安装：

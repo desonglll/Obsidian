@@ -1,22 +1,16 @@
 ---
 title: OCR pdf
-date: 2023/05/19/ 11:01:51
-discription:
+date: 2023-06-07 14:07
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #PDF工具
+
 
 ## PDF viewer
 
