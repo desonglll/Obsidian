@@ -1,22 +1,17 @@
 ---
 title: Steve-Paul-Jobs-Stanford
-date: 2019/07/16/ 11:12:20
+date: 2023-06-07 19:56
+author: Leo Song
 categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #演讲稿
+- #Apple
+
 
 ## 乔布斯斯坦福大学演讲中英文文本整理
 

@@ -1,22 +1,16 @@
 ---
 title: Tree
-date: 2023/05/30/ 19:19:11
-discription:
+date: 2023-06-07 19:57
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #数据结构
+
 
 ## 二叉树的性质
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/macOS-software.md",
+                "file": "commands/index-commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/macOS-software.md",
+                "file": "commands/index-commands.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/macOS-software.md",
+                "file": "commands/index-commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/macOS-software.md"
+                "file": "commands/index-commands.md"
               }
             }
           }
@@ -152,6 +152,14 @@
   },
   "active": "428c6f42af9e526e",
   "lastOpenFiles": [
+    "tools/converts.md",
+    "commands/linux-commands.md",
+    "life/reading/Steve-Paul-Jobs-Stanford.md",
+    "data-structures/Search.md",
+    "cs-learning/regular-expressions.md",
+    "tools/markdown-syntax.md",
+    "data-structures/Tree.md",
+    "tools/macOS-software.md",
     "cs-learning/Java-Study-Qianfeng.md",
     "tools/OCR pdf.md",
     "tools/vscode-configurations.md",
@@ -160,7 +168,6 @@
     "tools/hammerspoon.md",
     "tools/neovim-based-on-lua.md",
     "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
-    "cs-learning/regular-expressions.md",
     "未命名.canvas",
     "life/movies.md",
     "life/movies/transformers.md",
@@ -172,15 +179,8 @@
     "diary/2023-06-06.md",
     "diary/2023-06-05.md",
     "diary/2023-06-04.md",
-    "data-structures/Tree.md",
     "Obsidian/templates/timestamped-note.md",
     "tools/index-tools.md",
-    "commands/linux-commands.md",
-    "operating-system/ubuntu.md",
-    "programming-language/Front/typescript.md",
-    "programming-language/Front/react.md",
-    "programming-language/Front/javascript.md",
-    "programming-language/python/用Python实现一个电影订票系统.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",

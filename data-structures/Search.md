@@ -1,22 +1,16 @@
 ---
 title: Search
-date: 2023/05/30/ 19:00:20
-discription:
+date: 2023-06-07 19:57
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #数据结构 
+
 
 ## 顺序查找和折半查找
 
