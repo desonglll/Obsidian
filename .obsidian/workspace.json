@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/markdown-syntax.md",
+                "file": "tools/macOS-configurations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/markdown-syntax.md",
+                "file": "tools/macOS-configurations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/markdown-syntax.md",
+                "file": "tools/macOS-configurations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/markdown-syntax.md"
+                "file": "tools/macOS-configurations.md"
               }
             }
           }
@@ -153,6 +153,9 @@
   },
   "active": "521ff3dd9a64d3ae",
   "lastOpenFiles": [
+    "tools/latex.md",
+    "tools/macOS-configurations.md",
+    "tools/markdown-syntax.md",
     "tools/neovim-based-on-lua.md",
     "tools/my-neovim-based-on-lua.md",
     "tools/OCR pdf.md",
@@ -168,8 +171,6 @@
     "Obsidian/index-template.md",
     "tools/hammerspoon.md",
     "tools/index-tools.md",
-    "tools/macOS-configurations.md",
-    "tools/latex.md",
     "diary/2023-06-07.md",
     "README.md",
     "tools/lunarvim.md",
@@ -178,7 +179,6 @@
     "programming-language/rust.md",
     "programming-language/index-programming.md",
     "develop/python.md",
-    "programming-language/python/python.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
