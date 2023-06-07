@@ -1,6 +1,18 @@
 ---
-title: TypeScript
+title: typescript
+date: 2023-06-07 14:30
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
+
+标签
+
+- #TypeScript
+- #编程语言 
+- #前端开发 
+
 
 ## 大纲目录
 

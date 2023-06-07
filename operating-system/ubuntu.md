@@ -1,3 +1,17 @@
+---
+title: ubuntu
+date: 2023-06-07 14:31
+author: Leo Song
+categories:
+  - Markdown
+tags:
+---
+
+标签
+
+- #操作系统
+- #lin xu
+
 ## 查看 ubuntu 版本
 
 ```

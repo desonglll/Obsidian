@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-language/Front/javascript.md",
+                "file": "operating-system/ubuntu.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-language/Front/javascript.md",
+                "file": "operating-system/ubuntu.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-language/Front/javascript.md",
+                "file": "operating-system/ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-language/Front/javascript.md"
+                "file": "operating-system/ubuntu.md"
               }
             }
           }
@@ -153,6 +153,9 @@
   },
   "active": "6bc860e2ee9440ea",
   "lastOpenFiles": [
+    "programming-language/Front/typescript.md",
+    "programming-language/Front/react.md",
+    "programming-language/Front/javascript.md",
     "programming-language/python/用Python实现一个电影订票系统.md",
     "programming-language/python/python.md",
     "programming-language/rust.md",
@@ -176,9 +179,6 @@
     "diary/2023-06-06.md",
     "diary/2023-06-07.md",
     "diary/2023-06-07 2.md",
-    "tools/prettier.md",
-    "tools/some-scripts.md",
-    "tools/stable-diffusion-webui.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
