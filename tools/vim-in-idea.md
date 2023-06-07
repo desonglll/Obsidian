@@ -12,8 +12,6 @@ tags:
 - #Vim 
 - #idea
 
-##
-
 ## Github page of ideavim
 
 https://github.com/JetBrains/ideavim

@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/my-neovim-based-on-lua.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e05d2c9daf144973",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/templates/markdown.md",
+                "file": "tools/vscode-configurations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/templates/markdown.md",
+                "file": "tools/vscode-configurations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/templates/markdown.md",
+                "file": "tools/vscode-configurations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/templates/markdown.md"
+                "file": "tools/vscode-configurations.md"
               }
             }
           }
@@ -164,13 +151,16 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "e05d2c9daf144973",
+  "active": "521ff3dd9a64d3ae",
   "lastOpenFiles": [
-    "tools/my-neovim-based-on-lua.md",
-    "Obsidian/index-template.md",
-    "tools/vims.md",
-    "tools/vim-in-idea.md",
     "tools/tmux.md",
+    "tools/vim-in-idea.md",
+    "tools/vims.md",
+    "tools/vscode-configurations.md",
+    "tools/neovim-based-on-lua.md",
+    "tools/my-neovim-based-on-lua.md",
+    "Obsidian/templates/markdown.md",
+    "Obsidian/index-template.md",
     "tools/spacevim.md",
     "tools/some-scripts.md",
     "tools/prettier.md",
@@ -189,9 +179,6 @@
     "develop/python.md",
     "programming-language/python/python.md",
     "commands/index-commands.md",
-    "data-structures/index-data-structures.md",
-    "Obsidian/templates/timestamped-note.md",
-    "Obsidian/templates/附件文件路径.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
