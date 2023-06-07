@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/stable-diffusion-webui.md",
+                "file": "tools/my-neovim-based-on-lua.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/stable-diffusion-webui.md",
+                "file": "tools/my-neovim-based-on-lua.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/stable-diffusion-webui.md",
+                "file": "tools/my-neovim-based-on-lua.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/stable-diffusion-webui.md"
+                "file": "tools/my-neovim-based-on-lua.md"
               }
             }
           }
@@ -153,18 +153,19 @@
   },
   "active": "521ff3dd9a64d3ae",
   "lastOpenFiles": [
+    "tools/neovim-based-on-lua.md",
+    "tools/my-neovim-based-on-lua.md",
+    "tools/OCR pdf.md",
+    "tools/prettier.md",
+    "tools/some-scripts.md",
+    "tools/stable-diffusion-webui.md",
+    "tools/spacevim.md",
     "tools/tmux.md",
     "tools/vim-in-idea.md",
     "tools/vims.md",
     "tools/vscode-configurations.md",
-    "tools/neovim-based-on-lua.md",
-    "tools/my-neovim-based-on-lua.md",
     "Obsidian/templates/markdown.md",
     "Obsidian/index-template.md",
-    "tools/spacevim.md",
-    "tools/some-scripts.md",
-    "tools/prettier.md",
-    "tools/OCR pdf.md",
     "tools/hammerspoon.md",
     "tools/index-tools.md",
     "tools/macOS-configurations.md",
@@ -178,7 +179,6 @@
     "programming-language/index-programming.md",
     "develop/python.md",
     "programming-language/python/python.md",
-    "commands/index-commands.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
