@@ -1,5 +1,5 @@
 imap jk <Esc>
-map mapleader=" "
+map mapleader="<Space>"
 imap <leader>e <Esc>
 
 exmap surround_wiki surround [[ ]]
