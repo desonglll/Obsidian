@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0c23f390b16edccb",
+        "id": "9f0a1993989d836b",
         "type": "tabs",
         "children": [
           {
-            "id": "1eef05e2a874590f",
+            "id": "9e325c6c25a82024",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-language/rust.md",
+                "file": "tools/index-tools.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "ba4343237c78736d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/lunarvim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7152fae00e23ec36",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tools/index-tools.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tools/index-tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tools/index-tools.md"
+              }
             }
           }
         ],
@@ -168,15 +151,17 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "7152fae00e23ec36",
+  "active": "9e325c6c25a82024",
   "lastOpenFiles": [
-    "tools/tools index.md",
+    "tools/converts.md",
     "tools/lunarvim.md",
-    "programming-language/programming index.md",
+    "tools/macOS-software.md",
+    "tools/macOS-configurations.md",
     "programming-language/rust.md",
+    "tools/index-tools.md",
+    "programming-language/programming index.md",
     "develop/python.md",
     "programming-language/python/python.md",
-    "tools/macOS-configurations.md",
     "commands/commands index.md",
     "data-structures/data-structures index.md",
     "diary/2023-06-07.md",
@@ -200,8 +185,6 @@
     "tools/markdown-syntax.md",
     "tools/neovim-based-on-lua.md",
     "tools/prettier.md",
-    "剑指150.md",
-    "diary/2023-06-05.md",
     "diary",
     "剑指150.opml",
     "programming-language/python/assets/640-20230606081718391.png",
