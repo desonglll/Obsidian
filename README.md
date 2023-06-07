@@ -60,11 +60,7 @@ https://www.cnblogs.com/luoxian1011/p/15854153.html#linux
 [Shield](https://shields.io/)
 
 hi there
-
 commands [[commands/index-commands|index-commands]]
-
 tools [[tools/index-tools|index-tools]]
-
 programming [[programming-language/index-programming|index-programming]]
-
 data structures [[data-structures/index-data-structures|index-data-structures]]

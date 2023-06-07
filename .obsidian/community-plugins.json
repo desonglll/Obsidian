@@ -2,7 +2,5 @@
   "emoji-shortcodes",
   "obsidian-emoji-toolbar",
   "obsidian-excalidraw-plugin",
-  "obsidian-git",
-  "obsidian-vimrc-support",
-  "cm-chs-patch"
+  "obsidian-git"
 ]
