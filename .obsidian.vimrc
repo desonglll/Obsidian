@@ -1,5 +1,6 @@
 imap jk <Esc>
-let mapleader=" "
+map mapleader=" "
+imap <leader>e <Esc>
 
 exmap surround_wiki surround [[ ]]
 exmap surround_double_quotes surround " "
