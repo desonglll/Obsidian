@@ -1662,4 +1662,6 @@ poetry source add --default mirrors https://pypi.tuna.tsinghua.edu.cn/simple/
 poetry source add --secondary mirrors https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
-[[实战]]
+## 一些实战
+
+[[用Python实现一个电影订票系统]]
