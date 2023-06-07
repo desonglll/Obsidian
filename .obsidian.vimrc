@@ -1,2 +1,2 @@
-map jk <Esc>
+imap jk <Esc>
 
