@@ -3,48 +3,18 @@ title: MarkDown学习
 date: 2022/09/26/ 15:29:24
 description:
 ---
+---
+title: markdown-syntax
+date: 2023-06-07 14:15
+author: Leo Song
+categories:
+  - Markdown
+tags:
+---
 
-- [Cheat Sheet](#cheat-sheet)
-  - [Basic Syntax](#basic-syntax)
-  - [Extended Syntax](#extended-syntax)
-- [Basic Syntax](#basic-syntax-1)
-  - [Headings](#headings)
-    - [Alternate Syntax](#alternate-syntax)
-  - [Paragraphs](#paragraphs)
-  - [Line Breaks](#line-breaks)
-  - [Emphasis](#emphasis)
-    - [Bold](#bold)
-    - [italic](#italic)
-    - [Bold and Italic](#bold-and-italic)
-  - [Backquotes](#backquotes)
-    - [Backquotes with Multiple Paragraphs](#backquotes-with-multiple-paragraphs)
-    - [Nested Blockquotes](#nested-blockquotes)
-    - [Blockquotes with Other Elements](#blockquotes-with-other-elements)
-  - [Lists](#lists)
-    - [Ordered Lists](#ordered-lists)
-      - [Nesting List Items](#nesting-list-items)
-    - [Unorded Lists](#unorded-lists)
-    - [Adding Elements in Lists](#adding-elements-in-lists)
-      - [Paragraphs](#paragraphs-1)
-      - [Blockquotes](#blockquotes)
-      - [Code Blocks](#code-blocks)
-      - [Images](#images)
-  - [Code](#code)
-    - [Escaping Tick Marks](#escaping-tick-marks)
-    - [Code Blocks](#code-blocks-1)
-  - [Horizontal Rule](#horizontal-rule)
-  - [Links](#links)
-    - [Adding Titles](#adding-titles)
-    - [URLs and Email Addresses](#urls-and-email-addresses)
-    - [Formatting Links](#formatting-links)
-  - [Tables](#tables)
-    - [Alignment](#alignment)
-  - [Footnotes](#footnotes)
-  - [Escaping Characters](#escaping-characters)
-  - [Strikethrough](#strikethrough)
-  - [Definition Lists](#definition-lists)
-  - [Task Lists](#task-lists)
+标签
 
+- #书写
 ## Cheat Sheet
 
 ### Basic Syntax
