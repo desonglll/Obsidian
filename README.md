@@ -13,10 +13,6 @@ $\int_{birth}^{death}Study\ dt=life$
 
 My name is mike shinoda.
 
-20230605
-
-And this is a test for push static html files to my tencent server.
-
 It seems successful ⭐
 
 ### This is my 408 Clangd codes on Wangdao
