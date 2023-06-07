@@ -1,6 +1,18 @@
 ---
-Title: javascript
+title: javascript
+date: 2023-06-07 14:30
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
+
+标签
+
+- #JavaScript
+- #编程语言 
+- #前段
+
 
 ## 学习大纲目录
 

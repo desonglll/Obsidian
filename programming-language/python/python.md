@@ -1,22 +1,17 @@
 ---
 title: python
-date: 2023/06/04/ 17:50:33
-discription:
+date: 2023-06-07 14:29
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #编程语言 
+- #Python 
+
 
 当涉及到教学每个主题时，以下是对应的简要教学指南：
 
