@@ -4,11 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1fcb162332b414ee",
+        "id": "07370067d465c863",
         "type": "tabs",
         "children": [
           {
-            "id": "0abfebd0c0f83aaa",
+            "id": "de768c4ddc43ec9d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "3b2b77ae73934f3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,7 +93,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "diary/2023-06-07.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +109,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "diary/2023-06-07.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,9 +119,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "diary/2023-06-07.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -136,9 +140,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "0abfebd0c0f83aaa",
+  "active": "de768c4ddc43ec9d",
   "lastOpenFiles": [
     "diary/2023-06-07.md",
+    "tools/hammerspoon.md",
     "README.md",
     "diary/2023-06-06.md",
     "diary/2023-06-07 2.md",
@@ -182,7 +187,6 @@
     "Data-structures/assets/image-20230529202006453.png",
     "node_modules/prettier/parser-yaml.js",
     "Commands/crontab-commands.md",
-    "CS-learning/Python-Study-Qianfeng.md",
-    "Obsidian/templates/markdown.md"
+    "CS-learning/Python-Study-Qianfeng.md"
   ]
 }
