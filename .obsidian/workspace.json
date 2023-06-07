@@ -23,8 +23,12 @@
             "id": "d6abcb27cbe7d6c5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming-language/python/python.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -40,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "programming-language/python/python.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "programming-language/python/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "programming-language/python/python.md"
               }
             }
           }
@@ -172,10 +176,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "9e38923d07ab667e",
+  "active": "d6abcb27cbe7d6c5",
   "lastOpenFiles": [
-    "Obsidian/index-template.md",
     "README.md",
+    "Obsidian/index-template.md",
     "tools/vims.md",
     "tools/vim-in-idea.md",
     "tools/lunarvim.md",
