@@ -1,13 +1,17 @@
 ---
 title: crontab-commands
-date: 2022/12/28/ 14:02:31
-discription:
+date: 2023-06-07 14:24
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
 
-- [Linux crontab 命令](#linux-crontab-命令)
-  - [语法](#语法)
-  - [实例](#实例)
-  - [脚本无法执行问题](#脚本无法执行问题)
+标签
+
+- #commands
+- #crontab
+
 
 ## Linux crontab 命令
 

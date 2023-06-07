@@ -1,23 +1,16 @@
 ---
 title: docker-commands
-date: 2022/12/28/ 14:02:02
-discription:
+date: 2023-06-07 14:25
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
 
-- [Docker](#docker)
-  - [设置镜像源](#设置镜像源)
-  - [删除镜像](#删除镜像)
-  - [删除容器](#删除容器)
-  - [Docker save](#docker-save)
-- [Docker-compose](#docker-compose)
-  - [docker-compose ports 和 expose 的区别详解](#docker-compose-ports-和-expose-的区别详解)
-- [一、docker 保存镜像](#一docker-保存镜像)
-  - [1.1 首先查看下现有容器镜像（目的是查询需要保存镜像的 ID）](#11-首先查看下现有容器镜像目的是查询需要保存镜像的-id)
-  - [1.2 接下来用 commit 参数进行保存镜像（精简版）](#12-接下来用-commit-参数进行保存镜像精简版)
-  - [1.3 查看镜像是否保存成功](#13-查看镜像是否保存成功)
-- [二、打包 tar](#二打包-tar)
-- [三、加载 tar 镜像](#三加载-tar-镜像)
-- [Docker push](#docker-push)
+标签
+
+- #commands 
+- #docker
 
 ## Docker
 

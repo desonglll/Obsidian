@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "develop/live-server.md",
+                "file": "commands/git-commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "develop/live-server.md",
+                "file": "commands/git-commands.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "develop/live-server.md",
+                "file": "commands/git-commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "develop/live-server.md"
+                "file": "commands/git-commands.md"
               }
             }
           }
@@ -153,8 +153,10 @@
   },
   "active": "6bc860e2ee9440ea",
   "lastOpenFiles": [
-    "develop/yarn.md",
+    "commands/docker-commands.md",
+    "commands/crontab-commands.md",
     "develop/live-server.md",
+    "develop/yarn.md",
     "Obsidian/templates/diary01.md",
     "diary/2023-06-04.md",
     "diary/2023-06-05.md",
@@ -177,8 +179,6 @@
     "tools/neovim-based-on-lua.md",
     "tools/my-neovim-based-on-lua.md",
     "tools/OCR pdf.md",
-    "tools/spacevim.md",
-    "tools/vims.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
