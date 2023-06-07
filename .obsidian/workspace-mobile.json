@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2023-06-06.md",
+                "file": "diary/2023-06-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "diary/2023-06-06.md",
+            "file": "diary/2023-06-07.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "diary/2023-06-06.md",
+            "file": "diary/2023-06-07.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "diary/2023-06-06.md"
+            "file": "diary/2023-06-07.md"
           }
         }
       }
@@ -138,8 +138,14 @@
   },
   "active": "0abfebd0c0f83aaa",
   "lastOpenFiles": [
-    "tools/converts.md",
+    "diary/2023-06-07.md",
+    "README.md",
     "diary/2023-06-06.md",
+    "diary/2023-06-07 2.md",
+    "commands/index-commands.md",
+    "data-structures/index-data-structures.md",
+    "tools/tmux.md",
+    "tools/converts.md",
     "diary/2023-06-04.md",
     "diary/2023-06-05.md",
     "diary",
@@ -164,7 +170,6 @@
     "life/diary/Untitled.md",
     "life/diary/2023-06-05.md",
     "life/diary/2023-06-04.md",
-    "README.md",
     "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
     "develop/yarn.md",
     "develop/python.md",
@@ -178,11 +183,6 @@
     "node_modules/prettier/parser-yaml.js",
     "Commands/crontab-commands.md",
     "CS-learning/Python-Study-Qianfeng.md",
-    "Obsidian/templates/markdown.md",
-    "Commands/linux-commands.md",
-    "Obsidian/templates/timestamped-note.md",
-    "node_modules/prettier/README.md",
-    "Obsidian/templates/diary01.md",
-    "life/reading/Steve-Paul-Jobs-Stanford.md"
+    "Obsidian/templates/markdown.md"
   ]
 }
