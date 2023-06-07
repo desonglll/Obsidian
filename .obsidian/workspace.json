@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2023-06-07.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2023-06-07.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2023-06-07.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2023-06-07.md"
+                "file": "README.md"
               }
             }
           }
@@ -153,8 +153,9 @@
   },
   "active": "1eef05e2a874590f",
   "lastOpenFiles": [
-    "commands/shell-commands.md",
+    "math-expansions.md",
     "diary/2023-06-07.md",
+    "commands/shell-commands.md",
     "diary/2023-06-06.md",
     "tools/markdown-study.md",
     "tools/markdown-syntax.md",
@@ -191,7 +192,6 @@
     "life/diary/2023-06-05.md",
     "tools/实用网站.md",
     "Commands/macOS-commands.md",
-    "math-expansions.md",
     "life/diary/2023-06-04.md",
     "Excalidraw",
     "timestamped-notes/assets",
