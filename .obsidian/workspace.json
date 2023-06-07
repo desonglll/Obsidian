@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9f0a1993989d836b",
+        "id": "0582e556b193a264",
         "type": "tabs",
         "children": [
           {
-            "id": "9e325c6c25a82024",
+            "id": "15011fc47a5f225b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/index-tools.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/index-tools.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/index-tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tools/index-tools.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -151,14 +143,16 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "9e325c6c25a82024",
+  "active": "15011fc47a5f225b",
   "lastOpenFiles": [
-    "tools/converts.md",
+    "tools/vims.md",
+    "tools/vim-in-idea.md",
     "tools/lunarvim.md",
+    "tools/index-tools.md",
+    "tools/converts.md",
     "tools/macOS-software.md",
     "tools/macOS-configurations.md",
     "programming-language/rust.md",
-    "tools/index-tools.md",
     "programming-language/programming index.md",
     "develop/python.md",
     "programming-language/python/python.md",
@@ -183,8 +177,6 @@
     "diary/2023-06-06.md",
     "tools/markdown-study.md",
     "tools/markdown-syntax.md",
-    "tools/neovim-based-on-lua.md",
-    "tools/prettier.md",
     "diary",
     "剑指150.opml",
     "programming-language/python/assets/640-20230606081718391.png",
