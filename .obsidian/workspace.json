@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/tmux.md",
+                "file": "tools/vims.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/tmux.md",
+                "file": "tools/vims.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/tmux.md",
+                "file": "tools/vims.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/tmux.md"
+                "file": "tools/vims.md"
               }
             }
           }
@@ -166,6 +166,8 @@
   },
   "active": "e445cbfdd08a70a1",
   "lastOpenFiles": [
+    "tools/vim-in-idea.md",
+    "tools/tmux.md",
     "tools/spacevim.md",
     "tools/some-scripts.md",
     "tools/prettier.md",
@@ -179,7 +181,6 @@
     "README.md",
     "Obsidian/index-template.md",
     "tools/vims.md",
-    "tools/vim-in-idea.md",
     "tools/lunarvim.md",
     "tools/converts.md",
     "tools/macOS-software.md",
@@ -191,7 +192,6 @@
     "data-structures/index-data-structures.md",
     "Obsidian/templates/timestamped-note.md",
     "Obsidian/templates/附件文件路径.md",
-    "commands/linux-commands.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",

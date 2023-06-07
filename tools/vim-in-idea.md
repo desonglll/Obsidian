@@ -1,22 +1,18 @@
 ---
 title: vim-in-idea
-date: 2023/04/06/ 11:49:42
-discription:
-  tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
+date: 2023-06-07 14:09
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
+
+标签
+
+- #Vim 
+- #idea
+
+##
 
 ## Github page of ideavim
 

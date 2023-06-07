@@ -1,22 +1,15 @@
 ---
 title: vims
-date: 2023/04/06/ 11:49:49
-discription:
-  tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
+date: 2023-06-07 14:10
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
+
+标签
+
+- #Vim 
 
 ## Neovim&LunarVim
 
