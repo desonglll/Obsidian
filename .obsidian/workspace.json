@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-language/c.md",
+                "file": "programming-language/rust.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-language/c.md",
+                "file": "programming-language/rust.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-language/c.md",
+                "file": "programming-language/rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-language/c.md"
+                "file": "programming-language/rust.md"
               }
             }
           }
@@ -153,6 +153,9 @@
   },
   "active": "6bc860e2ee9440ea",
   "lastOpenFiles": [
+    "programming-language/index-programming.md",
+    "programming-language/cmake.md",
+    "programming-language/c.md",
     "杂七杂八的工具/mac微信防撤回.md",
     "commands/vim-commands.md",
     "commands/shell-commands.md",
@@ -176,9 +179,6 @@
     "tools/tmux.md",
     "tools/vim-in-idea.md",
     "tools/vscode-configurations.md",
-    "tools/加快macOS的光标移动速度.md",
-    "tools/hammerspoon.md",
-    "tools/converts.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",

@@ -1,22 +1,18 @@
 ---
 title: cmake
-date: 2023/05/30/ 19:13:14
-discription:
+date: 2023-06-07 14:28
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #CMake 
+- #C语言 
+- #编程语言 
+
 
 当涉及到 CMake 代码时，以下是一个基本的示例，涵盖了 CMake 的基础语法：
 
