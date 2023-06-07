@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "deep-learning/深度学习指南.md",
+                "file": "life/reading/读书-读紫色菩提-林清玄.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Java",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deep-learning/深度学习指南.md",
+                "file": "life/reading/读书-读紫色菩提-林清玄.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deep-learning/深度学习指南.md",
+                "file": "life/reading/读书-读紫色菩提-林清玄.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deep-learning/深度学习指南.md"
+                "file": "life/reading/读书-读紫色菩提-林清玄.md"
               }
             }
           }
@@ -151,8 +151,16 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "428c6f42af9e526e",
+  "active": "f07dbe5d6d3d4afe",
   "lastOpenFiles": [
+    "programming-language/c.md",
+    "programming-language/cmake.md",
+    "programming-language/index-programming.md",
+    "programming-language/Front/typescript.md",
+    "programming-language/Front/react.md",
+    "programming-language/Front/javascript.md",
+    "operating-system/ubuntu.md",
+    "deep-learning/深度学习指南.md",
     "develop/yarn.md",
     "develop/live-server.md",
     "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
@@ -171,14 +179,6 @@
     "cs-learning/Data-Structures.md",
     "data-structures/String.md",
     "data-structures/Stack.md",
-    "data-structures/Sort.md",
-    "data-structures/Search.md",
-    "data-structures/List.md",
-    "data-structures/index-data-structures.md",
-    "commands/vim-commands.md",
-    "tools/prettier.md",
-    "tools/some-scripts.md",
-    "tools/converts.md",
     "未命名.canvas",
     "life/movies",
     "未命名",
