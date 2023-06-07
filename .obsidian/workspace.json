@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "372b1eb30db22ed3",
+        "id": "4cfabc794697e70f",
         "type": "tabs",
         "children": [
           {
-            "id": "1e0d3ab05df4a858",
+            "id": "c27e6f4d78658e5d",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -143,7 +143,7 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "1e0d3ab05df4a858",
+  "active": "c27e6f4d78658e5d",
   "lastOpenFiles": [
     "diary/2023-06-07.md",
     "diary/2023-06-06.md",
