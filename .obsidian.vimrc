@@ -1,4 +1,6 @@
 imap jk <Esc>
+map <Space>w :w
+map <Space>q :q
 
 exmap surround_wiki surround [[ ]]
 exmap surround_double_quotes surround " "
