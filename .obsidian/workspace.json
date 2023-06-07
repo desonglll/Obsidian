@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4cfabc794697e70f",
+        "id": "10386af87d61724f",
         "type": "tabs",
         "children": [
           {
-            "id": "c27e6f4d78658e5d",
+            "id": "428c6f42af9e526e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0.21808356870719225,
+                  "y": 40.307977097459,
+                  "zoom": -0.0599999999999999
+                }
+              }
             }
           }
         ]
@@ -81,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,11 +127,12 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "未命名.canvas"
+              }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,8 +153,9 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "c27e6f4d78658e5d",
+  "active": "428c6f42af9e526e",
   "lastOpenFiles": [
+    "未命名.canvas",
     "life/movies.md",
     "life/movies/transformers.md",
     "life/movies",
