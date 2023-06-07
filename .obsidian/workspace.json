@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "e445cbfdd08a70a1",
+            "id": "e05d2c9daf144973",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/vims.md",
+                "file": "Obsidian/templates/markdown.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/vims.md",
+                "file": "Obsidian/templates/markdown.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/vims.md",
+                "file": "Obsidian/templates/markdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/vims.md"
+                "file": "Obsidian/templates/markdown.md"
               }
             }
           }
@@ -164,8 +164,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "e445cbfdd08a70a1",
+  "active": "e05d2c9daf144973",
   "lastOpenFiles": [
+    "tools/my-neovim-based-on-lua.md",
+    "Obsidian/index-template.md",
+    "tools/vims.md",
     "tools/vim-in-idea.md",
     "tools/tmux.md",
     "tools/spacevim.md",
@@ -176,11 +179,8 @@
     "tools/index-tools.md",
     "tools/macOS-configurations.md",
     "tools/latex.md",
-    "tools/my-neovim-based-on-lua.md",
     "diary/2023-06-07.md",
     "README.md",
-    "Obsidian/index-template.md",
-    "tools/vims.md",
     "tools/lunarvim.md",
     "tools/converts.md",
     "tools/macOS-software.md",

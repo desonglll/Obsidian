@@ -1,39 +1,18 @@
 ---
-title: neovim based on lua
-date: 2022/12/08/ 00:22:51
-discription:
+title: my-neovim-based-on-lua
+date: 2023-06-07 14:10
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
 
-## Table Of Contents
+标签
 
-- [Table Of Contents](#table-of-contents)
-- [**Github** repository link](#github-repository-link)
-- [Necessary to install](#necessary-to-install)
-  - [Install Homebrew 2022.07.13](#install-homebrew-20220713)
-    - [1. Set mirror by using USTC](#1-set-mirror-by-using-ustc)
-    - [2. Install Homebrew](#2-install-homebrew)
-    - [3. Add Homebrew to $PATH](#3-add-homebrew-to-path)
-  - [Install yarn](#install-yarn)
-  - [Install Neovim](#install-neovim)
-- [Steps to go](#steps-to-go)
-  - [:star:Clone this repository](#starclone-this-repository)
-  - [:star:Install Packer](#starinstall-packer)
-  - [:star:Install lazygit](#starinstall-lazygit)
-  - [:star:Install LSP configuration](#starinstall-lsp-configuration)
-    - [Python](#python)
-    - [Clangd](#clangd)
-    - [Jdtls](#jdtls)
-  - [:star:Config](#starconfig)
-- [Plugins](#plugins)
-  - [p-vsnip](#p-vsnip)
-  - [:star:Markdown Preview Enhanced](#starmarkdown-preview-enhanced)
-  - [nvim-surround(YSW)](#nvim-surroundysw)
-  - [:star:Preitter](#starpreitter)
-  - [:star:Autoformat](#starautoformat)
-  - [Install jedi](#install-jedi)
-- [Others](#others)
-  - [keymaps repeat](#keymaps-repeat)
-  - [Setting workplace of neovim](#setting-workplace-of-neovim)
+- #Vim 
+
+##
+
 
 ## **Github** repository link
 
