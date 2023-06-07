@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "commands/vim-commands.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "commands/vim-commands.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "commands/vim-commands.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "commands/vim-commands.md"
+                "file": "README.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -153,6 +152,7 @@
   },
   "active": "1eef05e2a874590f",
   "lastOpenFiles": [
+    "commands/vim-commands.md",
     "README.md",
     "math-expansions.md",
     "diary/2023-06-07.md",
@@ -192,7 +192,6 @@
     "life/diary/2023-06-05.md",
     "tools/实用网站.md",
     "Commands/macOS-commands.md",
-    "life/diary/2023-06-04.md",
     "Excalidraw",
     "timestamped-notes/assets",
     "tools/加快macOS的光标移动速.assets",

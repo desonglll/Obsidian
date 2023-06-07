@@ -61,4 +61,7 @@ https://www.cnblogs.com/luoxian1011/p/15854153.html#linux
 
 hi there
 
-vim commands[[commands/vim-commands|vim-commands]]
+commands
+[[commands/vim-commands|vim-commands]]
+[[commands/git-commands|git-commands]]
+[[comm]]

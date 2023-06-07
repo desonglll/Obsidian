@@ -6,8 +6,6 @@ description:
 
 https://blog.csdn.net/m0_47696151/article/details/117792656
 
-
-
 ## Study videos
 
 [Vim Tutorial](https://youtu.be/IiwGbcd8S7I)
