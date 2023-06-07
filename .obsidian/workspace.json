@@ -11,8 +11,12 @@
             "id": "1eef05e2a874590f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "commands/linux-commands.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "commands/linux-commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "commands/linux-commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "commands/linux-commands.md"
+              }
             }
           }
         ],
@@ -145,6 +153,14 @@
   },
   "active": "1eef05e2a874590f",
   "lastOpenFiles": [
+    "Users/mikeshinoda/Desktop/notes/Tools/assets/p519375.png.md",
+    "commands/linux-commands.md",
+    "Users/mikeshinoda/Desktop/notes/Tools/assets",
+    "Users/mikeshinoda/Desktop/notes/Tools",
+    "Users/mikeshinoda/Desktop/notes",
+    "Users/mikeshinoda/Desktop",
+    "Users/mikeshinoda",
+    "Users",
     "commands/commands index.md",
     "commands/git-commands.md",
     "commands/vim-commands.md",
@@ -183,14 +199,6 @@
     "programming-language/python/assets/640.png",
     "programming-language/python/assets/0.png",
     "programming-language/python",
-    "Deep-Learning/深度学习指南.md",
-    "life/diary/2023-06-05.md",
-    "Excalidraw",
-    "timestamped-notes/assets",
-    "tools/加快macOS的光标移动速.assets",
-    "tools/加快macOS的光标移动速度.assets",
-    "assets",
-    "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Reading/a.canvas",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
