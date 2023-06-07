@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/reading/读书-读紫色菩提-林清玄.md",
+                "file": "life/reading/Steve-Paul-Jobs-Stanford.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/reading/读书-读紫色菩提-林清玄.md",
+                "file": "life/reading/Steve-Paul-Jobs-Stanford.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/reading/读书-读紫色菩提-林清玄.md",
+                "file": "life/reading/Steve-Paul-Jobs-Stanford.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/reading/读书-读紫色菩提-林清玄.md"
+                "file": "life/reading/Steve-Paul-Jobs-Stanford.md"
               }
             }
           }
@@ -151,8 +151,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "f07dbe5d6d3d4afe",
+  "active": "428c6f42af9e526e",
   "lastOpenFiles": [
+    "life/reading/刘勖雯书单.md",
+    "life/reading/读书-读紫色菩提-林清玄.md",
     "programming-language/c.md",
     "programming-language/cmake.md",
     "programming-language/index-programming.md",
@@ -177,8 +179,6 @@
     "cs-learning/gzh-Push.md",
     "data-structures/Tree.md",
     "cs-learning/Data-Structures.md",
-    "data-structures/String.md",
-    "data-structures/Stack.md",
     "未命名.canvas",
     "life/movies",
     "未命名",
