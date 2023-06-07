@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tor-browser.md",
+                "file": "life/marvel.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tor-browser.md",
+                "file": "life/marvel.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tor-browser.md",
+                "file": "life/marvel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tor-browser.md"
+                "file": "life/marvel.md"
               }
             }
           }
@@ -153,6 +153,8 @@
   },
   "active": "c27e6f4d78658e5d",
   "lastOpenFiles": [
+    "tools/tor-browser.md",
+    "life/marvel.md",
     "diary/2023-06-07.md",
     "diary/2023-06-06.md",
     "diary/2023-06-05.md",
@@ -177,8 +179,6 @@
     "commands/shell-commands.md",
     "commands/macOS-commands.md",
     "commands/index-commands.md",
-    "commands/crontab-commands.md",
-    "commands/docker-commands.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
