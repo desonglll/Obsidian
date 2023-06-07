@@ -1,3 +1,17 @@
+---
+title: tmux
+date: 2023-06-07 14:08
+author: Leo Song
+categories:
+  - Markdown
+tags:
+---
+
+标签
+
+- #终端 
+- #tmux
+- #zhong daun
 # Tmux 使用教程
 
 作者： [阮一峰](https://www.ruanyifeng.com/)

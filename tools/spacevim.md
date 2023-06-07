@@ -1,22 +1,18 @@
 ---
 title: spacevim
-date: 2023/04/06/ 11:49:30
-discription:
-  tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
+date: 2023-06-07 14:08
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
+
+标签
+
+- #Vim
+
+##
+
 
 ### Install
 

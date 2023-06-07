@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/prettier.md",
+                "file": "tools/tmux.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/prettier.md",
+                "file": "tools/tmux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/prettier.md",
+                "file": "tools/tmux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/prettier.md"
+                "file": "tools/tmux.md"
               }
             }
           }
@@ -166,6 +166,9 @@
   },
   "active": "e445cbfdd08a70a1",
   "lastOpenFiles": [
+    "tools/spacevim.md",
+    "tools/some-scripts.md",
+    "tools/prettier.md",
     "tools/OCR pdf.md",
     "tools/hammerspoon.md",
     "tools/index-tools.md",
@@ -189,15 +192,12 @@
     "Obsidian/templates/timestamped-note.md",
     "Obsidian/templates/附件文件路径.md",
     "commands/linux-commands.md",
-    "Users/mikeshinoda/Desktop/notes/Tools/assets/p519375.png.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
     "Users/mikeshinoda/Desktop",
     "Users/mikeshinoda",
     "Users",
-    "commands/git-commands.md",
-    "commands/vim-commands.md",
     "diary",
     "剑指150.opml",
     "programming-language/python/assets/640-20230606081718391.png",
