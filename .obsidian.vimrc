@@ -15,5 +15,5 @@ set incsearch
 
 set number
 set relativenumber
-imap jk <ESC>
+imap jk <Esc>
 
