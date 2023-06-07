@@ -61,9 +61,4 @@ https://www.cnblogs.com/luoxian1011/p/15854153.html#linux
 
 hi there
 
-commands
-[[commands/vim-commands|vim-commands]]
-[[commands/git-commands|git-commands]]
-[[commands/shell-commands|shell-commands]]
-[[commands/macOS-commands|macOS-commands]]
-[[commands/linux-commands|linux-commands]]
+commands [[commands/index-commands|index-commands]]

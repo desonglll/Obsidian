@@ -8,14 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "15011fc47a5f225b",
+            "id": "92f3518f4d35235a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0eaddb985f471829",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,8 +156,9 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "15011fc47a5f225b",
+  "active": "0eaddb985f471829",
   "lastOpenFiles": [
+    "README.md",
     "tools/vims.md",
     "tools/vim-in-idea.md",
     "tools/lunarvim.md",
@@ -156,7 +170,7 @@
     "programming-language/programming index.md",
     "develop/python.md",
     "programming-language/python/python.md",
-    "commands/commands index.md",
+    "commands/index-commands.md",
     "data-structures/data-structures index.md",
     "diary/2023-06-07.md",
     "Obsidian/templates/timestamped-note.md",
@@ -171,7 +185,6 @@
     "Users",
     "commands/git-commands.md",
     "commands/vim-commands.md",
-    "README.md",
     "math-expansions.md",
     "commands/shell-commands.md",
     "diary/2023-06-06.md",
