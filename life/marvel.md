@@ -20,12 +20,12 @@ tags:
 以下是漫威电影的中英双语名称及年份：
 
 - [ ] [[#美国队长：复仇者先锋（Captain America The First Avenger） - 2011 年]]
-- [ ] [[#钢铁侠（Iron Man） - 2008 年]]
-- [ ] [[#钢铁侠 2（Iron Man 2） - 2010 年]]
+- [x] [[#钢铁侠（Iron Man） - 2008 年]]
+- [x] [[#钢铁侠 2（Iron Man 2） - 2010 年]]
 - [ ] [[#雷神（Thor） - 2011 年]]
 - [ ] [[#驯龙高手（How to Train Your Dragon） - 2010 年]]
 - [ ] [[#復仇者聯盟（The Avengers） - 2012 年]]
-- [ ] [[#钢铁侠 3（Iron Man 3） - 2013 年]]
+- [x] [[#钢铁侠 3（Iron Man 3） - 2013 年]]
 - [x] [[#美国队长 2：冬日战士（Captain America The Winter Soldier） - 2014 年]]
 - [ ] [[#银河护卫队（Guardians of the Galaxy） - 2014 年]]
 - [ ] [[#卡鲁（Kalu） - 未发布]]
