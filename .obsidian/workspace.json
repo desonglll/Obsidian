@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -151,11 +151,12 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "c27e6f4d78658e5d",
+  "active": "f07dbe5d6d3d4afe",
   "lastOpenFiles": [
-    "life/transformers.md",
-    "life/movies.md",
+    "未命名",
     "life/marvel.md",
+    "life/movies.md",
+    "life/transformers.md",
     "diary/2023-06-07.md",
     "tools/tor-browser.md",
     "diary/2023-06-06.md",
@@ -178,7 +179,6 @@
     "programming-language/c.md",
     "杂七杂八的工具/mac微信防撤回.md",
     "commands/vim-commands.md",
-    "commands/shell-commands.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
