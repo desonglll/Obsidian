@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/marvel.md",
+                "file": "life/transformers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/marvel.md",
+                "file": "life/transformers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/marvel.md",
+                "file": "life/transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/marvel.md"
+                "file": "life/transformers.md"
               }
             }
           }
@@ -153,9 +153,10 @@
   },
   "active": "c27e6f4d78658e5d",
   "lastOpenFiles": [
+    "life/marvel.md",
+    "life/transformers.md",
     "diary/2023-06-07.md",
     "tools/tor-browser.md",
-    "life/marvel.md",
     "diary/2023-06-06.md",
     "diary/2023-06-05.md",
     "diary/2023-06-04.md",
@@ -178,7 +179,6 @@
     "commands/vim-commands.md",
     "commands/shell-commands.md",
     "commands/macOS-commands.md",
-    "commands/index-commands.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
