@@ -28,8 +28,8 @@ tags:
 - [ ] [[#钢铁侠3（Iron Man 3） - 2013年]]
 - [x] [[#美国队长2：冬日战士（Captain America: The Winter Soldier） - 2014年]]
 - [ ] [[#银河护卫队（Guardians of the Galaxy） - 2014年]]
-- [ ] [[#卡魯（Kalu） - 未发布]]
-- [ ] [[#复仇者联盟2：奥创纪元（Avengers: Age of Ultron） - 2015年]]
+- [ ] [[#卡鲁（Kalu） - 未发布]]
+- [ ] [[#复仇者联盟 2：奥创纪元（Avengers Age of Ultron） - 2015 年]]
 - [ ] [[#蚁人（Ant-Man） - 2015年]]
 - [ ] [[#美国队长3：内战（Captain America: Civil War） - 2016年]]
 - [ ] [[#黑寡妇（Black Widow） - 2021年]]
@@ -82,7 +82,7 @@ tags:
 
 ## 银河护卫队（Guardians of the Galaxy） - 2014 年
 
-## 卡魯（Kalu） - 未发布
+## 卡鲁（Kalu） - 未发布
 
 ## 复仇者联盟 2：奥创纪元（Avengers: Age of Ultron） - 2015 年
 
