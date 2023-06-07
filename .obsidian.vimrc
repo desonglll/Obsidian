@@ -1,6 +1,4 @@
 imap jk <Esc>
-map mapleader="<Space>"
-imap <leader>e <Esc>
 
 exmap surround_wiki surround [[ ]]
 exmap surround_double_quotes surround " "
