@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/transformers.md",
+                "file": "life/movies.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/transformers.md",
+                "file": "life/movies.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/transformers.md",
+                "file": "life/movies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/transformers.md"
+                "file": "life/movies.md"
               }
             }
           }
@@ -154,6 +154,7 @@
   "active": "c27e6f4d78658e5d",
   "lastOpenFiles": [
     "life/marvel.md",
+    "life/movies.md",
     "life/transformers.md",
     "diary/2023-06-07.md",
     "tools/tor-browser.md",
@@ -178,7 +179,6 @@
     "杂七杂八的工具/mac微信防撤回.md",
     "commands/vim-commands.md",
     "commands/shell-commands.md",
-    "commands/macOS-commands.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",

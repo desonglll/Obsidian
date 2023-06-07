@@ -15,13 +15,12 @@ tags:
 
 以下是变形金刚电影系列的观看顺序：
 
-- [ ] [[#变形金刚（Transformers）- 2007年]]
-- [ ] [[#变形金刚：复仇之战（Transformers Revenge of the Fallen）- 2009年]]
-- [ ] [[#变形金刚：月黑之时（Transformers Dark of the Moon）- 2011年]]
-- [ ] [[#变形金刚：绝迹重生（Transformers Age of Extinction）- 2014年]]
-- [ ] [[#变形金刚：最后的骑士（Transformers The Last Knight）- 2017年]]
-- [ ] [[#变形金刚：大黄蜂（Bumblebee）- 2018年]]
-- [ ]
+- [x] [[#变形金刚（Transformers）- 2007年]]
+- [x] [[#变形金刚：复仇之战（Transformers Revenge of the Fallen）- 2009年]]
+- [x] [[#变形金刚：月黑之时（Transformers Dark of the Moon）- 2011年]]
+- [x] [[#变形金刚：绝迹重生（Transformers Age of Extinction）- 2014年]]
+- [x] [[#变形金刚：最后的骑士（Transformers The Last Knight）- 2017年]]
+- [x] [[#变形金刚：大黄蜂（Bumblebee）- 2018年]]
 
 以上是主要的变形金刚电影系列。值得注意的是，虽然《大黄蜂》是在整个系列中发生的故事，但它被认为是一个重启，并独立于前面的电影。
 
