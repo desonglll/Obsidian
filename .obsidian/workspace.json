@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/加快macOS的光标移动速度.md",
+                "file": "tools/hammerspoon.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rar",
+                "query": "tag:#macos工具",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/加快macOS的光标移动速度.md",
+                "file": "tools/hammerspoon.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/加快macOS的光标移动速度.md",
+                "file": "tools/hammerspoon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/加快macOS的光标移动速度.md"
+                "file": "tools/hammerspoon.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -164,8 +165,9 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "f07dbe5d6d3d4afe",
+  "active": "c86cd4a6a25ca942",
   "lastOpenFiles": [
+    "tools/加快macOS的光标移动速度.md",
     "tools/converts.md",
     "tools/hammerspoon.md",
     "tools/index-tools.md",
@@ -191,7 +193,6 @@
     "tools/macOS-software.md",
     "programming-language/rust.md",
     "programming-language/index-programming.md",
-    "develop/python.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
