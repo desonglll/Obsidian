@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂七杂八的工具/mac微信防撤回.md",
+                "file": "programming-language/c.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂七杂八的工具/mac微信防撤回.md",
+                "file": "programming-language/c.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂七杂八的工具/mac微信防撤回.md",
+                "file": "programming-language/c.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂七杂八的工具/mac微信防撤回.md"
+                "file": "programming-language/c.md"
               }
             }
           }
@@ -153,6 +153,7 @@
   },
   "active": "6bc860e2ee9440ea",
   "lastOpenFiles": [
+    "杂七杂八的工具/mac微信防撤回.md",
     "commands/vim-commands.md",
     "commands/shell-commands.md",
     "commands/macOS-commands.md",
@@ -178,7 +179,6 @@
     "tools/加快macOS的光标移动速度.md",
     "tools/hammerspoon.md",
     "tools/converts.md",
-    "tools/index-tools.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",

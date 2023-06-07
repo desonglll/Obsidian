@@ -1,22 +1,17 @@
 ---
 title: c
-date: 2023/05/30/ 19:06:23
-discription:
+date: 2023-06-07 14:27
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #编程语言
+- #C语言
+
 
 当学习 C 语言基础语法时，以下是一个可能的学习大纲目录：
 
