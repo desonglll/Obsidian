@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0582e556b193a264",
+        "id": "21b087c660b7c9d7",
         "type": "tabs",
         "children": [
           {
-            "id": "92f3518f4d35235a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/index-template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6abcb27cbe7d6c5",
+            "id": "521ff3dd9a64d3ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9e38923d07ab667e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,11 +151,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "d6abcb27cbe7d6c5",
+  "active": "521ff3dd9a64d3ae",
   "lastOpenFiles": [
-    "diary/2023-06-07.md",
     "README.md",
     "Obsidian/index-template.md",
+    "diary/2023-06-07.md",
     "tools/vims.md",
     "tools/vim-in-idea.md",
     "tools/lunarvim.md",
