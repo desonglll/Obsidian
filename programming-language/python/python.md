@@ -1598,3 +1598,66 @@ _, predicted = torch.max(outputs.data, 1)
 上述示例中，我们使用 PyTorch 构建了一个简单的神经网络模型来进行手写数字识别。我们定义了一个`Net`类作为模型的结构，使用`nn.Linear`定义全连接层，然后在`forward()`方法中定义了前向传播过程。我们使用交叉熵损失函数和随机梯度下降优化器，并在训练循环中对模型进行训练。最后，通过计算准确率对模型进行评估，并使用模型进行预测。
 
 通过学习 TensorFlow 和 PyTorch 的基本原理和使用方法，我们可以构建、训练和部署强大的机器学习和深度学习模型，应用于各种领域，如图像分类、自然语言处理和推荐系统等。
+
+## PyPI 镜像使用帮助
+
+PyPI 镜像在每次同步成功后间隔 5 分钟同步一次。
+
+### pip
+
+#### 临时使用
+
+```sh
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+```
+
+注意，`simple`  不能少, 是  `https`  而不是  `http`
+
+#### 设为默认
+
+升级 pip 到最新的版本 (>=10.0.0) 后进行配置：
+
+```sh
+python -m pip install --upgrade pip
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：
+
+```
+python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
+```
+
+#### 配置多个镜像源
+
+如果您想配置多个镜像源平衡负载，可在已经替换  `index-url`  的情况下通过以下方式继续增加源站：
+
+```
+pip config set global.extra-index-url "<url1> <url2>..."
+```
+
+请自行替换引号内的内容，源地址之间需要有空格
+
+可用的  `pypi`  源列表（校园网联合镜像站）：[https://mirrors.cernet.edu.cn/list/pypi](https://mirrors.cernet.edu.cn/list/pypi)
+
+### PDM
+
+通过如下命令设置默认镜像：
+
+```
+pdm config pypi.url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+### Poetry
+
+通过以下命令设置默认镜像：
+
+```
+poetry source add --default mirrors https://pypi.tuna.tsinghua.edu.cn/simple/
+```
+
+通过以下命令设置次级镜像：
+
+```
+poetry source add --secondary mirrors https://pypi.tuna.tsinghua.edu.cn/simple/
+```
