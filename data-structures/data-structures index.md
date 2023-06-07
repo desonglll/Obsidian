@@ -21,3 +21,9 @@ cover:
 [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 ![image-20230530191841151](./assets/image-20230530191841151.png)
+[[List]]
+[[Search]]
+[[Sort]]
+[[Stack]]
+[[Tree]]
+[[String]]
