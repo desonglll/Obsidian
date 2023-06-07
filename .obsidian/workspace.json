@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2023-06-07.md",
+                "file": "tools/my-neovim-based-on-lua.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e445cbfdd08a70a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/hammerspoon.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2023-06-07.md",
+                "file": "tools/hammerspoon.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2023-06-07.md",
+                "file": "tools/hammerspoon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2023-06-07.md"
+                "file": "tools/hammerspoon.md"
               }
             }
           }
@@ -151,8 +164,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "521ff3dd9a64d3ae",
+  "active": "e445cbfdd08a70a1",
   "lastOpenFiles": [
+    "tools/my-neovim-based-on-lua.md",
+    "tools/hammerspoon.md",
     "diary/2023-06-07.md",
     "README.md",
     "Obsidian/index-template.md",
@@ -183,8 +198,6 @@
     "commands/vim-commands.md",
     "math-expansions.md",
     "commands/shell-commands.md",
-    "diary/2023-06-06.md",
-    "tools/markdown-study.md",
     "diary",
     "剑指150.opml",
     "programming-language/python/assets/640-20230606081718391.png",
