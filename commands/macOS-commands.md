@@ -10,7 +10,7 @@ tags:
 标签
 
 - #commands 
-- #mac
+- #macOS命令
 
 
 ## 开发

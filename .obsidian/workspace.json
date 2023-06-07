@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "commands/macOS-commands.md",
+                "file": "杂七杂八的工具/mac微信防撤回.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "commands/macOS-commands.md",
+                "file": "杂七杂八的工具/mac微信防撤回.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "commands/macOS-commands.md",
+                "file": "杂七杂八的工具/mac微信防撤回.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "commands/macOS-commands.md"
+                "file": "杂七杂八的工具/mac微信防撤回.md"
               }
             }
           }
@@ -153,6 +153,9 @@
   },
   "active": "6bc860e2ee9440ea",
   "lastOpenFiles": [
+    "commands/vim-commands.md",
+    "commands/shell-commands.md",
+    "commands/macOS-commands.md",
     "commands/linux-commands.md",
     "commands/index-commands.md",
     "commands/crontab-commands.md",
@@ -176,9 +179,6 @@
     "tools/hammerspoon.md",
     "tools/converts.md",
     "tools/index-tools.md",
-    "tools/latex.md",
-    "tools/macOS-configurations.md",
-    "tools/markdown-syntax.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",

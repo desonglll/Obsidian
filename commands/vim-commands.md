@@ -1,8 +1,17 @@
 ---
-title: Vim命令
-date: 2022/09/26/ 15:29:36
-description:
+title: vim-commands
+date: 2023-06-07 14:26
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
+
+标签
+
+- #Vim 
+- #commands 
+
 
 https://blog.csdn.net/m0_47696151/article/details/117792656
 

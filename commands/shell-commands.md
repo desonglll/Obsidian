@@ -1,14 +1,16 @@
 ---
-title: shell commands
-date: 2022/09/26/ 15:29:30
-description:
+title: shell-commands
+date: 2023-06-07 14:26
+author: Leo Song
+categories:
+  - Markdown
+tags:
 ---
 
-- [copy file or directory](#copy-file-or-directory)
-- [delete all files in current directory but keep directory](#delete-all-files-in-current-directory-but-keep-directory)
-- [Useful commands](#useful-commands)
-- [拷贝文件夹内所有文件及子文件夹](#拷贝文件夹内所有文件及子文件夹)
-- [解压文件](#解压文件)
+标签
+
+- #shell
+- #commands 
 
 ## copy file or directory
 
