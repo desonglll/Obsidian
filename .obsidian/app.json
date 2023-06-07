@@ -17,5 +17,6 @@
   "alwaysUpdateLinks": true,
   "spellcheck": false,
   "showLineNumber": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "focusNewTab": false
 }
