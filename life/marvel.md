@@ -24,7 +24,6 @@ tags:
 - [ ] 復仇者聯盟（The Avengers） - 2012年
 - [ ] 钢铁侠3（Iron Man 3） - 2013年
 - [ ] 美国队长2：冬日战士（Captain America: The Winter Soldier） - 2014年
-	- [ ] 
 - [ ] 银河护卫队（Guardians of the Galaxy） - 2014年
 - [ ] 卡魯（Kalu） - 未发布
 - [ ] 复仇者联盟2：奥创纪元（Avengers: Age of Ultron） - 2015年
