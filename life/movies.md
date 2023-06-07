@@ -13,7 +13,7 @@ tags:
 - #电影目录 
 
 ## 变形金刚系列
-![[transformers|变形金刚系列]]
+![[movies/transformers|变形金刚系列]]
 
 ## 漫威系列
-![[marvel]]
+![[movies/marvel]]
