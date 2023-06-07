@@ -11,12 +11,8 @@
             "id": "1eef05e2a874590f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data-structures/data-structures index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data-structures/data-structures index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data-structures/data-structures index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,13 +118,10 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "data-structures/data-structures index.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -151,12 +142,13 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "a3f90424c35a090d",
+  "active": "1eef05e2a874590f",
   "lastOpenFiles": [
+    "commands/commands index.md",
+    "data-structures/data-structures index.md",
     "diary/2023-06-07.md",
     "Obsidian/templates/timestamped-note.md",
     "Obsidian/templates/附件文件路径.md",
-    "data-structures/data-structures index.md",
     "commands/linux-commands.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets/p519375.png.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
@@ -165,7 +157,6 @@
     "Users/mikeshinoda/Desktop",
     "Users/mikeshinoda",
     "Users",
-    "commands/commands index.md",
     "commands/git-commands.md",
     "commands/vim-commands.md",
     "README.md",
