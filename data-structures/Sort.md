@@ -1,22 +1,16 @@
 ---
 title: Sort
-date: 2023/05/30/ 19:18:56
-discription:
+date: 2023-06-07 19:58
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #数据结构 
+
 
 ## 插入排序
 
