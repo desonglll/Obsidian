@@ -1,66 +1,16 @@
 ---
-title: 环境配置等笔记
-date: 2022/06/16/ 10:27:46
-categories: CS学习
+title: macOS-configurations
+date: 2023-06-07 14:21
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
 
-- [用 alias 在.bash_profile 中创建别名](#用alias在bash_profile中创建别名)
-  - [1. 使用 touch 创建.bash_profile 文件](#1-使用touch创建bash_profile文件)
-  - [2. 使用 alias 命令给 python3 起别名](#2-使用alias命令给python3起别名)
-  - [3. .bash_profile source](#3-bash_profile-source)
-- [修改.zshrc 文件](#修改zshrc文件)
-- [配置环境变量 PATH](#配置环境变量path)
-  - [macOS 12 要在.zprofile 文件设置](#macos-12-要在zprofile文件设置)
-  - [要配置的 bin 目录的地址](#要配置的bin目录的地址)
-  - [添加以下代码](#添加以下代码)
-  - [使生效](#使生效)
-- [安装 homebrew 2022.07.13](#安装-homebrew-20220713)
-  - [1. 设置 USTC 的镜像](#1-设置ustc的镜像)
-  - [2. 安装 homebrew](#2-安装homebrew)
-  - [3. 添加 Homebrew 到环境变量](#3-添加homebrew到环境变量)
-  - [有关报错](#有关报错)
-    - [brew update 的错误](#brew-update的错误)
-  - [替换国内镜像源](#替换国内镜像源)
-  - [fatal: not in a git directory Error: Command failed with exit 128: git](#fatal-not-in-a-git-directory-error-command-failed-with-exit-128-git)
-- [npm 换源](#npm换源)
-- [安装 fishshell](#安装fishshell)
-  - [使用 Homebrew 安装](#使用homebrew安装)
-  - [讲 fishshell 设为默认 Terminal](#讲fishshell设为默认terminal)
-- [修改 host 文件提高 Github 访问速度](#修改host文件提高github访问速度)
-- [安装 Tree](#安装tree)
-  - [在 macOS 里安装 Tree](#在macos里安装tree)
-    - [1. 写入"~/.bash_profile"](#1-写入bash_profile)
-    - [2. 通过 Homebrew 安装 Tree](#2-通过homebrew安装tree)
-- [Tree 命令行参数](#tree命令行参数)
-  - [1. tree 命令行参数](#1-tree命令行参数)
-  - [2. 常用的命令](#2-常用的命令)
-    - [查看不同级别子目录和文件](#查看不同级别子目录和文件)
-    - [目录结构信息输入保存到 txt 文件中](#目录结构信息输入保存到txt文件中)
-- [Tools](#tools)
-  - [Material UI](#material-ui)
-- [在 macOS 使用 npm 安装 yarn](#在macos使用npm安装yarn)
-- [安装 live-server](#安装live-server)
-  - [1. 使用 npm 命令安装](#1-使用npm命令安装)
-- [安装 Android Studio](#安装android-studio)
-  - [配置代理 Proxy](#配置代理proxy)
-- [yarn 更换源](#yarn更换源)
-- [npm 更换源](#npm更换源)
-  - [“Navicat Premium.app”已损坏，无法打开。 您应该将它移到废纸篓](#navicat-premiumapp已损坏无法打开-您应该将它移到废纸篓)
-  - [查看端口被哪个程序占用](#查看端口被哪个程序占用)
+标签
+
+- #macOS配置 
+
 
 ```shell
 # git clone加速

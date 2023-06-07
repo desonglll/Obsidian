@@ -9,7 +9,7 @@ tags:
 
 标签
 
-- #macos工具 
+- #macOS工具 
 
 ## hammerspoon
 https://www.hammerspoon.org/

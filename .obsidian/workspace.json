@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/macOS-configurations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c86cd4a6a25ca942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/hammerspoon.md",
+                "file": "tools/some-scripts.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/hammerspoon.md",
+                "file": "tools/some-scripts.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/hammerspoon.md",
+                "file": "tools/some-scripts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/hammerspoon.md"
+                "file": "tools/some-scripts.md"
               }
             }
           }
@@ -165,11 +151,15 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "c86cd4a6a25ca942",
+  "active": "521ff3dd9a64d3ae",
   "lastOpenFiles": [
+    "tools/stable-diffusion-webui.md",
+    "tools/tmux.md",
+    "tools/vim-in-idea.md",
+    "tools/vscode-configurations.md",
     "tools/加快macOS的光标移动速度.md",
-    "tools/converts.md",
     "tools/hammerspoon.md",
+    "tools/converts.md",
     "tools/index-tools.md",
     "tools/latex.md",
     "tools/macOS-configurations.md",
@@ -179,12 +169,8 @@
     "tools/OCR pdf.md",
     "tools/prettier.md",
     "tools/some-scripts.md",
-    "tools/stable-diffusion-webui.md",
     "tools/spacevim.md",
-    "tools/tmux.md",
-    "tools/vim-in-idea.md",
     "tools/vims.md",
-    "tools/vscode-configurations.md",
     "Obsidian/templates/markdown.md",
     "Obsidian/index-template.md",
     "diary/2023-06-07.md",
