@@ -1,3 +1,18 @@
+---
+title: live-server
+date: 2023-06-07 14:23
+author: Leo Song
+categories:
+  - Markdown
+tags:
+---
+
+标签
+
+- #终端工具 
+- #前端开发
+- #m
+
 # 3 simple servers to run your site locally (Mac)
 
 Running Python’s SimpleHTTPServer

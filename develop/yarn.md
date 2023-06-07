@@ -1,22 +1,17 @@
 ---
 title: yarn
-date: 2023/05/30/ 19:16:13
-discription:
+date: 2023-06-07 14:23
+author: Leo Song
+categories:
+  - Markdown
 tags:
-updated:
-type:
-comments:
-description:
-keywords:
-top_img:
-mathjax: true
-katex:
-aside:
-aplayer:
-highlight_shrink:
-sticky:
-cover:
 ---
+
+标签
+
+- #yarn 
+- #环境配置
+
 
 ## 配置 yarn 的镜像源为中国国内
 

@@ -11,8 +11,12 @@
             "id": "6bc860e2ee9440ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "develop/live-server.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "develop/live-server.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "develop/live-server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "develop/live-server.md"
+              }
             }
           }
         ],
@@ -145,6 +153,8 @@
   },
   "active": "6bc860e2ee9440ea",
   "lastOpenFiles": [
+    "develop/yarn.md",
+    "develop/live-server.md",
     "Obsidian/templates/diary01.md",
     "diary/2023-06-04.md",
     "diary/2023-06-05.md",
@@ -169,8 +179,6 @@
     "tools/OCR pdf.md",
     "tools/spacevim.md",
     "tools/vims.md",
-    "Obsidian/templates/markdown.md",
-    "Obsidian/index-template.md",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
