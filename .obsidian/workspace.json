@@ -20,14 +20,15 @@
             }
           },
           {
-            "id": "0eaddb985f471829",
+            "id": "d6abcb27cbe7d6c5",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,7 +156,7 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "a3f90424c35a090d",
+  "active": "d6abcb27cbe7d6c5",
   "lastOpenFiles": [
     "README.md",
     "tools/vims.md",
