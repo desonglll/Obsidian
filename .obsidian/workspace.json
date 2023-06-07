@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/hammerspoon.md",
+                "file": "tools/latex.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/hammerspoon.md",
+                "file": "tools/latex.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/hammerspoon.md",
+                "file": "tools/latex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/hammerspoon.md"
+                "file": "tools/latex.md"
               }
             }
           }
@@ -166,8 +166,8 @@
   },
   "active": "e445cbfdd08a70a1",
   "lastOpenFiles": [
-    "tools/my-neovim-based-on-lua.md",
     "tools/hammerspoon.md",
+    "tools/my-neovim-based-on-lua.md",
     "diary/2023-06-07.md",
     "README.md",
     "Obsidian/index-template.md",

@@ -1,3 +1,17 @@
+---
+title: latex
+date: 2023-06-07 14:06
+author: Leo Song
+categories:
+  - Markdown
+tags:
+---
+
+标签
+
+- #排版
+- #latex
+
 学习 LaTeX 是一种排版工具，常用于科学、技术和学术文档的编写。以下是一个学习 LaTeX 的指南：
 
 1. 安装 LaTeX 发行版：首先，你需要安装一个 LaTeX 发行版，例如 TeX Live（跨平台）或 MiKTeX（仅适用于 Windows）。这些发行版包含了 LaTeX 的核心组件和相关工具。
