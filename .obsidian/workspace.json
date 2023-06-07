@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2023-06-07.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2023-06-07.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2023-06-07.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2023-06-07.md"
+                "file": "README.md"
               }
             }
           }
@@ -153,9 +153,9 @@
   },
   "active": "521ff3dd9a64d3ae",
   "lastOpenFiles": [
+    "diary/2023-06-07.md",
     "README.md",
     "Obsidian/index-template.md",
-    "diary/2023-06-07.md",
     "tools/vims.md",
     "tools/vim-in-idea.md",
     "tools/lunarvim.md",
