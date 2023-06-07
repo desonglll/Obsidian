@@ -10,9 +10,9 @@ tags:
 标签
 
 - #操作系统
-- #linux 
+- #linux
 - #Ubuntu
-- #环境配置 
+- #环境配置
 
 ## 查看 ubuntu 版本
 

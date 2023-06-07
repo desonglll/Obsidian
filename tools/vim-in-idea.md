@@ -9,7 +9,7 @@ tags:
 
 标签
 
-- #Vim 
+- #Vim
 - #idea
 
 ## Github page of ideavim

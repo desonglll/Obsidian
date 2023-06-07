@@ -9,9 +9,10 @@ tags:
 
 标签
 
-- #终端工具 
-- #tmux 
+- #终端工具
+- #tmux
 - #命令行
+
 # Tmux 使用教程
 
 作者： [阮一峰](https://www.ruanyifeng.com/)

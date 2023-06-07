@@ -7,17 +7,20 @@ discription:
 ## Table Of Contents
 
 ---
+
 title: neovim-based-on-lua
 date: 2023-06-07 14:14
 author: Leo Song
 categories:
-  - Markdown
-tags:
+
+- Markdown
+  tags:
+
 ---
 
 标签
 
-- #Vim 
+- #Vim
 - #lua
 
 基于 Lua 的 NeoVim 配置可以提供更强大的扩展性和灵活性。以下是基于 Lua 的 NeoVim 配置步骤：

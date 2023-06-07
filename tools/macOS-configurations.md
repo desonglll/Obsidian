@@ -9,8 +9,7 @@ tags:
 
 标签
 
-- #macOS配置 
-
+- #macOS 配置
 
 ```shell
 # git clone加速

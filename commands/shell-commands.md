@@ -10,7 +10,7 @@ tags:
 标签
 
 - #shell
-- #commands 
+- #commands
 
 ## copy file or directory
 

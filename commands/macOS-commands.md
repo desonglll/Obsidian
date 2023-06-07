@@ -9,9 +9,8 @@ tags:
 
 标签
 
-- #commands 
-- #macOS命令
-
+- #commands
+- #macOS 命令
 
 ## 开发
 

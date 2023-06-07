@@ -10,7 +10,7 @@ tags:
 标签
 
 - #VSCode
-- #编辑器配置 
+- #编辑器配置
 
 ## User Snippets 配置
 

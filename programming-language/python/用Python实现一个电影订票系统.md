@@ -9,7 +9,7 @@ tags:
 
 标签
 
-- #Python 
+- #Python
 - #项目实战
 
 # 用 Python 实现一个电影订票系统！
