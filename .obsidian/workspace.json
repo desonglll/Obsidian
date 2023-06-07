@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs-learning/Vue3-Study.md",
+                "file": "deep-learning/深度学习指南.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs-learning/Vue3-Study.md",
+                "file": "deep-learning/深度学习指南.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs-learning/Vue3-Study.md",
+                "file": "deep-learning/深度学习指南.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs-learning/Vue3-Study.md"
+                "file": "deep-learning/深度学习指南.md"
               }
             }
           }
@@ -153,6 +153,15 @@
   },
   "active": "428c6f42af9e526e",
   "lastOpenFiles": [
+    "develop/yarn.md",
+    "develop/live-server.md",
+    "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
+    "杂七杂八的工具/mac微信防撤回.md",
+    "commands/macOS-commands.md",
+    "commands/index-commands.md",
+    "commands/git-commands.md",
+    "commands/crontab-commands.md",
+    "cs-learning/Vue3-Study.md",
     "cs-learning/regular-expressions.md",
     "cs-learning/React-Study.md",
     "cs-learning/Python-Study-Qianfeng.md",
@@ -169,16 +178,7 @@
     "commands/vim-commands.md",
     "tools/prettier.md",
     "tools/some-scripts.md",
-    "commands/index-commands.md",
     "tools/converts.md",
-    "commands/linux-commands.md",
-    "life/reading/Steve-Paul-Jobs-Stanford.md",
-    "tools/markdown-syntax.md",
-    "tools/macOS-software.md",
-    "tools/OCR pdf.md",
-    "tools/vscode-configurations.md",
-    "Obsidian/templates/diary01.md",
-    "tools/hammerspoon.md",
     "未命名.canvas",
     "life/movies",
     "未命名",
