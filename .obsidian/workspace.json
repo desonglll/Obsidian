@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "commands/vim-commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "commands/vim-commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "commands/vim-commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "commands/vim-commands.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,8 +151,9 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "cfb6697ec409a6fe",
+  "active": "1eef05e2a874590f",
   "lastOpenFiles": [
+    "README.md",
     "math-expansions.md",
     "diary/2023-06-07.md",
     "commands/shell-commands.md",
@@ -165,7 +166,6 @@
     "diary/2023-06-05.md",
     "diary/2023-06-04.md",
     "diary",
-    "README.md",
     "tools/converts.md",
     "life/diary/2023-06-06.md",
     "converts.md",
