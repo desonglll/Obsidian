@@ -1,12 +1,4 @@
 ---
-title: neovim based on lua
-date: 2022/12/08/ 00:22:51
-discription:
----
-
-## Table Of Contents
-
----
 
 title: neovim-based-on-lua
 date: 2023-06-07 14:14
