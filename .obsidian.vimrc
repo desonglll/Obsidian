@@ -15,6 +15,5 @@ set incsearch
 
 set number
 set relativenumber
-let mapleader = " "
 imap jk <ESC>
 
