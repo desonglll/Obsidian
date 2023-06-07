@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Obsidian/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Obsidian/未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Obsidian/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Obsidian/未命名.md"
+              }
             }
           }
         ],
@@ -156,9 +159,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "d6abcb27cbe7d6c5",
+  "active": "92f3518f4d35235a",
   "lastOpenFiles": [
     "README.md",
+    "Obsidian/未命名.md",
     "tools/vims.md",
     "tools/vim-in-idea.md",
     "tools/lunarvim.md",
@@ -189,7 +193,6 @@
     "commands/shell-commands.md",
     "diary/2023-06-06.md",
     "tools/markdown-study.md",
-    "tools/markdown-syntax.md",
     "diary",
     "剑指150.opml",
     "programming-language/python/assets/640-20230606081718391.png",
