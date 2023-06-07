@@ -19,7 +19,7 @@ tags:
 
 以下是漫威电影的中英双语名称及年份：
 
-- [ ] 美国队长：复仇者先锋（Captain America: The First Avenger） - 2011年
+- [ ] 美国队长：复仇者先锋（Captain America: The First Avenger） - 2011年[[#]]
 - [ ] 钢铁侠（Iron Man） - 2008年
 - [ ] 钢铁侠2（Iron Man 2） - 2010年
 - [ ] 雷神（Thor） - 2011年
