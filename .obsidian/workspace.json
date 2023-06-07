@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "commands/git-commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "933c36ebac4b8691",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "commands/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "commands/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "commands/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "commands/index.md"
               }
             }
           }
@@ -150,10 +163,12 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "1eef05e2a874590f",
+  "active": "933c36ebac4b8691",
   "lastOpenFiles": [
-    "commands/vim-commands.md",
+    "commands/git-commands.md",
+    "commands/index.md",
     "README.md",
+    "commands/vim-commands.md",
     "math-expansions.md",
     "diary/2023-06-07.md",
     "commands/shell-commands.md",
@@ -190,8 +205,6 @@
     "programming-language/python",
     "Deep-Learning/深度学习指南.md",
     "life/diary/2023-06-05.md",
-    "tools/实用网站.md",
-    "Commands/macOS-commands.md",
     "Excalidraw",
     "timestamped-notes/assets",
     "tools/加快macOS的光标移动速.assets",
