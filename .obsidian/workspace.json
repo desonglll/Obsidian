@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/摘抄.md",
+                "file": "extra-curricular-learning/greek/奧林帕十二神.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/摘抄.md",
+                "file": "extra-curricular-learning/greek/奧林帕十二神.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/摘抄.md",
+                "file": "extra-curricular-learning/greek/奧林帕十二神.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/摘抄.md"
+                "file": "extra-curricular-learning/greek/奧林帕十二神.md"
               }
             }
           }
@@ -163,9 +163,12 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "f07dbe5d6d3d4afe",
+  "active": "428c6f42af9e526e",
   "lastOpenFiles": [
-    "study",
+    "life/摘抄.md",
+    "extra-curricular-learning/greek/奧林帕十二神.md",
+    "extra-curricular-learning/greek",
+    "extra-curricular-learning",
     "life/泰酷辣.md",
     "life/reading/书单.md",
     "life/reading/读书-读紫色菩提-林清玄.md",
@@ -175,7 +178,6 @@
     "life/movies.md",
     "life/伪装成人类的动物.md",
     "life/论文致谢.md",
-    "life/摘抄.md",
     "life/assets/DDADC0DD-65E4-4CC0-9ECB-5525A755588C_1_105_c.jpeg",
     "life/assets",
     "tools/chatgpt源.md",
@@ -201,8 +203,6 @@
     "Users/mikeshinoda/Desktop/notes",
     "Users/mikeshinoda/Desktop",
     "Users/mikeshinoda",
-    "Users",
-    "diary",
     "programming-language/python/assets/640-20230606081718391.png",
     "programming-language/python/assets/640.svg",
     "programming-language/python/assets/640-20230606081213250.png",
