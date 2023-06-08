@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/reading/书单.md",
+                "file": "life/泰酷辣.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/reading/书单.md",
+                "file": "life/泰酷辣.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/reading/书单.md",
+                "file": "life/泰酷辣.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/reading/书单.md"
+                "file": "life/泰酷辣.md"
               }
             }
           }
@@ -178,8 +178,9 @@
   },
   "active": "daac327b967fe19d",
   "lastOpenFiles": [
-    "life/reading/读书-读紫色菩提-林清玄.md",
     "life/reading/书单.md",
+    "life/泰酷辣.md",
+    "life/reading/读书-读紫色菩提-林清玄.md",
     "life/reading/刘勖雯书单.md",
     "life/reading/Steve-Paul-Jobs-Stanford.md",
     "life/common sense.md",
@@ -206,7 +207,6 @@
     "develop/yarn.md",
     "develop/live-server.md",
     "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
-    "杂七杂八的工具/mac微信防撤回.md",
     "未命名.canvas",
     "life/movies",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
