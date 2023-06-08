@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "daac327b967fe19d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "life/common sense.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bde559729ad8e9b3",
             "type": "leaf",
             "state": {
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/chatgpt源.md",
+                "file": "life/common sense.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/chatgpt源.md",
+                "file": "life/common sense.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/chatgpt源.md"
+                "file": "life/common sense.md"
               }
             }
           }
@@ -164,13 +176,13 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "bde559729ad8e9b3",
+  "active": "daac327b967fe19d",
   "lastOpenFiles": [
-    "life/common sense.md",
+    "life/摘抄.md",
     "tools/chatgpt源.md",
+    "life/common sense.md",
     "english/writting.md",
     "life/伪装成人类的动物.md",
-    "life/摘抄.md",
     "diary/2023-06-08.md",
     "english",
     "life/movies/marvel.md",
