@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/论文致谢.md",
+                "file": "life/摘抄.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/论文致谢.md",
+                "file": "life/摘抄.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/论文致谢.md",
+                "file": "life/摘抄.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/论文致谢.md"
+                "file": "life/摘抄.md"
               }
             }
           }
@@ -178,8 +178,10 @@
   },
   "active": "daac327b967fe19d",
   "lastOpenFiles": [
-    "life/common sense.md",
+    "life/assets/DDADC0DD-65E4-4CC0-9ECB-5525A755588C_1_105_c.jpeg",
+    "life/assets",
     "life/论文致谢.md",
+    "life/common sense.md",
     "life/摘抄.md",
     "tools/chatgpt源.md",
     "english/writting.md",
@@ -204,7 +206,6 @@
     "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
     "杂七杂八的工具/mac微信防撤回.md",
     "commands/macOS-commands.md",
-    "commands/index-commands.md",
     "未命名.canvas",
     "life/movies",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
@@ -214,7 +215,6 @@
     "Users/mikeshinoda",
     "Users",
     "diary",
-    "剑指150.opml",
     "programming-language/python/assets/640-20230606081718391.png",
     "programming-language/python/assets/640.svg",
     "programming-language/python/assets/640-20230606081213250.png",
