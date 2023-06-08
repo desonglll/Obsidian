@@ -11,7 +11,7 @@ tags:
 
 - #英语写作
 
-## we should的高级替换
+## we should 的高级替换
 
 1. ought to do sth.
    应该做某事
@@ -25,7 +25,7 @@ tags:
 4. It is highly desirable if we...
    这是非常可取的，如果我们…
 
-## first/firstly的高级替换
+## first/firstly 的高级替换
 
 1. In the first place.
    首先，从一开始

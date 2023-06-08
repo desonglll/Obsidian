@@ -9,7 +9,7 @@ tags:
 
 标签
 
-- #common-sense 
+- #common-sense
 
 ## 音乐
 

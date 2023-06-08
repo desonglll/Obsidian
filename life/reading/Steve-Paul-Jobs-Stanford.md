@@ -12,7 +12,6 @@ tags:
 - #演讲稿
 - #Apple
 
-
 ## 乔布斯斯坦福大学演讲中英文文本整理
 
 I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I’ve ever gotten to a college graduation. Today I want to tell you three stories from my life. That’s it. No big deal. Just three stories.
