@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/common sense.md",
+                "file": "tools/chatgpt源.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/common sense.md",
+                "file": "tools/chatgpt源.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/common sense.md",
+                "file": "tools/chatgpt源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/common sense.md"
+                "file": "tools/chatgpt源.md"
               }
             }
           }
@@ -166,8 +166,9 @@
   },
   "active": "bde559729ad8e9b3",
   "lastOpenFiles": [
-    "english/writting.md",
     "life/common sense.md",
+    "tools/chatgpt源.md",
+    "english/writting.md",
     "life/伪装成人类的动物.md",
     "life/摘抄.md",
     "diary/2023-06-08.md",
@@ -192,7 +193,6 @@
     "commands/macOS-commands.md",
     "commands/index-commands.md",
     "commands/git-commands.md",
-    "commands/crontab-commands.md",
     "未命名.canvas",
     "life/movies",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
