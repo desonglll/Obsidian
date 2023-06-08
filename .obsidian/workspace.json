@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "english/writting.md",
+                "file": "life/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "english/writting.md",
+                "file": "life/未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "english/writting.md",
+                "file": "life/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "english/writting.md"
+                "file": "life/未命名.md"
               }
             }
           }
@@ -151,10 +151,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "cfb6697ec409a6fe",
+  "active": "428c6f42af9e526e",
   "lastOpenFiles": [
-    "diary/2023-06-08.md",
     "english/writting.md",
+    "life/未命名.md",
+    "diary/2023-06-08.md",
     "english",
     "life/movies/marvel.md",
     "diary/2023-06-07.md",
@@ -179,7 +180,6 @@
     "commands/crontab-commands.md",
     "cs-learning/Vue3-Study.md",
     "cs-learning/regular-expressions.md",
-    "cs-learning/React-Study.md",
     "未命名.canvas",
     "life/movies",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
