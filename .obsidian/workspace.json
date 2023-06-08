@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/common sense.md",
+                "file": "life/论文致谢.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/common sense.md",
+                "file": "life/论文致谢.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/common sense.md",
+                "file": "life/论文致谢.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/common sense.md"
+                "file": "life/论文致谢.md"
               }
             }
           }
@@ -178,9 +178,10 @@
   },
   "active": "daac327b967fe19d",
   "lastOpenFiles": [
+    "life/common sense.md",
+    "life/论文致谢.md",
     "life/摘抄.md",
     "tools/chatgpt源.md",
-    "life/common sense.md",
     "english/writting.md",
     "life/伪装成人类的动物.md",
     "diary/2023-06-08.md",
@@ -204,7 +205,6 @@
     "杂七杂八的工具/mac微信防撤回.md",
     "commands/macOS-commands.md",
     "commands/index-commands.md",
-    "commands/git-commands.md",
     "未命名.canvas",
     "life/movies",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
