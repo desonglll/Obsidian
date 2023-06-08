@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2023-06-08.md",
+                "file": "english/writting.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2023-06-08.md",
+                "file": "english/writting.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2023-06-08.md",
+                "file": "english/writting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2023-06-08.md"
+                "file": "english/writting.md"
               }
             }
           }
@@ -154,8 +153,10 @@
   },
   "active": "428c6f42af9e526e",
   "lastOpenFiles": [
-    "life/movies/marvel.md",
     "diary/2023-06-08.md",
+    "english/writting.md",
+    "english",
+    "life/movies/marvel.md",
     "diary/2023-06-07.md",
     "life/reading/Steve-Paul-Jobs-Stanford.md",
     "life/reading/刘勖雯书单.md",
@@ -179,10 +180,8 @@
     "cs-learning/Vue3-Study.md",
     "cs-learning/regular-expressions.md",
     "cs-learning/React-Study.md",
-    "cs-learning/Python-Study-Qianfeng.md",
     "未命名.canvas",
     "life/movies",
-    "未命名",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
     "Users/mikeshinoda/Desktop/notes/Tools",
     "Users/mikeshinoda/Desktop/notes",
