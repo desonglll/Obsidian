@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bde559729ad8e9b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "life/伪装成人类的动物.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/摘抄.md",
+                "file": "life/伪装成人类的动物.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/摘抄.md",
+                "file": "life/伪装成人类的动物.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/摘抄.md"
+                "file": "life/伪装成人类的动物.md"
               }
             }
           }
@@ -151,10 +164,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "428c6f42af9e526e",
+  "active": "bde559729ad8e9b3",
   "lastOpenFiles": [
-    "english/writting.md",
     "life/摘抄.md",
+    "life/伪装成人类的动物.md",
+    "english/writting.md",
     "diary/2023-06-08.md",
     "english",
     "life/movies/marvel.md",
@@ -179,7 +193,6 @@
     "commands/git-commands.md",
     "commands/crontab-commands.md",
     "cs-learning/Vue3-Study.md",
-    "cs-learning/regular-expressions.md",
     "未命名.canvas",
     "life/movies",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
