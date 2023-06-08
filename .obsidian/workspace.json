@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "10386af87d61724f",
+        "id": "a49d67e510afa7ee",
         "type": "tabs",
         "children": [
           {
-            "id": "428c6f42af9e526e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "bde559729ad8e9b3",
+            "id": "188d0f9727d28d5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/chatgpt源.md",
+                "file": "extra-curricular-learning/greek/阿佛洛狄忒.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "extra-curricular-learning/greek/阿佛洛狄忒.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "extra-curricular-learning/greek/阿佛洛狄忒.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "extra-curricular-learning/greek/阿佛洛狄忒.md"
+              }
             }
           }
         ],
@@ -155,8 +151,9 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "428c6f42af9e526e",
+  "active": "f07dbe5d6d3d4afe",
   "lastOpenFiles": [
+    "tools/chatgpt源.md",
     "extra-curricular-learning/greek/阿佛洛狄忒.md",
     "extra-curricular-learning/greek/奥林帕十二神.md",
     "life/摘抄.md",
@@ -173,7 +170,6 @@
     "life/论文致谢.md",
     "life/assets/DDADC0DD-65E4-4CC0-9ECB-5525A755588C_1_105_c.jpeg",
     "life/assets",
-    "tools/chatgpt源.md",
     "english/writting.md",
     "diary/2023-06-08.md",
     "english",
