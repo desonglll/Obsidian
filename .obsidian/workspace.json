@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/摘抄.md",
+                "file": "life/reading/书单.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/摘抄.md",
+                "file": "life/reading/书单.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/摘抄.md",
+                "file": "life/reading/书单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/摘抄.md"
+                "file": "life/reading/书单.md"
               }
             }
           }
@@ -178,21 +178,23 @@
   },
   "active": "daac327b967fe19d",
   "lastOpenFiles": [
+    "life/reading/读书-读紫色菩提-林清玄.md",
+    "life/reading/书单.md",
+    "life/reading/刘勖雯书单.md",
+    "life/reading/Steve-Paul-Jobs-Stanford.md",
+    "life/common sense.md",
+    "life/movies.md",
+    "life/伪装成人类的动物.md",
+    "life/论文致谢.md",
+    "life/摘抄.md",
     "life/assets/DDADC0DD-65E4-4CC0-9ECB-5525A755588C_1_105_c.jpeg",
     "life/assets",
-    "life/论文致谢.md",
-    "life/common sense.md",
-    "life/摘抄.md",
     "tools/chatgpt源.md",
     "english/writting.md",
-    "life/伪装成人类的动物.md",
     "diary/2023-06-08.md",
     "english",
     "life/movies/marvel.md",
     "diary/2023-06-07.md",
-    "life/reading/Steve-Paul-Jobs-Stanford.md",
-    "life/reading/刘勖雯书单.md",
-    "life/reading/读书-读紫色菩提-林清玄.md",
     "programming-language/c.md",
     "programming-language/cmake.md",
     "programming-language/index-programming.md",
@@ -205,7 +207,6 @@
     "develop/live-server.md",
     "Excalidraw/Drawing 2023-06-04 19.33.49.excalidraw.md",
     "杂七杂八的工具/mac微信防撤回.md",
-    "commands/macOS-commands.md",
     "未命名.canvas",
     "life/movies",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
@@ -224,7 +225,6 @@
     "programming-language/python/assets/0.jpeg",
     "programming-language/python/assets/640-20230606080700618.png",
     "programming-language/python/assets/640.png",
-    "programming-language/python/assets/0.png",
     "Reading/a.canvas",
     "Untitled.canvas",
     "Data-structures/Untitled.canvas"
