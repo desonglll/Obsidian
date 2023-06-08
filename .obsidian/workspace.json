@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -151,7 +151,7 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "428c6f42af9e526e",
+  "active": "cfb6697ec409a6fe",
   "lastOpenFiles": [
     "diary/2023-06-08.md",
     "english/writting.md",
