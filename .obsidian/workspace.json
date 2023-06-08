@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/未命名.md",
+                "file": "life/摘抄.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/未命名.md",
+                "file": "life/摘抄.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/未命名.md",
+                "file": "life/摘抄.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/未命名.md"
+                "file": "life/摘抄.md"
               }
             }
           }
@@ -154,7 +154,7 @@
   "active": "428c6f42af9e526e",
   "lastOpenFiles": [
     "english/writting.md",
-    "life/未命名.md",
+    "life/摘抄.md",
     "diary/2023-06-08.md",
     "english",
     "life/movies/marvel.md",
