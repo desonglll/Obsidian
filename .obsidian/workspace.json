@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/伪装成人类的动物.md",
+                "file": "english/writting.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/伪装成人类的动物.md",
+                "file": "english/writting.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/伪装成人类的动物.md",
+                "file": "english/writting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life/伪装成人类的动物.md"
+                "file": "english/writting.md"
               }
             }
           }
@@ -166,8 +166,8 @@
   },
   "active": "bde559729ad8e9b3",
   "lastOpenFiles": [
-    "life/摘抄.md",
     "life/伪装成人类的动物.md",
+    "life/摘抄.md",
     "english/writting.md",
     "diary/2023-06-08.md",
     "english",

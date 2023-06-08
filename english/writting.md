@@ -24,3 +24,23 @@ tags:
 
 4. It is highly desirable if we...
    这是非常可取的，如果我们…
+
+## first/firstly的高级替换
+
+In the first place.
+
+首先，从一开始
+
+First and foremost.
+
+首要的；第一
+
+To begin with.
+
+首先，起初
+
+The most important factor that we have to take into consideration is...
+
+我们必须考處的最重要的因素是．
+
+小
