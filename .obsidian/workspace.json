@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "english/writting.md",
+                "file": "life/common sense.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "english/writting.md",
+                "file": "life/common sense.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "english/writting.md",
+                "file": "life/common sense.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "english/writting.md"
+                "file": "life/common sense.md"
               }
             }
           }
@@ -166,9 +166,10 @@
   },
   "active": "bde559729ad8e9b3",
   "lastOpenFiles": [
+    "english/writting.md",
+    "life/common sense.md",
     "life/伪装成人类的动物.md",
     "life/摘抄.md",
-    "english/writting.md",
     "diary/2023-06-08.md",
     "english",
     "life/movies/marvel.md",
@@ -192,7 +193,6 @@
     "commands/index-commands.md",
     "commands/git-commands.md",
     "commands/crontab-commands.md",
-    "cs-learning/Vue3-Study.md",
     "未命名.canvas",
     "life/movies",
     "Users/mikeshinoda/Desktop/notes/Tools/assets",
